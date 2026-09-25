@@ -3,6 +3,7 @@ message: "Please cite this software repository and the associated article. The a
 title: "Computational repository for frozen-Jacobian methods with predictor and memory"
 type: software
 version: "1.0.0"
+license: "MIT"
 authors:
   - family-names: "Castro Marín"
     given-names: "Rodrigo"
