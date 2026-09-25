@@ -1,19 +1,17 @@
 # Predictor-memory frozen-Jacobian methods
 
-**Computational companion to manuscript v0.41 · local release candidate 1.0.0-rc2**
+**Computational repository for _Frozen-Jacobian methods with predictor and memory: order, optimal selection, and fusion_**
 
 Rodrigo Castro Marín · Instituto de Matemáticas, Universidad de Valparaíso, Chile
 
-This repository provides English implementations, archived numerical data,
-reproduction scripts, figures, and supplementary computational material for
-*Frozen-Jacobian methods with predictor and memory: order, optimal selection, and
-fusion* (English rendering of the title of manuscript v0.41).
+This repository contains implementations, archived numerical data, reproduction
+scripts, figures, and supplementary computational material supporting the study
+of predictor-memory frozen-Jacobian methods for nonlinear systems.
 
-The core methods are $P_N$, Shamanskii $S_m$, the fused family
-$\widehat P_{N,q}$, and the external comparators $M6$ and $M8$.
-Throughout, $q$ is the number of Neumann terms; the polynomial degree is $q-1$.
-The manuscript is maintained separately. This package does **not** silently
-translate or replace the current Spanish article.
+The principal methods are $P_N$, Shamanskii's family $S_m$, the fused family
+$\widehat P_{N,q}$, and the external comparators $M6$ and $M8$. Throughout the
+repository, $q$ denotes the number of terms in the truncated Neumann sum, so the
+corresponding polynomial degree is $q-1$.
 
 ## Start here
 
@@ -29,27 +27,29 @@ python -m venv .venv
 ```
 
 On Linux or macOS, replace `.venv\Scripts\python` with `.venv/bin/python`.
-Activation of the virtual environment is optional; these commands do not require
-changing PowerShell's execution policy. Run from the checkout, or use an editable
-installation (`python -m pip install -e .`); this is a research checkout with data,
-not a standalone wheel containing the archived results.
+Activation of the virtual environment is optional. These commands may be run
+directly from a checkout; alternatively, use an editable installation with
+`python -m pip install -e .`.
 
-`reproduce` reads the archived data; it does **not** remeasure publication timings.
-It writes English CSV table exports, PDF/PNG figure panels, and supplementary
-LaTeX to `build/reproduced/`. The already compiled English supplement is in
-[`supplement/`](supplement/). With `pdflatex` installed, rebuild its PDF with:
+`reproduce` reads the archived data and regenerates repository tables, figures,
+and supplementary LaTeX. It does **not** repeat the publication timing
+experiments. Generated files are written to `build/reproduced/`. The compiled
+supplement is available in [`supplement/`](supplement/). If `pdflatex` is
+installed, rebuild its PDF with:
 
 ```powershell
 .venv\Scripts\python run.py reproduce --compile-pdf
 ```
 
-## Three different tasks
+## Reproduction, verification, and new measurements
 
-| Task | Command | What it establishes |
+These are deliberately separate tasks.
+
+| Task | Command | Purpose |
 |---|---|---|
-| Verify archived values and algorithms | `python run.py verify` | Numeric integrity, cost formulas, canonical matrices, stopping and resource counts |
-| Rebuild the published evidence | `python run.py reproduce` | Tables and English figures derived from archived aggregate data |
-| Make new timing measurements | `python run.py benchmark --suite all` | New individual samples on the current computer, saved separately |
+| Verify archived values and algorithms | `python run.py verify` | Check numerical integrity, cost formulas, canonical matrices, stopping rules, and resource counts |
+| Rebuild tables and figures | `python run.py reproduce` | Regenerate published tables, figures, and supplementary material from archived data |
+| Make new timing measurements | `python run.py benchmark --suite all` | Produce new timing samples on the current computer and store them separately |
 
 For a quick execution test, not a publication benchmark:
 
@@ -57,18 +57,18 @@ For a quick execution test, not a publication benchmark:
 python run.py benchmark --suite all --quick --threads 1 --outdir build/smoke
 ```
 
-For the full fresh timing protocol:
+For a full fresh timing run:
 
 ```text
 python run.py benchmark --suite all --outdir build/current
 ```
 
-The default does not change the BLAS thread setting. Specify `--threads N` only
-as an explicit experimental choice and record it. The original supplied Windows
-environment files report 16 configured OpenBLAS threads. Fresh times from this
-reimplementation must not be spliced into the historical tables.
+The default does not alter the BLAS thread setting. Use `--threads N` only as an
+explicit experimental choice and record it with the resulting environment data.
+The archived Windows environment files report 16 configured OpenBLAS threads.
+New timing measurements must be kept separate from the archived tables.
 
-Additional commands:
+Additional commands are available for deterministic analyses:
 
 ```text
 python run.py models
@@ -77,68 +77,88 @@ python run.py orders
 ```
 
 `models` recomputes parameter selection and affine interval checks. `structure`
-recomputes the dense-field audit. `orders` runs the separate, potentially slower
-high-precision protocols and checks their COC values against the archived rounding.
+recomputes the dense-field structural audit. `orders` runs the separate
+high-precision order-verification protocols and checks the resulting COC values
+against the archived rounded values.
 
-## Validation performed for this candidate
+## Repository validation
 
-- 46 numerical CSV datasets, with 23,302 original numeric cell strings preserved.
-- 606 archived configurations reproduced in cycles, convergence status, and
-  available resource counters; this is not a claim of bitwise residual agreement.
-- 15 canonical matrix fingerprints and 1,682 scalar model checks passed.
-- 16 stationary resource configurations checked independently of historical timing.
-- Both high-precision programs were executed; all 16 reported COC rows agree
-  within the stated archived precision.
+The repository validation suite checks the following archived material:
 
-Machine-readable results are in [`metadata/validation/`](metadata/validation/).
-See [`docs/VALIDATION_REPORT.md`](docs/VALIDATION_REPORT.md) for the test scope.
+- 46 numerical CSV datasets, with 23,302 original numeric cell strings preserved;
+- 606 archived configurations reproduced in cycle counts, convergence status,
+  and available resource counters;
+- 15 canonical matrix fingerprints and 1,682 scalar cost-model checks;
+- 16 stationary resource configurations checked independently of timing data;
+- 16 high-precision COC rows reproduced within the archived rounding accuracy.
 
-## Important provenance and known issue
+Machine-readable validation results are stored in
+[`metadata/validation/`](metadata/validation/). The scope and limitations of
+these checks are described in
+[`docs/VALIDATION_REPORT.md`](docs/VALIDATION_REPORT.md).
 
-**Read [`docs/KNOWN_ISSUES.md`](docs/KNOWN_ISSUES.md) before using the fusion work
-columns.** In two archived fusion datasets, the $G_5$ Jacobian evaluation cost was
-held at $2+18.2/n$, while v0.41 declares $2+(17+\kappa)/n$. The original numbers
-are retained; the canonical implementation and a separate discrepancy report are
-provided. No elapsed-time value has been changed.
+## Provenance and known issue
 
-Several historical timing drivers and individual repetition samples were absent
-from the supplied manuscript package. The float64 code is therefore an explicit
-reimplementation checked against the archived deterministic outputs, not a claim
-that the exact original timing source has been recovered. The initialization
-summary is transcribed from v0.41, not reconstructed from missing raw timings.
-Full limits are stated in [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md).
+Read [`docs/KNOWN_ISSUES.md`](docs/KNOWN_ISSUES.md) before using the archived
+fusion work columns. In two archived fusion datasets, the $G_5$ Jacobian
+evaluation cost was recorded as
+
+\[
+2+\frac{18.2}{n},
+\]
+
+whereas the canonical cost model used in the article is
+
+\[
+2+\frac{17+\kappa}{n}.
+\]
+
+The archived values are preserved for provenance, and the repository provides
+separately recomputed canonical costs. No elapsed-time measurement is altered by
+this discrepancy.
+
+The archived data do not contain every original historical timing driver or the
+individual repetition samples for every experiment. The float64 implementation
+provided here is therefore a documented reimplementation checked against the
+available deterministic outputs. The initialization summary is retained from
+archived summary values because the individual timing samples for that block are
+not available. The full reproducibility scope is described in
+[`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md).
 
 ## Repository layout
 
 ```text
-src/pn_fusion/       English methods, cost model, data checks, and report generators
-experiments/        Faithful English high-precision order programs
-run.py              Single command-line entry point
-configs/            Fixed experimental settings, recorded for inspection
+src/pn_fusion/       Methods, cost models, validation, and report generators
+experiments/         High-precision order-verification programs
+run.py               Command-line entry point
+configs/             Fixed experimental settings
 tests/              Automated tests
-data/reference/     Archived numbers; never overwritten by experiments
-data/manuscript/    Explicitly identified manuscript transcriptions
-tables/             English CSV exports for the 22 manuscript tables
-figures/            English PDF and PNG panels for the main and supplementary figures
-supplement/         English supplementary PDF, LaTeX, and required figure PDFs
+data/reference/     Archived numerical data; never overwritten by experiments
+data/manuscript/    Values transcribed from article tables when raw samples are unavailable
+tables/             CSV exports for article tables
+figures/            PDF and PNG figures
+supplement/         Supplementary PDF, LaTeX source, and figure files
 metadata/           Provenance, validation records, environments, and SHA-256 manifest
-docs/               Methods, protocols, data dictionary, manuscript map, release guide
+docs/               Methods, protocols, data dictionary, manuscript map, and release notes
 ```
 
-The original Spanish filenames appear only as exact provenance identifiers in
-metadata; public file names, code comments, interfaces, plot labels, and documents
-are in English. Mathematical labels such as `H3`, `Phat2`, and `mu1` retain their
-meaning. Editorial drafts and referee correspondence are not part of this repository.
+Public repository file names, code comments, command-line interfaces, plot
+labels, and documentation are in English. Mathematical identifiers such as
+`H3`, `Phat2`, and `mu1` retain their definitions from the article.
 
-## Citation and release
+## Supplementary material
 
-[`CITATION.cff`](CITATION.cff) contains the known author and software metadata.
-No GitHub URL or Zenodo DOI has been fabricated. The author must select the
-license, review the known issue, validate the candidate on the experimental
-computer, and then publish the actual repository/deposit identifiers. See
-[`docs/GITHUB_UPLOAD.md`](docs/GITHUB_UPLOAD.md),
-[`docs/RELEASE_CHECKLIST.md`](docs/RELEASE_CHECKLIST.md), and
-[`LICENSE_POLICY.md`](LICENSE_POLICY.md).
+The reader-facing supplementary document is available as
+[`supplement/supplementary_computational_material.pdf`](supplement/supplementary_computational_material.pdf).
+It contains detailed timing tables, the full sensitivity table for the optimal
+family members, and secondary graphical comparisons omitted from the main
+article for concision. The underlying full-precision data remain available in
+`data/reference/`.
 
-The reproducibility objection is **not** represented as closed merely because
-this local package has been built.
+## Citation
+
+Software citation metadata are provided in [`CITATION.cff`](CITATION.cff).
+After archival of the public release in Zenodo, the DOI will be added to the
+repository metadata.
+
+For licensing information, see [`LICENSE_POLICY.md`](LICENSE_POLICY.md).

@@ -4,17 +4,17 @@
 \usepackage[english]{babel}
 \usepackage{lmodern,microtype,amsmath,amssymb,booktabs,graphicx,geometry,hyperref}
 \geometry{a4paper,margin=2.4cm}
-\hypersetup{hidelinks,pdftitle={Supplementary Computational Material: Manuscript v0.41},pdfauthor={Rodrigo Castro Marin}}
+\hypersetup{hidelinks,pdftitle={Supplementary Computational Material: Frozen-Jacobian Methods with Predictor and Memory},pdfauthor={Rodrigo Castro Marin}}
 \renewcommand{\thetable}{S\arabic{table}}
 \renewcommand{\thefigure}{S\arabic{figure}}
-\title{Supplementary Computational Material\\\large Predictor-memory frozen-Jacobian methods, manuscript v0.41}
+\title{Supplementary Computational Material\\\large Frozen-Jacobian methods with predictor and memory: order, optimal selection, and fusion}
 \author{Rodrigo Castro Mar\'in}
 \date{}
 \begin{document}\maketitle
-This document is the English counterpart of the computational supplement accompanying manuscript v0.41. It preserves the numerical breakdowns removed from the main article during editorial compression; no essential proof has been moved here. All times below are archived measurements, not fresh measurements from the repository build. The manuscript itself remains a separate document.
+This supplement provides detailed numerical breakdowns and secondary graphical representations supporting the computational experiments reported in the accompanying article. Full machine-readable datasets and the computational code are provided in the repository. All timing values reported below are archived measurements obtained under the experimental protocols described in the article.
 
 \section{Detailed external-comparator timings}
-Tables~\ref{tab:p5} and~\ref{tab:p7} retain the results at $\mathrm{TOL}=10^{-12}$. The main article summarizes all nine configurations per field. Full-precision CSV files, including the other tolerances, are supplied in \texttt{data/reference/p5\_m6\_results.csv} and \texttt{p7\_m8\_results.csv}.
+Tables~\ref{tab:p5} and~\ref{tab:p7} report the detailed results at $\mathrm{TOL}=10^{-12}$. The article summarizes all nine configurations per field. Full-precision CSV files, including the other tolerances, are supplied in \texttt{data/reference/p5\_m6\_results.csv} and \texttt{p7\_m8\_results.csv}.
 The relative quantities are $\Delta t=100(t_A/t_B-1)$ and $\Delta W=100(W_A/W_B-1)$ for $\kappa=1$; negative values favor method $A$. Parentheses contain the IQR, in the same units as the median. The time separation rule is $|\widetilde t_A-\widetilde t_B|>2(\mathrm{IQR}_A+\mathrm{IQR}_B)$; it is descriptive, not a formal statistical test.
 \begin{table}[htbp]\centering\small
 \caption{Comparison $P_5/M6$ at $\mathrm{TOL}=10^{-12}$. Times and IQRs are in milliseconds.}\label{tab:p5}
@@ -64,7 +64,7 @@ $H_5$ & 0.60 & 1/1 & 1.0758 (0.0352) & 1.6450 (0.1357) & -34.60 & -34.90\\
 \end{tabular}
 \end{table}
 \section{Full sensitivity of the optimal members}
-Table~\ref{tab:optima} retains all six control points. The main article displays two representative endpoints. Stability throughout $[1,4.5]$ follows from affine normalized-cost differences and the unimodality argument, not from this finite list alone.
+Table~\ref{tab:optima} reports all six control points. The article displays two representative endpoints. Stability throughout $[1,4.5]$ follows from affine normalized-cost differences and the unimodality argument, not from this finite list alone.
 \begin{table}[htbp]\centering\scriptsize
 \caption{Stationary family optima and 0.5\% near-optimal bands.}\label{tab:optima}
 \setlength{\tabcolsep}{4pt}
@@ -85,7 +85,7 @@ $H_5$ & 4.45444 & 9 & 10 & 0.545794 & 0.534226 & 2.17 & & $\{8,9,10,11\}/\{9,10,
 \bottomrule\end{tabular}\end{table}
 \clearpage
 \section{Secondary graphical representations}
-Figures~\ref{fig:external} and~\ref{fig:fusion} preserve the secondary comparisons. All labels are in English; the underlying measurements are unchanged. A configuration range is not an IQR or confidence interval. No interpolation establishes a universal time crossover or monotonicity.
+Figures~\ref{fig:external} and~\ref{fig:fusion} provide graphical views of the secondary comparisons. The underlying measurements are the same as those reported in the data files. A configuration range is not an IQR or confidence interval. No interpolation establishes a universal time crossover or monotonicity.
 \begin{figure}[htbp]\centering
 \includegraphics[width=.49\textwidth]{supp_figS1_index.pdf}\hfill
 \includegraphics[width=.49\textwidth]{supp_figS1_time.pdf}
@@ -95,5 +95,5 @@ Figures~\ref{fig:external} and~\ref{fig:fusion} preserve the secondary compariso
 \includegraphics[width=.79\textwidth]{supp_figS2_fusion.pdf}
 \caption{End-to-end comparison of $\widehat P_2$ with $P_2\circ P_2$: median and range of relative elapsed time. The line $n=55$ is the stationary algebraic threshold, not an estimated temporal crossover. Negative values favor fusion.}\label{fig:fusion}
 \end{figure}
-\paragraph{Provenance note.} The archived fusion work columns for $G_5$ retain a historical evaluation-cost convention described in \texttt{docs/KNOWN\_ISSUES.md}. The elapsed-time values in Figure~\ref{fig:fusion} are unaffected. The repository preserves those inputs and provides the separately recomputed canonical costs; no measurement is silently replaced.
+\paragraph{Data provenance.} For $G_5$, the archived fusion work columns were computed with the evaluation-cost convention stored with the original runs; this is documented in \texttt{docs/KNOWN\_ISSUES.md}. The repository also provides work values recomputed with the canonical cost convention used in the article. The elapsed-time values in Figure~\ref{fig:fusion} are unaffected.
 \end{document}
