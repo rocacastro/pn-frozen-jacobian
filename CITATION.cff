@@ -1,13 +1,15 @@
 cff-version: 1.2.0
-message: "Please cite this computational companion and its associated manuscript. DOI and repository URL will be added only after the actual deposit."
-title: "Predictor-memory frozen-Jacobian methods"
+message: "Please cite this software repository and the associated article. The archival DOI will be added after the Zenodo release."
+title: "Computational repository for frozen-Jacobian methods with predictor and memory"
 type: software
-version: "1.0.0-rc2"
+version: "1.0.0"
 authors:
   - family-names: "Castro Marín"
     given-names: "Rodrigo"
     affiliation: "Instituto de Matemáticas, Universidad de Valparaíso, Chile"
     email: "rodrigo.castrom@uv.cl"
+repository-code: "https://github.com/rocacastro/pn-frozen-jacobian"
+url: "https://github.com/rocacastro/pn-frozen-jacobian"
 keywords:
   - nonlinear systems
   - frozen Jacobian

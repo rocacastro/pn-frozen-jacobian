@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pn-frozen-jacobian"
-version = "1.0.0rc2"
-description = "English computational companion to predictor-memory frozen-Jacobian methods, manuscript v0.41"
+version = "1.0.0"
+description = "Computational repository for predictor-memory frozen-Jacobian methods"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{name = "Rodrigo Castro Marín", email = "rodrigo.castrom@uv.cl"}]

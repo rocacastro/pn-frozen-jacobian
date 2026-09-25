@@ -1,11 +1,13 @@
-# License decision required
+# Licensing status
 
-No software or data license has been selected on the author's behalf. This package
-is a local release candidate, not a representation that reuse permissions have
-already been granted. Before the public release, the author should choose a
-software license and, where appropriate, a separate data/documentation license,
-then add the corresponding license texts and update the citation/deposit metadata.
+This repository does not yet include a final open-source license. Until explicit
+license files are added, reuse is governed by applicable copyright law and no
+additional permissions are granted by this repository alone.
 
-Publishing a repository without a license is not equivalent to granting an
-open-source license. No third-party article PDFs, font files, credentials, or
-private referee correspondence are included in this package.
+Before the first archived release, the author will select the software license
+and, if appropriate, a separate license for data, figures, and documentation.
+The selected licenses will be stated explicitly in the repository and in the
+Zenodo metadata.
+
+No third-party article PDFs, font files, credentials, or private referee
+correspondence are included in this repository.
