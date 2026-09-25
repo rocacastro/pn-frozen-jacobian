@@ -1,0 +1,9 @@
+block,tolerance,precision,warmup,repetitions,order
+Initialization I/D,1e-12,float64,3,51,alternating
+PN/S family sweep,1e-12,float64,2,31,pseudorandom
+P5/M6,1e-8;1e-10;1e-12,float64,2,31,pseudorandom
+P7/M8,1e-8;1e-10;1e-12,float64,2,31,pseudorandom
+Hammerstein,1e-8;1e-10;1e-12,float64,2,31,pseudorandom
+Fusion,1e-8;1e-10;1e-12,float64,2,31,pseudorandom
+Phat2/P10,1e-8;1e-10;1e-12,float64,2,31,pseudorandom
+R-order verification,fixed cycle count,mpmath,not applicable,not applicable,not timed

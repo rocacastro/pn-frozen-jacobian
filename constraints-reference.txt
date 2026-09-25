@@ -1,0 +1,4 @@
+# Versions recorded in the author's two supplied Windows environment files.
+# Python 3.13.6 was used there. No unrecorded package version is inferred.
+numpy==2.3.2
+scipy==1.17.1

@@ -1,0 +1,18 @@
+{
+  "title": "Predictor-memory frozen-Jacobian methods: computational companion to manuscript v0.41",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Castro Marín, Rodrigo",
+      "affiliation": "Instituto de Matemáticas, Universidad de Valparaíso, Chile"
+    }
+  ],
+  "description": "English code, numerical data, plots and supplementary computational material for manuscript v0.41. Local release candidate; review known issues and licensing before deposition.",
+  "version": "1.0.0-rc2",
+  "keywords": [
+    "nonlinear systems",
+    "frozen Jacobian",
+    "methods with memory",
+    "computational efficiency"
+  ]
+}

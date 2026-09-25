@@ -1,0 +1,226 @@
+[
+  {
+    "table": 1,
+    "label": "tab:kappa-threshold-sensitivity",
+    "title": "Stationary fusion threshold sensitivity",
+    "file": "table_01.csv",
+    "sources": [
+      "models.fusion_threshold"
+    ],
+    "rows": 5
+  },
+  {
+    "table": 2,
+    "label": "tab:q-transition",
+    "title": "Reference orders and the q-transition trade-off",
+    "file": "table_02.csv",
+    "sources": [
+      "models.rho",
+      "models.fused_order"
+    ],
+    "rows": 5
+  },
+  {
+    "table": 3,
+    "label": "tab:qstar-fields",
+    "title": "Optimal number of Neumann terms",
+    "file": "table_03.csv",
+    "sources": [
+      "models.CostModel.optimal_q"
+    ],
+    "rows": 5
+  },
+  {
+    "table": 4,
+    "label": "tab:precision-regimes",
+    "title": "Experimental protocols",
+    "file": "table_04.csv",
+    "sources": [
+      "docs/PROTOCOLS.md"
+    ],
+    "rows": 8
+  },
+  {
+    "table": 5,
+    "label": "tab:H-fields",
+    "title": "Canonical dense fields and evaluation costs",
+    "file": "table_05.csv",
+    "sources": [
+      "models.field_costs"
+    ],
+    "rows": 5
+  },
+  {
+    "table": 6,
+    "label": "tab:elementary-products",
+    "title": "Elementary equivalent-product weights",
+    "file": "table_06.csv",
+    "sources": [
+      "Manuscript Table 6; declared weights, not new timings"
+    ],
+    "rows": 8
+  },
+  {
+    "table": 7,
+    "label": "tab:H-structural-audit",
+    "title": "Structural audit of the dense fields",
+    "file": "table_07.csv",
+    "sources": [
+      "structural_summary.csv"
+    ],
+    "rows": 5
+  },
+  {
+    "table": 8,
+    "label": "tab:PN-initialization-results",
+    "title": "Immediate and delayed initialization",
+    "file": "table_08.csv",
+    "sources": [
+      "data/manuscript/initialization_summary.csv; transcribed from Table 8, not raw samples"
+    ],
+    "rows": 12
+  },
+  {
+    "table": 9,
+    "label": "tab:hammerstein-stationary",
+    "title": "Hammerstein stationary model",
+    "file": "table_09.csv",
+    "sources": [
+      "hammerstein_stationary_model.csv"
+    ],
+    "rows": 2
+  },
+  {
+    "table": 10,
+    "label": "tab:hammerstein-practical",
+    "title": "Hammerstein end-to-end comparison",
+    "file": "table_10.csv",
+    "sources": [
+      "hammerstein_pairs.csv"
+    ],
+    "rows": 6
+  },
+  {
+    "table": 11,
+    "label": "tab:optimal-P-S-kappa",
+    "title": "Independently optimized families",
+    "file": "table_11.csv",
+    "sources": [
+      "kappa_pn_shamanskii.csv",
+      "models.CostModel.optimal"
+    ],
+    "rows": 4
+  },
+  {
+    "table": 12,
+    "label": "tab:obj12-flatness",
+    "title": "Flatness of the stationary optimum",
+    "file": "table_12.csv",
+    "sources": [
+      "continuous_curvature.csv"
+    ],
+    "rows": 2
+  },
+  {
+    "table": 13,
+    "label": "tab:asymptotic-members-finite",
+    "title": "Stationarily optimal members at finite tolerance",
+    "file": "table_13.csv",
+    "sources": [
+      "pn_shamanskii_results.csv"
+    ],
+    "rows": 12
+  },
+  {
+    "table": 14,
+    "label": "tab:practical-minima-P-S",
+    "title": "Observed practical minima of the family sweep",
+    "file": "table_14.csv",
+    "sources": [
+      "pn_shamanskii_results.csv"
+    ],
+    "rows": 12
+  },
+  {
+    "table": 15,
+    "label": "tab:external-indices",
+    "title": "Stationary indices of the external comparators",
+    "file": "table_15.csv",
+    "sources": [
+      "p5_m6_indices.csv",
+      "p7_m8_indices.csv"
+    ],
+    "rows": 10
+  },
+  {
+    "table": 16,
+    "label": "tab:external-cpu",
+    "title": "External comparisons over all configurations",
+    "file": "table_16.csv",
+    "sources": [
+      "p5_m6_pairs.csv",
+      "p7_m8_pairs.csv"
+    ],
+    "rows": 10
+  },
+  {
+    "table": 17,
+    "label": "tab:fusion-resource-accounting",
+    "title": "Stationary and transient fusion resources",
+    "file": "table_17.csv",
+    "sources": [
+      "fusion_resources.csv"
+    ],
+    "rows": 6
+  },
+  {
+    "table": 18,
+    "label": "tab:fusion-stationary",
+    "title": "Stationary fusion comparison",
+    "file": "table_18.csv",
+    "sources": [
+      "fusion_stationary_pairs.csv; see KNOWN_ISSUES.md for G5 work coefficients"
+    ],
+    "rows": 8
+  },
+  {
+    "table": 19,
+    "label": "tab:fusion-practical",
+    "title": "End-to-end fusion comparison",
+    "file": "table_19.csv",
+    "sources": [
+      "fusion_end_to_end_pairs.csv; see KNOWN_ISSUES.md for G5 work coefficients"
+    ],
+    "rows": 8
+  },
+  {
+    "table": 20,
+    "label": "tab:Phat2-P10",
+    "title": "Secondary comparison: Phat2 versus P10",
+    "file": "table_20.csv",
+    "sources": [
+      "phat2_p10_field_summary.csv"
+    ],
+    "rows": 2
+  },
+  {
+    "table": 21,
+    "label": "tab:order-verification",
+    "title": "Independent high-precision order verification",
+    "file": "table_21.csv",
+    "sources": [
+      "high_precision_orders.csv"
+    ],
+    "rows": 10
+  },
+  {
+    "table": 22,
+    "label": "tab:q-coc",
+    "title": "Order verification across the q transition",
+    "file": "table_22.csv",
+    "sources": [
+      "q_order_verification.csv"
+    ],
+    "rows": 6
+  }
+]

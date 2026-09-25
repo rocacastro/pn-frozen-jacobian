@@ -1,0 +1,118 @@
+{
+  "checked_rows": 16,
+  "passed": true,
+  "comparisons": [
+    {
+      "dataset": "high_precision_orders.csv",
+      "N": 2,
+      "q": 0,
+      "absolute_difference": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "dataset": "high_precision_orders.csv",
+      "N": 3,
+      "q": 0,
+      "absolute_difference": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "dataset": "high_precision_orders.csv",
+      "N": 4,
+      "q": 0,
+      "absolute_difference": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "dataset": "high_precision_orders.csv",
+      "N": 5,
+      "q": 0,
+      "absolute_difference": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "dataset": "high_precision_orders.csv",
+      "N": 6,
+      "q": 0,
+      "absolute_difference": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "dataset": "high_precision_orders.csv",
+      "N": 7,
+      "q": 0,
+      "absolute_difference": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "dataset": "high_precision_orders.csv",
+      "N": 8,
+      "q": 0,
+      "absolute_difference": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "dataset": "high_precision_orders.csv",
+      "N": 2,
+      "q": 0,
+      "absolute_difference": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "dataset": "high_precision_orders.csv",
+      "N": 3,
+      "q": 0,
+      "absolute_difference": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "dataset": "high_precision_orders.csv",
+      "N": 4,
+      "q": 0,
+      "absolute_difference": 0.0,
+      "tolerance": 2e-11
+    },
+    {
+      "dataset": "q_order_verification.csv",
+      "N": 2,
+      "q": 3,
+      "absolute_difference": 4.5289993977348786e-11,
+      "tolerance": 1e-08
+    },
+    {
+      "dataset": "q_order_verification.csv",
+      "N": 2,
+      "q": 4,
+      "absolute_difference": 2.8279600883251987e-11,
+      "tolerance": 1e-08
+    },
+    {
+      "dataset": "q_order_verification.csv",
+      "N": 3,
+      "q": 4,
+      "absolute_difference": 3.9744207924741204e-11,
+      "tolerance": 1e-08
+    },
+    {
+      "dataset": "q_order_verification.csv",
+      "N": 3,
+      "q": 5,
+      "absolute_difference": 4.4501291540655075e-11,
+      "tolerance": 1e-08
+    },
+    {
+      "dataset": "q_order_verification.csv",
+      "N": 4,
+      "q": 5,
+      "absolute_difference": 4.193623226456111e-11,
+      "tolerance": 1e-08
+    },
+    {
+      "dataset": "q_order_verification.csv",
+      "N": 4,
+      "q": 6,
+      "absolute_difference": 3.278444182797102e-11,
+      "tolerance": 1e-08
+    }
+  ]
+}

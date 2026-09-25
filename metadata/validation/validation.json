@@ -1,0 +1,26 @@
+{
+  "reference_integrity": {
+    "datasets": 46,
+    "unaltered_numeric_cells": 23302,
+    "passed": true
+  },
+  "model": {
+    "scalar_checks": 1682,
+    "passed": true
+  },
+  "matrices": {
+    "matrix_fingerprints": 15,
+    "passed": true
+  },
+  "trajectories": {
+    "archived_configurations_checked": 606,
+    "cycle_mismatches": [],
+    "passed": true,
+    "scope": "Reimplemented solvers; residual criterion and resource counts, not bitwise residuals or historical timings"
+  },
+  "stationary_resources": {
+    "configurations": 16,
+    "passed": true,
+    "historical_state_reconstructed": false
+  }
+}

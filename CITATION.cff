@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this computational companion and its associated manuscript. DOI and repository URL will be added only after the actual deposit."
+title: "Predictor-memory frozen-Jacobian methods: computational companion to manuscript v0.41"
+type: software
+version: "1.0.0-rc2"
+authors:
+  - family-names: "Castro Marín"
+    given-names: "Rodrigo"
+    affiliation: "Instituto de Matemáticas, Universidad de Valparaíso, Chile"
+    email: "rodrigo.castrom@uv.cl"
+keywords:
+  - nonlinear systems
+  - frozen Jacobian
+  - methods with memory
+  - LU reuse
+  - computational efficiency
+  - reproducibility

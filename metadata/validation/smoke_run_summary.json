@@ -1,0 +1,58 @@
+[
+  {
+    "suite": "initialization",
+    "configurations": 2,
+    "raw_samples": 6,
+    "warmup": 1,
+    "repeats": 3
+  },
+  {
+    "suite": "sweep",
+    "configurations": 39,
+    "raw_samples": 117,
+    "warmup": 1,
+    "repeats": 3
+  },
+  {
+    "suite": "p5-m6",
+    "configurations": 2,
+    "raw_samples": 6,
+    "warmup": 1,
+    "repeats": 3
+  },
+  {
+    "suite": "p7-m8",
+    "configurations": 2,
+    "raw_samples": 6,
+    "warmup": 1,
+    "repeats": 3
+  },
+  {
+    "suite": "hammerstein",
+    "configurations": 4,
+    "raw_samples": 12,
+    "warmup": 1,
+    "repeats": 3
+  },
+  {
+    "suite": "fusion",
+    "configurations": 2,
+    "raw_samples": 6,
+    "warmup": 1,
+    "repeats": 3
+  },
+  {
+    "suite": "stationary",
+    "configurations": 2,
+    "raw_samples": 6,
+    "warmup": 1,
+    "repeats": 3
+  },
+  {
+    "suite": "phat2-p10",
+    "configurations": 2,
+    "raw_samples": 6,
+    "warmup": 1,
+    "repeats": 3
+  }
+]
