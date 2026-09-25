@@ -1,14 +1,14 @@
 # Changelog
 
-## 1.0.0-rc2 — computational companion to manuscript v0.41
+## Unreleased
 
-- Reimplemented the float64 methods and benchmark runners in English.
-- Preserved archived numerical cell values while translating dataset names and text.
-- Added deterministic trajectory, operation-count, matrix-fingerprint, and cost checks.
-- Re-ran both high-precision order protocols using faithful English translations.
-- Rebuilt English exports for the 22 manuscript tables and all main/supplementary figures.
-- Translated and compiled the three-page computational supplement.
-- Added fresh per-repetition timing capture, environment records, and integrity checks.
-- Documented the archived G5 evaluation-cost discrepancy without altering measurements.
+Preparation for the initial public release:
 
-This is a local candidate. It does not assert that a GitHub release or Zenodo record exists.
+- Added English implementations of the iterative methods and benchmark runners used in the computational study.
+- Preserved archived numerical values while standardizing dataset names and repository-facing text in English.
+- Added deterministic checks for trajectories, operation counts, matrix fingerprints, and computational-cost formulas.
+- Reproduced the high-precision order-verification protocols with the English implementations.
+- Added reproducible exports for the manuscript tables and the main and supplementary figures.
+- Added the English supplementary computational material.
+- Added per-repetition timing capture, environment records, and repository-integrity checks for new runs.
+- Documented the archived G5 evaluation-cost discrepancy without altering the original timing measurements.
