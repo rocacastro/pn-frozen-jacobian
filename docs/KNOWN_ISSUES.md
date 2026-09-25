@@ -4,7 +4,7 @@
 
 **Status: disclosed; author review required. No archived number has been replaced.**
 
-Manuscript v0.41 and the canonical implementation specify
+The article and the canonical implementation specify
 
 $$\mu_1(G_5;\kappa)=2+\frac{17+\kappa}{n}.$$
 
@@ -35,7 +35,7 @@ identity of the relative work tables across all conventions.
 ### Files and behavior
 
 - `data/reference/` retains every archived work value.
-- `models.py` and fresh benchmark work use the canonical v0.41 formula.
+- `models.py` and fresh benchmark work use the canonical formula.
 - `python run.py verify` writes a separate work discrepancy ledger instead of
   rewriting the archive or pretending that all work cells pass.
 - `metadata/validation/archived_work_discrepancies.csv` lists every differing value.
@@ -59,5 +59,5 @@ absent. See REPRODUCIBILITY.md for exactly what can and cannot be regenerated.
 ## K3. Public release metadata
 
 The license, actual GitHub URL and archival DOI await the author's decision and
-actual publication. The candidate contains no fictitious identifiers and does not
+actual publication. The release preparation contains no fictitious identifiers and does not
 represent reproducibility Objection 14 as closed.

@@ -2,8 +2,7 @@
 
 ## Canonical source
 
-The sole manuscript target is v0.41: 34 pages, 22 main tables, four main figures,
-and a three-page computational supplement. `metadata/source_identity.json` records
+The repository targets the accompanying 34-page article, with 22 main tables, four main figures, and a three-page computational supplement. `metadata/source_identity.json` records
 the hashes of the supplied manuscript and archive. Earlier drafts are not used as
 alternative mathematical specifications.
 
@@ -22,7 +21,7 @@ copy of every original CSV. The exact source names in that manifest are identifi
 not untranslated documentation.
 
 `data/manuscript/initialization_summary.csv` is a separately labeled transcription
-of the twelve initialization rows in v0.41. Its rounded medians and IQRs are not
+of the twelve initialization rows in the article. Its rounded medians and IQRs are not
 raw repetitions. No missing individual samples have been synthesized.
 
 ## 2. Deterministic algorithm checks
@@ -92,8 +91,7 @@ validation environment records the additional dependency versions used here.
   every third-party order claim recorded there.
 - The archived G5 work convention is inconsistent with the canonical formula;
   the mismatch is preserved and quantified in `KNOWN_ISSUES.md`.
-- The main manuscript is not translated or modified by this repository build.
+- The article is maintained separately and is not modified by repository reproduction commands.
 
 These limits are part of the reproducibility record, not failures hidden by
-replacing old data with fresh runs. Public availability, author validation and
-real repository/DOI identifiers remain separate release steps.
+replacing old data with fresh runs. The Zenodo DOI and final license metadata are added only after the archived release is created.

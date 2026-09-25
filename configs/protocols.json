@@ -1,6 +1,5 @@
 {
-  "manuscript_version": "0.41",
-  "software_version": "1.0.0-rc2",
+  "software_version": "1.0.0",
   "dense_dimensions": {
     "H1": 20,
     "H2": 50,
@@ -32,5 +31,5 @@
     4.45444
   ],
   "seed_rule": "20260923+n; one PCG64 stream; RA/RB/RC sequential",
-  "parameter_source": "Recorded mirror of the code and manuscript; not a runtime override file"
+  "parameter_source": "Recorded mirror of the code and article; not a runtime override file"
 }

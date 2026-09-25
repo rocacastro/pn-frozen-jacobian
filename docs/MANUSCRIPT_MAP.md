@@ -1,12 +1,11 @@
-# Manuscript v0.41: table and figure map
+# Article table and figure map
 
-Table numbers and LaTeX labels below refer to the current 34-page manuscript, not
-to v0.40 or an earlier draft. `run.py reproduce` regenerates every export. All
+Table numbers and LaTeX labels below refer to the accompanying 34-page article. `run.py reproduce` regenerates every export. All
 measurements come from the archived data; the program does not fabricate new
 timings to fill a manuscript table. CSV exports preserve more digits and may use
 one method per row instead of a typeset A/B cell.
 
-| Table | v0.41 label | English content | Export | Sources |
+| Table | Article label | English content | Export | Sources |
 |---|---|---|---|---|
 | 1 | `tab:kappa-threshold-sensitivity` | Stationary fusion threshold sensitivity | [`table_01.csv`](../tables/table_01.csv) | `models.fusion_threshold` |
 | 2 | `tab:q-transition` | Reference orders and the q-transition trade-off | [`table_02.csv`](../tables/table_02.csv) | `models.rho`, `models.fused_order` |

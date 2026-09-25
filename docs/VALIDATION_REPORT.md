@@ -1,4 +1,4 @@
-# Validation report — manuscript v0.41 / software 1.0.0-rc2
+# Validation report — software 1.0.0
 
 ## Executed checks
 
@@ -40,8 +40,6 @@ known discrepancy remains visible and limited to the identified datasets.
 They do not prove the convergence theorems, historical source-code identity,
 bitwise agreement of all iterates, recovery of missing raw repetition timings,
 or a universal performance ranking. The historical third-party vector-audit
-ledger is not fully regenerated. GitHub Actions is configured but has not been
-executed remotely for a repository that has not yet been uploaded.
+ledger is not fully regenerated. GitHub Actions provides the remote Linux/Windows validation defined in `.github/workflows/tests.yml`.
 
-Author-side Windows verification, review of the work convention, licensing and
-actual public deposition are still required before final archival release.
+Licensing and Zenodo archival metadata must be finalized before the archival release.

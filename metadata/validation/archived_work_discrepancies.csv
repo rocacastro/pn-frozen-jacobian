@@ -1,321 +1,321 @@
 dataset,row_index,system,n,kappa,method,archived_work,canonical_work,archived_minus_canonical,relative_discrepancy_pct,explanation
-fusion_stationary_results.csv,8,G5,40,1.0,hatP2,91736.0,91720.0,16.0,0.01744439598778892,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,8,G5,40,1.298,hatP2,92147.24,92155.08,-7.8399999999965075,-0.008507398615460491,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,8,G5,40,1.7,hatP2,92702.0,92742.0,-40.0,-0.04313040477884885,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,8,G5,40,3.23511,hatP2,94820.45180000001,94983.26060000001,-162.80879999999888,-0.1714078870019323,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,9,G5,40,1.0,P2oP2,84256.0,84240.0,16.0,0.01899335232668566,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,9,G5,40,1.298,P2oP2,84792.40000000001,84800.24,-7.8399999999965075,-0.009245256853042524,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,9,G5,40,1.7,P2oP2,85516.0,85556.0,-40.0,-0.04675300388049932,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,9,G5,40,3.23511,P2oP2,88279.198,88442.0068,-162.80879999999888,-0.18408537514098886,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,10,G5,55,1.0,hatP2,185262.0,185240.0,22.0,0.011876484560570071,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,10,G5,55,1.298,hatP2,185950.38,185961.16,-10.779999999998836,-0.00579690941914905,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,10,G5,55,1.7,hatP2,186879.0,186934.0,-55.0,-0.029422148993762505,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,10,G5,55,3.23511,hatP2,190425.1041,190648.9662,-223.86209999999846,-0.11742109304970282,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,11,G5,55,1.0,P2oP2,186252.0,186230.0,22.0,0.011813349084465446,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,11,G5,55,1.298,P2oP2,187235.4,187246.18,-10.779999999998836,-0.005757126794254941,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,11,G5,55,1.7,P2oP2,188562.0,188617.0,-55.0,-0.02915961975855835,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,11,G5,55,3.23511,P2oP2,193627.86299999998,193851.7251,-223.86210000002757,-0.11548109767119506,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,12,G5,100,1.0,hatP2,749340.0,749300.0,40.0,0.005338315761377286,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,12,G5,100,1.298,hatP2,751262.1,751281.7,-19.599999999976717,-0.0026088749399827945,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,12,G5,100,1.7,hatP2,753855.0,753955.0,-100.0,-0.013263391051190059,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,12,G5,100,3.23511,hatP2,763756.4595,764163.4815,-407.0219999999972,-0.05326373346198659,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,13,G5,100,1.0,P2oP2,902640.0,902600.0,40.0,0.0044316419233325945,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,13,G5,100,1.298,P2oP2,905769.0,905788.6,-19.599999999976717,-0.0021638603091247467,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,13,G5,100,1.7,P2oP2,909990.0,910090.0,-100.0,-0.010987924271225923,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,13,G5,100,3.23511,P2oP2,926108.655,926515.677,-407.0219999999972,-0.043930395362322315,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,14,G5,200,1.0,hatP2,4298680.0,4298600.0,80.0,0.001861071046387196,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,14,G5,200,1.298,hatP2,4305504.2,4305543.4,-39.200000000186265,-0.0009104541833252979,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,14,G5,200,1.7,hatP2,4314710.0,4314910.0,-200.0,-0.00463509088254448,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,14,G5,200,3.23511,hatP2,4349864.018999999,4350678.063,-814.0440000006929,-0.01871073860701545,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,15,G5,200,1.0,P2oP2,6245280.0,6245200.0,80.0,0.0012809837955549863,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,15,G5,200,1.298,P2oP2,6257498.0,6257537.2,-39.200000000186265,-0.0006264445379595389,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,15,G5,200,1.7,P2oP2,6273980.0,6274180.0,-200.0,-0.00318766755177569,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_stationary_results.csv,15,G5,200,3.23511,P2oP2,6336919.51,6337733.554,-814.0439999997616,-0.012844402388705432,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,72,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,72,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,72,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,72,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,73,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,73,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,73,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,73,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,74,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,74,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,74,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,74,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,75,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,75,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,75,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,75,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,76,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,76,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,76,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,76,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,77,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,77,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,77,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,77,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,78,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,78,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,78,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,78,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,79,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,79,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,79,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,79,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,80,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,80,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,80,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,80,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,81,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,81,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,81,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,81,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,82,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,82,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,82,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,82,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,83,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,83,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,83,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,83,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,84,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,84,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,84,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,84,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,85,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,85,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,85,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,85,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,86,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,86,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,86,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,86,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,87,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,87,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,87,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,87,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,88,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,88,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,88,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,88,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,89,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,89,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,89,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,89,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,90,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,90,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,90,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,90,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,91,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,91,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,91,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,91,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,92,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,92,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,92,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,92,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,93,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,93,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,93,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,93,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,94,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,94,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,94,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,94,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,95,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,95,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,95,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,95,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,96,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,96,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,96,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,96,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,97,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,97,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,97,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,97,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,98,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,98,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,98,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,98,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,99,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,99,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,99,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,99,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,100,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,100,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,100,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,100,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,101,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,101,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,101,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,101,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,102,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,102,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,102,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,102,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,103,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,103,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,103,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,103,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,104,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,104,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,104,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,104,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,105,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,105,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,105,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,105,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,106,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,106,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,106,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,106,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,107,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,107,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,107,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,107,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,108,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,108,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,108,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,108,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,109,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,109,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,109,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,109,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,110,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,110,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,110,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,110,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,111,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,111,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,111,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,111,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,112,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,112,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,112,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,112,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,113,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,113,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,113,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,113,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,114,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,114,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,114,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,114,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,115,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,115,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,115,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,115,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,116,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,116,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,116,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,116,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,117,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,117,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,117,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,117,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,118,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,118,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,118,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,118,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,119,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,119,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,119,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,119,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,120,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,120,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,120,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,120,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,121,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,121,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,121,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,121,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,122,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,122,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,122,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,122,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,123,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,123,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,123,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,123,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,124,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,124,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,124,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,124,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,125,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,125,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,125,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,125,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,126,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,126,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,126,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,126,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,127,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,127,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,127,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,127,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,128,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,128,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,128,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,128,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,129,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,129,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,129,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,129,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,130,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,130,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,130,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,130,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,131,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,131,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,131,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,131,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,132,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,132,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,132,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,132,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,133,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,133,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,133,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,133,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,134,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,134,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,134,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,134,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,135,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,135,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,135,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,135,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,136,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,136,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,136,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,136,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,137,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,137,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,137,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,137,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,138,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,138,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,138,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,138,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,139,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,139,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,139,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,139,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,140,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,140,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,140,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,140,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,141,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,141,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,141,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,141,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,142,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,142,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,142,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,142,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,143,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,143,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,143,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
-fusion_end_to_end_results.csv,143,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n
+fusion_stationary_results.csv,8,G5,40,1.0,hatP2,91736.0,91720.0,16.0,0.01744439598778892,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,8,G5,40,1.298,hatP2,92147.24,92155.08,-7.8399999999965075,-0.008507398615460491,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,8,G5,40,1.7,hatP2,92702.0,92742.0,-40.0,-0.04313040477884885,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,8,G5,40,3.23511,hatP2,94820.45180000001,94983.26060000001,-162.80879999999888,-0.1714078870019323,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,9,G5,40,1.0,P2oP2,84256.0,84240.0,16.0,0.01899335232668566,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,9,G5,40,1.298,P2oP2,84792.40000000001,84800.24,-7.8399999999965075,-0.009245256853042524,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,9,G5,40,1.7,P2oP2,85516.0,85556.0,-40.0,-0.04675300388049932,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,9,G5,40,3.23511,P2oP2,88279.198,88442.0068,-162.80879999999888,-0.18408537514098886,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,10,G5,55,1.0,hatP2,185262.0,185240.0,22.0,0.011876484560570071,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,10,G5,55,1.298,hatP2,185950.38,185961.16,-10.779999999998836,-0.00579690941914905,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,10,G5,55,1.7,hatP2,186879.0,186934.0,-55.0,-0.029422148993762505,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,10,G5,55,3.23511,hatP2,190425.1041,190648.9662,-223.86209999999846,-0.11742109304970282,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,11,G5,55,1.0,P2oP2,186252.0,186230.0,22.0,0.011813349084465446,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,11,G5,55,1.298,P2oP2,187235.4,187246.18,-10.779999999998836,-0.005757126794254941,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,11,G5,55,1.7,P2oP2,188562.0,188617.0,-55.0,-0.02915961975855835,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,11,G5,55,3.23511,P2oP2,193627.86299999998,193851.7251,-223.86210000002757,-0.11548109767119506,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,12,G5,100,1.0,hatP2,749340.0,749300.0,40.0,0.005338315761377286,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,12,G5,100,1.298,hatP2,751262.1,751281.7,-19.599999999976717,-0.0026088749399827945,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,12,G5,100,1.7,hatP2,753855.0,753955.0,-100.0,-0.013263391051190059,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,12,G5,100,3.23511,hatP2,763756.4595,764163.4815,-407.0219999999972,-0.05326373346198659,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,13,G5,100,1.0,P2oP2,902640.0,902600.0,40.0,0.0044316419233325945,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,13,G5,100,1.298,P2oP2,905769.0,905788.6,-19.599999999976717,-0.0021638603091247467,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,13,G5,100,1.7,P2oP2,909990.0,910090.0,-100.0,-0.010987924271225923,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,13,G5,100,3.23511,P2oP2,926108.655,926515.677,-407.0219999999972,-0.043930395362322315,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,14,G5,200,1.0,hatP2,4298680.0,4298600.0,80.0,0.001861071046387196,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,14,G5,200,1.298,hatP2,4305504.2,4305543.4,-39.200000000186265,-0.0009104541833252979,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,14,G5,200,1.7,hatP2,4314710.0,4314910.0,-200.0,-0.00463509088254448,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,14,G5,200,3.23511,hatP2,4349864.018999999,4350678.063,-814.0440000006929,-0.01871073860701545,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,15,G5,200,1.0,P2oP2,6245280.0,6245200.0,80.0,0.0012809837955549863,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,15,G5,200,1.298,P2oP2,6257498.0,6257537.2,-39.200000000186265,-0.0006264445379595389,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,15,G5,200,1.7,P2oP2,6273980.0,6274180.0,-200.0,-0.00318766755177569,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_stationary_results.csv,15,G5,200,3.23511,P2oP2,6336919.51,6337733.554,-814.0439999997616,-0.012844402388705432,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,72,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,72,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,72,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,72,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,73,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,73,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,73,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,73,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,74,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,74,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,74,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,74,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,75,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,75,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,75,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,75,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,76,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,76,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,76,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,76,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,77,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,77,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,77,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,77,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,78,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,78,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,78,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,78,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,79,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,79,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,79,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,79,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,80,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,80,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,80,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,80,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,81,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,81,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,81,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,81,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,82,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,82,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,82,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,82,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,83,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,83,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,83,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,83,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,84,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,84,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,84,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,84,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,85,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,85,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,85,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,85,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,86,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,86,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,86,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,86,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,87,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,87,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,87,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,87,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,88,G5,40,1.0,hatP2,86576.0,86560.0,16.0,0.018484288354898338,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,88,G5,40,1.298,hatP2,86939.56,86947.4,-7.8399999999965075,-0.009016945877618546,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,88,G5,40,1.7,hatP2,87430.0,87470.0,-40.0,-0.04572996455927747,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,88,G5,40,3.23511,hatP2,89302.8342,89465.643,-162.80879999999888,-0.18197913136330882,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,89,G5,40,1.0,P2oP2,88696.0,88680.0,16.0,0.018042399639152006,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,89,G5,40,1.298,P2oP2,89220.48000000001,89228.32,-7.8399999999965075,-0.008786448069398265,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,89,G5,40,1.7,P2oP2,89928.0,89968.0,-40.0,-0.04446025253423439,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,89,G5,40,3.23511,P2oP2,92629.7936,92792.6024,-162.80879999999888,-0.17545450368789192,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,90,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,90,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,90,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,90,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,91,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,91,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,91,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,91,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,92,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,92,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,92,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,92,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,93,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,93,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,93,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,93,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,94,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,94,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,94,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,94,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,95,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,95,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,95,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,95,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,96,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,96,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,96,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,96,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,97,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,97,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,97,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,97,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,98,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,98,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,98,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,98,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,99,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,99,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,99,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,99,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,100,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,100,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,100,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,100,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,101,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,101,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,101,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,101,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,102,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,102,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,102,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,102,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,103,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,103,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,103,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,103,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,104,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,104,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,104,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,104,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,105,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,105,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,105,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,105,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,106,G5,55,1.0,hatP2,174867.0,174845.0,22.0,0.012582573136206355,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,106,G5,55,1.298,hatP2,175489.82,175500.6,-10.779999999998836,-0.006142429142691726,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,106,G5,55,1.7,hatP2,176330.0,176385.0,-55.0,-0.031181789834736514,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,106,G5,55,3.23511,hatP2,179538.3799,179762.242,-223.86209999999846,-0.12453232531445534,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,107,G5,55,1.0,P2oP2,194007.0,193985.0,22.0,0.011341083073433513,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,107,G5,55,1.298,P2oP2,194974.01,194984.79,-10.779999999998836,-0.005528636361840754,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,107,G5,55,1.7,P2oP2,196278.5,196333.5,-55.0,-0.028013558562344176,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,107,G5,55,3.23511,P2oP2,201259.93195,201483.79405000003,-223.86210000002757,-0.11110675231005138,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,108,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,108,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,108,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,108,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,109,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,109,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,109,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,109,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,110,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,110,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,110,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,110,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,111,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,111,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,111,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,111,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,112,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,112,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,112,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,112,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,113,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,113,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,113,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,113,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,114,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,114,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,114,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,114,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,115,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,115,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,115,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,115,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,116,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,116,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,116,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,116,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,117,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,117,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,117,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,117,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,118,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,118,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,118,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,118,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,119,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,119,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,119,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,119,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,120,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,120,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,120,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,120,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,121,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,121,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,121,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,121,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,122,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,122,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,122,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,122,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,123,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,123,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,123,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,123,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,124,G5,100,1.0,hatP2,712440.0,712400.0,40.0,0.005614823133071308,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,124,G5,100,1.298,hatP2,714242.8999999999,714262.5,-19.600000000093132,-0.002744089182911483,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,124,G5,100,1.7,hatP2,716675.0,716775.0,-100.0,-0.013951379442642391,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,124,G5,100,3.23511,hatP2,725962.4155000001,726369.4375,-407.0219999998808,-0.056035121934749736,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,125,G5,100,1.0,P2oP2,925740.0,925700.0,40.0,0.004321054337258291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,125,G5,100,1.298,P2oP2,928839.2,928858.7999999999,-19.599999999976717,-0.0021101161984982777,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,125,G5,100,1.7,P2oP2,933020.0,933120.0,-100.0,-0.010716735253772291,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,125,G5,100,3.23511,P2oP2,948985.1440000001,949392.1660000001,-407.0219999999972,-0.04287185154632898,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,126,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,126,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,126,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,126,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,127,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,127,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,127,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,127,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,128,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,128,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,128,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,128,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,129,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,129,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,129,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,129,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,130,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,130,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,130,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,130,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,131,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,131,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,131,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,131,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,132,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,132,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,132,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,132,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,133,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,133,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,133,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,133,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,134,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,134,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,134,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,134,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,135,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,135,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,135,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,135,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,136,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,136,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,136,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,136,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,137,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,137,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,137,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,137,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,138,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,138,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,138,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,138,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,139,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,139,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,139,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,139,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,140,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,140,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,140,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,140,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,141,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,141,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,141,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,141,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,142,G5,200,1.0,hatP2,4144880.0,4144800.0,80.0,0.0019301293186643506,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,142,G5,200,1.298,hatP2,4151465.8000000003,4151505.0000000005,-39.200000000186265,-0.0009442358855447906,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,142,G5,200,1.7,hatP2,4160350.0,4160550.0,-200.0,-0.004807056759322686,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,142,G5,200,3.23511,hatP2,4194275.931,4195089.975,-814.0439999997616,-0.019404685116432136,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,143,G5,200,1.0,P2oP2,6331480.0,6331400.0,80.0,0.0012635436080487728,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,143,G5,200,1.298,P2oP2,6343638.4,6343677.600000001,-39.200000000186265,-0.0006179380868943633,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,143,G5,200,1.7,P2oP2,6360040.0,6360240.0,-200.0,-0.003144535426336113,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n
+fusion_end_to_end_results.csv,143,G5,200,3.23511,P2oP2,6422672.488,6423486.532,-814.0439999997616,-0.01267293075099362,Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n

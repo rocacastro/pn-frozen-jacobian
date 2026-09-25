@@ -1,7 +1,7 @@
 # Methods and cost model
 
 This document specifies the implemented operations; it is not a replacement for
-the convergence proofs in manuscript v0.41. All inverses below denote linear solves.
+the convergence proofs in the accompanying article. All inverses below denote linear solves.
 The actual float64 code uses `scipy.linalg.lu_factor` and `lu_solve`, preserving
 both factors and pivot indices for reuse.
 
@@ -67,7 +67,7 @@ C_{M8}&=3n\mu_0+2n^2\mu_1+2\mathcal L_\kappa+4\mathcal T_\kappa+n^2+4n.
 \end{aligned}$$
 
 The log index is eta=log(p_ref)/C. Continuous unimodality selects adjacent
-integer candidates for the optimum of P_N and S_m. The optimum q for fixed N
+integer release preparations for the optimum of P_N and S_m. The optimum q for fixed N
 is searched only over 2,...,N+2; larger q cannot improve this reference index.
 
 For r delayed ordinary cycles, resources are `(rN+1,r,r,r(N+1)-1,0)` in the

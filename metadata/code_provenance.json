@@ -1,5 +1,17 @@
 {
-  "available_v041_programs": [
+  "float64_status": "English reimplementation validated against archived deterministic outputs",
+  "missing_historical_drivers": [
+    "family sweep",
+    "P5/M6 dense comparison",
+    "P7/M8 dense comparison",
+    "principal fusion benchmark",
+    "initialization driver",
+    "original structural audit",
+    "historical vector-order audits"
+  ],
+  "historical_raw_repetition_samples_available": false,
+  "manuscript_changed": false,
+  "available_source_programs": [
     {
       "source_name": "analisis_q_objecion9.py",
       "source_sha256": "603b527521af8a7836bf9102f3cb708bd5075ba4b6f0483d6f01f924b58ee294",
@@ -50,17 +62,5 @@
       "source_sha256": "314cd9bf5fd044c87edafaeb90052f22a196c8bea1500ba8b527ba56b78d45ea",
       "handling": "Faithful English rewrite in experiments/"
     }
-  ],
-  "float64_status": "English reimplementation validated against archived deterministic outputs",
-  "missing_historical_drivers": [
-    "family sweep",
-    "P5/M6 dense comparison",
-    "P7/M8 dense comparison",
-    "principal fusion benchmark",
-    "initialization driver",
-    "original structural audit",
-    "historical vector-order audits"
-  ],
-  "historical_raw_repetition_samples_available": false,
-  "manuscript_changed": false
+  ]
 }
