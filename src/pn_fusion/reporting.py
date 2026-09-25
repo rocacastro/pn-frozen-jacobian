@@ -1,6 +1,6 @@
 """English table exports from immutable data and the declared algebraic model.
 
-Table numbers and source labels refer to manuscript v0.41. Timing exports use the
+Table numbers and source labels refer to the accompanying article. Timing exports use the
 archived measurements, never the computer running this script.
 """
 from __future__ import annotations

@@ -1,4 +1,4 @@
-"""Canonical dense fields and the eight-node Hammerstein system from v0.41."""
+"""Canonical dense fields and the eight-node Hammerstein system used in the article."""
 from __future__ import annotations
 from dataclasses import dataclass
 from typing import Callable

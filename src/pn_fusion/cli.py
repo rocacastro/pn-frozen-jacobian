@@ -9,7 +9,7 @@ from .io import ROOT
 
 
 def main():
-    parser=argparse.ArgumentParser(description='Computational companion to manuscript v0.41. All outputs and documentation are in English.')
+    parser=argparse.ArgumentParser(description='Reproducibility, validation, and benchmark tools for predictor-memory frozen-Jacobian methods.')
     sub=parser.add_subparsers(dest='command',required=True)
     verify=sub.add_parser('verify',help='Check archived data, algebraic formulas, trajectories and resource counts')
     verify.add_argument('--outdir',type=Path,default=Path('build/verification'))

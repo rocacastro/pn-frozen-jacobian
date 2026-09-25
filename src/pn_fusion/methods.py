@@ -118,7 +118,7 @@ def solve_problem(problem: Problem, method: str, *, N: int=2, q: int|None=None,
     if initialization=="I" and method in {"P","Pcompose"}:
         previous=op.factor(op.j(x))
     if initialization=="I" and method=="Phat":
-        raise ValueError("Immediate fused startup is not used by the v0.41 timing protocol")
+        raise ValueError("Immediate fused startup is not used by the archived timing protocol")
     residual=math.inf; fx=op.f(x); cycles=0
     try:
         for cycles in range(1,maxit+1):

@@ -1,4 +1,4 @@
-"""File integrity manifest for a local release candidate."""
+"""File-integrity manifest for repository release artifacts."""
 from pathlib import Path
 import hashlib
 from .io import ROOT

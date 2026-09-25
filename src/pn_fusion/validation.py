@@ -175,7 +175,7 @@ def audit_archived_work(output: Path) -> dict:
                     rows.append(dict(dataset=name,row_index=row_index,system=field,n=n,kappa=kappa,method=row.get('method',row.get('family','')),
                                      archived_work=archived,canonical_work=current,archived_minus_canonical=difference,
                                      relative_discrepancy_pct=100*difference/current,
-                                     explanation='Archived G5 mu1 fixed at 2+18.2/n; v0.41 declares 2+(17+kappa)/n' if field=='G5' else 'Needs investigation'))
+                                     explanation='Archived G5 mu1 fixed at 2+18.2/n; canonical model uses 2+(17+kappa)/n' if field=='G5' else 'Needs investigation'))
     if rows: write_csv(Path(output)/'archived_work_discrepancies.csv',rows)
     summary={'scalar_work_checks':checked,'discrepant_values':len(rows),
              'affected_datasets':sorted({r['dataset'] for r in rows}),
