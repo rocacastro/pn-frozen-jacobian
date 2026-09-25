@@ -1,0 +1,7 @@
+regime,method,F,J,LU,solves,matvecs,terminal_F_included,source
+stationary_full_macrocycle,hatP2,4,2,1,15,9,0,fusion_stationary_results.csv
+stationary_full_macrocycle,P2oP2,4,2,2,6,0,0,fusion_stationary_results.csv
+first_delayed_macrocycle_before_terminal,hatP2,4,2,1,11,6,0,deduced from practical counters by removing common terminal F
+first_delayed_macrocycle_before_terminal,P2oP2,4,2,2,5,0,0,deduced from practical counters by removing common terminal F
+end_to_end_recorded_including_terminal,hatP2,5,2,1,11,6,1,fusion_end_to_end_results.csv
+end_to_end_recorded_including_terminal,P2oP2,5,2,2,5,0,1,fusion_end_to_end_results.csv

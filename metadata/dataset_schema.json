@@ -1,0 +1,780 @@
+[
+  {
+    "path": "data/reference/continuous_curvature.csv",
+    "rows": 12,
+    "columns": [
+      "kappa",
+      "system",
+      "N_star_integer",
+      "x_P_star_continuous",
+      "m_star_integer",
+      "x_S_star_continuous",
+      "normalized_curvature_P",
+      "normalized_curvature_S",
+      "P_continuous_band_0p5_left",
+      "P_continuous_band_0p5_right",
+      "P_continuous_band_0p5_width"
+    ]
+  },
+  {
+    "path": "data/reference/external_comparator_summary.csv",
+    "rows": 10,
+    "columns": [
+      "pair",
+      "system",
+      "cases",
+      "cpu_median",
+      "cpu_min",
+      "cpu_max",
+      "work_min",
+      "work_max",
+      "clear"
+    ]
+  },
+  {
+    "path": "data/reference/field_costs.csv",
+    "rows": 20,
+    "columns": [
+      "system",
+      "n",
+      "kappa",
+      "mu0",
+      "mu1_consistent"
+    ]
+  },
+  {
+    "path": "data/reference/fusion_end_to_end_pairs.csv",
+    "rows": 72,
+    "columns": [
+      "family",
+      "n",
+      "delta",
+      "tol",
+      "macro_hat",
+      "macro_comp",
+      "CPU_hat_ms",
+      "CPU_comp_ms",
+      "CPU_relative_hat_vs_comp",
+      "IQR_hat_ms",
+      "IQR_comp_ms",
+      "CPU_clear_2IQR",
+      "work_hat",
+      "work_comp",
+      "work_relative_hat_vs_comp",
+      "residual_hat",
+      "residual_comp"
+    ]
+  },
+  {
+    "path": "data/reference/fusion_end_to_end_results.csv",
+    "rows": 144,
+    "columns": [
+      "family",
+      "n",
+      "delta",
+      "tol",
+      "method",
+      "macrocycles",
+      "converged",
+      "residual",
+      "error",
+      "F_total_including_terminal",
+      "J",
+      "LU",
+      "solves",
+      "matvecs",
+      "time_median_s",
+      "time_iqr_s",
+      "time_min_s",
+      "work_k1p0",
+      "work_k1p298",
+      "work_k1p7",
+      "work_k3p23511"
+    ]
+  },
+  {
+    "path": "data/reference/fusion_resources.csv",
+    "rows": 6,
+    "columns": [
+      "regime",
+      "method",
+      "F",
+      "J",
+      "LU",
+      "solves",
+      "matvecs",
+      "terminal_F_included",
+      "source"
+    ]
+  },
+  {
+    "path": "data/reference/fusion_stationary_pairs.csv",
+    "rows": 8,
+    "columns": [
+      "family",
+      "n",
+      "theory_D_kappa",
+      "theory_fusion_cheaper",
+      "CPU_hat_ms",
+      "CPU_comp_ms",
+      "CPU_relative_hat_vs_comp",
+      "IQR_hat_ms",
+      "IQR_comp_ms",
+      "CPU_clear_2IQR",
+      "work_hat",
+      "work_comp",
+      "work_difference",
+      "work_relative_hat_vs_comp"
+    ]
+  },
+  {
+    "path": "data/reference/fusion_stationary_results.csv",
+    "rows": 16,
+    "columns": [
+      "family",
+      "n",
+      "method",
+      "F",
+      "J",
+      "LU",
+      "solves",
+      "matvecs",
+      "time_median_s",
+      "time_iqr_s",
+      "time_min_s",
+      "work_k1p0",
+      "work_k1p298",
+      "work_k1p7",
+      "work_k3p23511"
+    ]
+  },
+  {
+    "path": "data/reference/fusion_thresholds.csv",
+    "rows": 16,
+    "columns": [
+      "kappa",
+      "n",
+      "D_hat_minus_2P2",
+      "fusion_stationary_cheaper",
+      "n_min_integer"
+    ]
+  },
+  {
+    "path": "data/reference/hammerstein_pairs.csv",
+    "rows": 6,
+    "columns": [
+      "pair",
+      "tol",
+      "cycles_A",
+      "cycles_B",
+      "cpu_A_ms",
+      "cpu_B_ms",
+      "cpu_rel_A_pct",
+      "iqr_A_ms",
+      "iqr_B_ms",
+      "clear_2iqr",
+      "work_A_k1",
+      "work_B_k1",
+      "work_rel_A_pct",
+      "residual_A",
+      "residual_B",
+      "error_A",
+      "error_B"
+    ]
+  },
+  {
+    "path": "data/reference/hammerstein_results.csv",
+    "rows": 12,
+    "columns": [
+      "method",
+      "tol",
+      "cycles",
+      "converged",
+      "residual",
+      "error_ref",
+      "F_total_including_terminal",
+      "J",
+      "LU",
+      "solves",
+      "matvecs",
+      "matrix_scales",
+      "vector_scales",
+      "work_kappa1",
+      "time_median_s",
+      "time_iqr_s",
+      "time_min_s",
+      "time_max_s"
+    ]
+  },
+  {
+    "path": "data/reference/hammerstein_stationary_model.csv",
+    "rows": 6,
+    "columns": [
+      "kappa",
+      "mu0",
+      "mu1",
+      "cost_P5",
+      "cost_M6",
+      "eta_P5",
+      "eta_M6",
+      "adv_eta_P5_pct",
+      "cost_P7",
+      "cost_M8",
+      "eta_P7",
+      "eta_M8",
+      "adv_eta_P7_pct"
+    ]
+  },
+  {
+    "path": "data/reference/high_precision_orders.csv",
+    "rows": 10,
+    "columns": [
+      "method",
+      "N",
+      "reference_order",
+      "final_COC",
+      "abs_COC_minus_ref",
+      "cycles_or_macrocycles",
+      "minus_log10_error_final",
+      "minus_log10_residual_final"
+    ]
+  },
+  {
+    "path": "data/reference/historical_vector_audit.csv",
+    "rows": 22,
+    "columns": [
+      "method",
+      "reported_order",
+      "observed_order",
+      "status"
+    ]
+  },
+  {
+    "path": "data/reference/kappa_comparators.csv",
+    "rows": 30,
+    "columns": [
+      "kappa",
+      "system",
+      "n",
+      "P5_vs_M6_percent",
+      "P7_vs_M8_percent"
+    ]
+  },
+  {
+    "path": "data/reference/kappa_fusion_thresholds.csv",
+    "rows": 60,
+    "columns": [
+      "family",
+      "kappa",
+      "index",
+      "n_min"
+    ]
+  },
+  {
+    "path": "data/reference/kappa_interval_audit.csv",
+    "rows": 37,
+    "columns": [
+      "claim",
+      "kappa_interval",
+      "values",
+      "sign_or_selection_invariant"
+    ]
+  },
+  {
+    "path": "data/reference/kappa_pn_shamanskii.csv",
+    "rows": 12,
+    "columns": [
+      "kappa",
+      "system",
+      "N_P_star",
+      "m_S_star",
+      "relative_advantage_P_percent",
+      "P_band_0p5pct",
+      "S_band_0p5pct"
+    ]
+  },
+  {
+    "path": "data/reference/kappa_q_sensitivity.csv",
+    "rows": 150,
+    "columns": [
+      "kappa",
+      "system",
+      "n",
+      "N",
+      "q_star",
+      "rel_eta_qN2_vs_qN1_percent"
+    ]
+  },
+  {
+    "path": "data/reference/kappa_summary.csv",
+    "rows": 8,
+    "columns": [
+      "item",
+      "result",
+      "qualitative_change"
+    ]
+  },
+  {
+    "path": "data/reference/matrix_fingerprints.csv",
+    "rows": 5,
+    "columns": [
+      "system",
+      "n",
+      "seed",
+      "sha16_A",
+      "sha16_B",
+      "sha16_C",
+      "A00",
+      "B00",
+      "C00"
+    ]
+  },
+  {
+    "path": "data/reference/near_optimal_bands.csv",
+    "rows": 72,
+    "columns": [
+      "kappa",
+      "system",
+      "epsilon_percent",
+      "N_star",
+      "P_near_optimal_band",
+      "m_star",
+      "S_near_optimal_band"
+    ]
+  },
+  {
+    "path": "data/reference/p5_m6_efficiency_region.csv",
+    "rows": 5,
+    "columns": [
+      "field",
+      "n",
+      "kappa",
+      "mu0",
+      "mu1",
+      "a0",
+      "a1",
+      "a2",
+      "delta_C_over_logp",
+      "eta_P5",
+      "eta_M6",
+      "eta_P5_advantage_pct",
+      "favored_method"
+    ]
+  },
+  {
+    "path": "data/reference/p5_m6_indices.csv",
+    "rows": 20,
+    "columns": [
+      "system",
+      "n",
+      "kappa",
+      "rho_P5_ref",
+      "order_M6",
+      "C_P5",
+      "C_M6",
+      "eta_P5",
+      "eta_M6",
+      "relative_eta_P5_vs_M6"
+    ]
+  },
+  {
+    "path": "data/reference/p5_m6_pairs.csv",
+    "rows": 45,
+    "columns": [
+      "system",
+      "delta",
+      "tol",
+      "cycles_P5",
+      "cycles_M6",
+      "CPU_P5_ms",
+      "CPU_M6_ms",
+      "CPU_relative_P5_vs_M6",
+      "IQR_P5_ms",
+      "IQR_M6_ms",
+      "CPU_difference_clear_2IQR",
+      "work_P5",
+      "work_M6",
+      "work_relative_P5_vs_M6",
+      "residual_P5",
+      "residual_M6"
+    ]
+  },
+  {
+    "path": "data/reference/p5_m6_results.csv",
+    "rows": 90,
+    "columns": [
+      "system",
+      "n",
+      "delta",
+      "tol",
+      "method",
+      "cycles",
+      "converged",
+      "residual",
+      "error",
+      "F_total_including_terminal",
+      "J",
+      "LU",
+      "solves",
+      "matvec_entries",
+      "vector_scale_entries",
+      "time_median_s",
+      "time_iqr_s",
+      "time_min_s",
+      "work_total_k1p0",
+      "work_total_k1p298",
+      "work_total_k1p7",
+      "work_total_k3p23511"
+    ]
+  },
+  {
+    "path": "data/reference/p7_m8_indices.csv",
+    "rows": 20,
+    "columns": [
+      "system",
+      "n",
+      "kappa",
+      "rho_P7_ref",
+      "order_M8",
+      "C_P7",
+      "C_M8",
+      "eta_P7",
+      "eta_M8",
+      "relative_eta_P7_vs_M8"
+    ]
+  },
+  {
+    "path": "data/reference/p7_m8_pairs.csv",
+    "rows": 45,
+    "columns": [
+      "system",
+      "delta",
+      "tol",
+      "cycles_P7",
+      "cycles_M8",
+      "CPU_P7_ms",
+      "CPU_M8_ms",
+      "CPU_relative_P7_vs_M8",
+      "IQR_P7_ms",
+      "IQR_M8_ms",
+      "CPU_difference_clear_2IQR",
+      "work_P7",
+      "work_M8",
+      "work_relative_P7_vs_M8",
+      "residual_P7",
+      "residual_M8"
+    ]
+  },
+  {
+    "path": "data/reference/p7_m8_results.csv",
+    "rows": 90,
+    "columns": [
+      "system",
+      "n",
+      "delta",
+      "tol",
+      "method",
+      "cycles",
+      "converged",
+      "residual",
+      "error",
+      "F_total_including_terminal",
+      "J",
+      "LU",
+      "solves",
+      "matrix_scale_entries",
+      "vector_scale_entries",
+      "time_median_s",
+      "time_iqr_s",
+      "time_min_s",
+      "work_total_k1p0",
+      "work_total_k1p298",
+      "work_total_k1p7",
+      "work_total_k3p23511"
+    ]
+  },
+  {
+    "path": "data/reference/phat2_p10_field_summary.csv",
+    "rows": 2,
+    "columns": [
+      "system",
+      "n",
+      "adv_eta_Phat2_k1_pct",
+      "Pht2_lower_cpu_medians",
+      "P10_lower_cpu_medians",
+      "cpu_rel_median_pct",
+      "cpu_rel_min_pct",
+      "cpu_rel_max_pct",
+      "work_rel_median_pct",
+      "work_rel_min_pct",
+      "work_rel_max_pct",
+      "clear_differences",
+      "clear_Phat2",
+      "clear_P10",
+      "cycles_pairs"
+    ]
+  },
+  {
+    "path": "data/reference/phat2_p10_pairs.csv",
+    "rows": 18,
+    "columns": [
+      "system",
+      "n",
+      "delta",
+      "tol",
+      "cycles_Phat2",
+      "cycles_P10",
+      "cpu_Phat2_ms",
+      "cpu_P10_ms",
+      "cpu_rel_Phat2_pct",
+      "iqr_Phat2_ms",
+      "iqr_P10_ms",
+      "clear_2iqr",
+      "work_Phat2_k1",
+      "work_P10_k1",
+      "work_rel_Phat2_pct",
+      "residual_Phat2",
+      "residual_P10",
+      "error_Phat2",
+      "error_P10"
+    ]
+  },
+  {
+    "path": "data/reference/phat2_p10_results.csv",
+    "rows": 36,
+    "columns": [
+      "system",
+      "n",
+      "delta",
+      "method",
+      "tol",
+      "cycles",
+      "converged",
+      "residual",
+      "error",
+      "F_total_including_terminal",
+      "J",
+      "LU",
+      "solves",
+      "matvecs",
+      "work_kappa1",
+      "time_median_s",
+      "time_iqr_s",
+      "time_min_s",
+      "time_max_s"
+    ]
+  },
+  {
+    "path": "data/reference/phat2_p10_stationary_model.csv",
+    "rows": 12,
+    "columns": [
+      "system",
+      "n",
+      "kappa",
+      "mu0",
+      "mu1",
+      "p_ref_Phat2",
+      "p_ref_P10",
+      "cost_Phat2",
+      "cost_P10",
+      "eta_Phat2",
+      "eta_P10",
+      "adv_eta_Phat2_pct"
+    ]
+  },
+  {
+    "path": "data/reference/pn_optimum_neighborhood.csv",
+    "rows": 24,
+    "columns": [
+      "system",
+      "N",
+      "eta",
+      "eta_over_eta_max",
+      "loss_percent"
+    ]
+  },
+  {
+    "path": "data/reference/pn_relative_losses.csv",
+    "rows": 348,
+    "columns": [
+      "kappa",
+      "system",
+      "N",
+      "relative_loss_percent"
+    ]
+  },
+  {
+    "path": "data/reference/pn_shamanskii_optima.csv",
+    "rows": 8,
+    "columns": [
+      "system",
+      "kappa",
+      "N_P_star",
+      "m_S_star",
+      "etaP_star",
+      "etaS_star",
+      "relative_eta_advantage_P",
+      "P_band_0p5pct",
+      "S_band_0p5pct"
+    ]
+  },
+  {
+    "path": "data/reference/pn_shamanskii_results.csv",
+    "rows": 234,
+    "columns": [
+      "system",
+      "n",
+      "delta",
+      "family",
+      "index",
+      "cycles",
+      "converged",
+      "residual",
+      "error",
+      "F_total_including_terminal",
+      "J",
+      "LU",
+      "solves",
+      "time_median_s",
+      "time_iqr_s",
+      "time_min_s",
+      "work_total_k1p0",
+      "work_total_k1p298",
+      "work_total_k1p7",
+      "work_total_k3p23511"
+    ]
+  },
+  {
+    "path": "data/reference/pn_shamanskii_summary.csv",
+    "rows": 6,
+    "columns": [
+      "system",
+      "delta",
+      "N_P_star_asymptotic",
+      "m_S_star_asymptotic",
+      "best_P_by_CPU",
+      "best_P_CPU_ms",
+      "best_P_cycles",
+      "best_S_by_CPU",
+      "best_S_CPU_ms",
+      "best_S_cycles",
+      "best_P_by_work",
+      "best_P_work",
+      "best_S_by_work",
+      "best_S_work"
+    ]
+  },
+  {
+    "path": "data/reference/precision_regimes.csv",
+    "rows": 6,
+    "columns": [
+      "block",
+      "arithmetic",
+      "tolerance_or_rule",
+      "uses_timing",
+      "repetitions",
+      "warmup",
+      "summary"
+    ]
+  },
+  {
+    "path": "data/reference/q_optima.csv",
+    "rows": 100,
+    "columns": [
+      "kappa",
+      "system",
+      "n",
+      "N",
+      "q_star",
+      "p_at_q_star",
+      "cost_at_q_star",
+      "eta_star",
+      "eta_q_Nplus1",
+      "eta_q_Nplus2",
+      "rel_eta_qN2_vs_qN1"
+    ]
+  },
+  {
+    "path": "data/reference/q_order_verification.csv",
+    "rows": 6,
+    "columns": [
+      "N",
+      "q",
+      "p_reference",
+      "COC_observed"
+    ]
+  },
+  {
+    "path": "data/reference/q_sweep.csv",
+    "rows": 500,
+    "columns": [
+      "kappa",
+      "system",
+      "n",
+      "N",
+      "q",
+      "p_reference",
+      "cost",
+      "eta"
+    ]
+  },
+  {
+    "path": "data/reference/q_transition_thresholds.csv",
+    "rows": 7,
+    "columns": [
+      "N",
+      "p_q_Nplus1",
+      "p_q_Nplus2",
+      "relative_order_gain",
+      "Theta_N"
+    ]
+  },
+  {
+    "path": "data/reference/structural_audit.csv",
+    "rows": 15,
+    "columns": [
+      "system",
+      "n",
+      "delta",
+      "rank_J",
+      "rank_J_minus_diagJ",
+      "rank_J_minus_A",
+      "density_J",
+      "cond2_J",
+      "offdiag_rank3_residual",
+      "offdiag_sigma4_over_sigma1",
+      "JminusA_rank3_residual",
+      "jacobian_complex_step_relF",
+      "jacobian_complex_step_maxabs"
+    ]
+  },
+  {
+    "path": "data/reference/structural_summary.csv",
+    "rows": 5,
+    "columns": [
+      "system",
+      "n",
+      "rank_J_min",
+      "rank_offdiag_min",
+      "rank_JminusA_min",
+      "density_J_min",
+      "cond2_min",
+      "cond2_max",
+      "offdiag_rank3_residual_min",
+      "offdiag_rank3_residual_max",
+      "jacobian_relerr_max"
+    ]
+  },
+  {
+    "path": "data/reference/timing_protocols.csv",
+    "rows": 6,
+    "columns": [
+      "block",
+      "warmups",
+      "repetitions",
+      "execution_order",
+      "summary",
+      "interpretation_rule"
+    ]
+  }
+]

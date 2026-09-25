@@ -1,0 +1,7 @@
+block,warmups,repetitions,execution_order,summary,interpretation_rule
+PN_initialization_I_D,3,51,alternating_I_D_D_I,median+IQR,resources+work_and_timing_filter
+PN_Sm_sweep,2,31,reproducible_pseudorandom,median+IQR,descriptive_median_minimum_unless_resolved
+P5_M6,2,31,reproducible_pseudorandom,median+IQR,0_of_45_pass_conservative_filter
+P7_M8,2,31,reproducible_pseudorandom,median+IQR,"resolved_H1_H2_H3_H4_H5=4/9,1/9,0/9,1/9,9/9"
+Stationary_fusion,2,31,reproducible_pseudorandom,median+IQR,5_of_8_pass_conservative_filter
+End_to_end_fusion,2,31,reproducible_pseudorandom,median+IQR,16_of_18_at_n200_pass_conservative_filter

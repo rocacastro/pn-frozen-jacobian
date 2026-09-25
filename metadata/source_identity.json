@@ -1,0 +1,10 @@
+{
+  "manuscript_version": "0.41",
+  "source_zip_sha256": "367045f5a36341b4cac3717c921e4244b300aa7dcbf7c143702c9a80269b980a",
+  "source_tex_sha256": "ffaa584530ed3de34e12c3b6f379da2dfc4a3065bd277658e4eb4deecd149cd8",
+  "source_pdf_sha256": "84d229236a5118e59a9098c9b092029705156068039dc00a0fbe0274026fc004",
+  "language": "English",
+  "manuscript_included": false,
+  "reason": "The manuscript remains in Spanish and is maintained separately; no manuscript translation was requested.",
+  "experimental_results_replaced": false
+}

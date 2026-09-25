@@ -1,0 +1,23 @@
+method,reported_order,observed_order,status
+Al-Obaidi FJA m=2,3,3.000,PASS
+Al-Obaidi FJA m=3,4,4.000,PASS
+Al-Obaidi FJA m=4,5,5.000,PASS
+Al-Obaidi FJA m=5,6,6.000,PASS
+Al-Obaidi FJA m=6,7,7.000,PASS
+Al-Obaidi FJA m=7,8,8.000,PASS
+"Cordero 2023 M4,gamma=-0.1",4,4,PASS
+"Cordero 2023 M7,gamma=-0.1",7,6,FAIL
+Cordero 2023 M4D,4.44949,~4.446,COMPATIBLE
+Cordero 2023 M4Dy,5,~5.000,PASS
+Cordero 2023 M4K,4.82843,6,INCONCLUSIVE-SUPERCONV
+Cordero 2023 M4Ky,6,6,PASS
+Cordero 2023 M7D,7.53113,~6.454,FAIL
+Cordero 2023 M7Dy,8.12310,~6.997,FAIL
+Cordero 2023 M7Dz,9.21699,~8.000,FAIL
+Cordero 2023 M7K,8,9,INCONCLUSIVE-SUPERCONV
+Cordero 2023 M7Ky,9.21699,9,FAIL
+Cordero 2023 M7Kz,11,9,FAIL
+"Kansal 2020 (32), literal",4.23607,~4,FAIL-AS-PRINTED
+"Kansal 2020 (33), literal",6.16228,~6,FAIL-AS-PRINTED
+"Kansal 2020 (32), proof-consistent",4.23607,~4.2361,COMPATIBLE
+"Kansal 2020 (33), proof-consistent",6.16228,~6.1625,COMPATIBLE

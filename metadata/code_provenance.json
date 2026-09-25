@@ -1,0 +1,66 @@
+{
+  "available_v041_programs": [
+    {
+      "source_name": "analisis_q_objecion9.py",
+      "source_sha256": "603b527521af8a7836bf9102f3cb708bd5075ba4b6f0483d6f01f924b58ee294",
+      "handling": "Functionality integrated in the modular English implementation; not historical instruction identity"
+    },
+    {
+      "source_name": "auditar_v0_41.py",
+      "source_sha256": "43099034121e264e7de3a23da882592e2313e9d251ea71a54c1478dba5afa6cf",
+      "handling": "Functionality integrated in the modular English implementation; not historical instruction identity"
+    },
+    {
+      "source_name": "auditoria_global_kappa.py",
+      "source_sha256": "6b594fa82bae15d75fdba6a40253ecce5b574045f2521f1a0eecb91df325fc8b",
+      "handling": "Functionality integrated in the modular English implementation; not historical instruction identity"
+    },
+    {
+      "source_name": "auditoria_objecion26_recursos.py",
+      "source_sha256": "5c706e38fcdcd67bd0bbd988e9e9ec06e7a6d62e9bae9b8a3ad5afe152fc9b5b",
+      "handling": "Functionality integrated in the modular English implementation; not historical instruction identity"
+    },
+    {
+      "source_name": "auditoria_planitud_objecion12.py",
+      "source_sha256": "64874f9062d4a87f71135da8aa5f9817d1dedc7aa9a228044d4b2bffc277391a",
+      "handling": "Functionality integrated in the modular English implementation; not historical instruction identity"
+    },
+    {
+      "source_name": "benchmark_hammerstein_v1.py",
+      "source_sha256": "e9c2ffa985a7cf9373fcaa52c95a8c280100f89be34876b302a58dfaf0f288ce",
+      "handling": "Functionality integrated in the modular English implementation; not historical instruction identity"
+    },
+    {
+      "source_name": "benchmark_phat2_p10_v1.py",
+      "source_sha256": "bc0c38d8f2a900f31027572621f76c4acfc35f45ba80135fa9c27970543e50ef",
+      "handling": "Functionality integrated in the modular English implementation; not historical instruction identity"
+    },
+    {
+      "source_name": "generar_figura_objecion23.py",
+      "source_sha256": "4c24bd42eaab0e02b9db269c3741af24517647d6d231309dc95a2a18b8bc6ca4",
+      "handling": "Functionality integrated in the modular English implementation; not historical instruction identity"
+    },
+    {
+      "source_name": "verificacion_orden_objecion6_final.py",
+      "source_sha256": "490c0c7a77f2b7a559c4c855cdccaa99ac96669809655f1ca057714974e70518",
+      "handling": "Faithful English rewrite in experiments/"
+    },
+    {
+      "source_name": "verificacion_q_objecion9.py",
+      "source_sha256": "314cd9bf5fd044c87edafaeb90052f22a196c8bea1500ba8b527ba56b78d45ea",
+      "handling": "Faithful English rewrite in experiments/"
+    }
+  ],
+  "float64_status": "English reimplementation validated against archived deterministic outputs",
+  "missing_historical_drivers": [
+    "family sweep",
+    "P5/M6 dense comparison",
+    "P7/M8 dense comparison",
+    "principal fusion benchmark",
+    "initialization driver",
+    "original structural audit",
+    "historical vector-order audits"
+  ],
+  "historical_raw_repetition_samples_available": false,
+  "manuscript_changed": false
+}

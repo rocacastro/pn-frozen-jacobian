@@ -1,0 +1,94 @@
+[
+  {
+    "name": "fig01_normalized_index",
+    "description": "Manuscript Figure 1",
+    "sources": [
+      "models.CostModel"
+    ]
+  },
+  {
+    "name": "fig02_h5_time_delta_0p10",
+    "description": "Manuscript Figure 2 panel",
+    "sources": [
+      "pn_shamanskii_results.csv"
+    ]
+  },
+  {
+    "name": "fig02_h5_cycles_delta_0p10",
+    "description": "Manuscript Figure 2 panel",
+    "sources": [
+      "pn_shamanskii_results.csv"
+    ]
+  },
+  {
+    "name": "fig02_h5_time_delta_0p30",
+    "description": "Manuscript Figure 2 panel",
+    "sources": [
+      "pn_shamanskii_results.csv"
+    ]
+  },
+  {
+    "name": "fig02_h5_cycles_delta_0p30",
+    "description": "Manuscript Figure 2 panel",
+    "sources": [
+      "pn_shamanskii_results.csv"
+    ]
+  },
+  {
+    "name": "fig02_h5_time_delta_0p60",
+    "description": "Manuscript Figure 2 panel",
+    "sources": [
+      "pn_shamanskii_results.csv"
+    ]
+  },
+  {
+    "name": "fig02_h5_cycles_delta_0p60",
+    "description": "Manuscript Figure 2 panel",
+    "sources": [
+      "pn_shamanskii_results.csv"
+    ]
+  },
+  {
+    "name": "fig03_efficiency_region",
+    "description": "Manuscript Figure 3; compare each field only with its own dimension",
+    "sources": [
+      "models.boundary_p5_m6",
+      "p5_m6_efficiency_region.csv"
+    ]
+  },
+  {
+    "name": "fig04_stationary_work",
+    "description": "Manuscript Figure 4 panel; negative favors fusion",
+    "sources": [
+      "fusion_stationary_pairs.csv"
+    ]
+  },
+  {
+    "name": "fig04_stationary_time",
+    "description": "Manuscript Figure 4 panel; negative favors fusion",
+    "sources": [
+      "fusion_stationary_pairs.csv"
+    ]
+  },
+  {
+    "name": "supp_figS1_index",
+    "description": "Supplement Figure S1, index panel",
+    "sources": [
+      "p7_m8_indices.csv"
+    ]
+  },
+  {
+    "name": "supp_figS1_time",
+    "description": "Supplement Figure S1, time panel; ranges are not confidence intervals",
+    "sources": [
+      "p7_m8_pairs.csv"
+    ]
+  },
+  {
+    "name": "supp_figS2_fusion",
+    "description": "Supplement Figure S2; lines do not establish monotonicity",
+    "sources": [
+      "fusion_end_to_end_pairs.csv"
+    ]
+  }
+]

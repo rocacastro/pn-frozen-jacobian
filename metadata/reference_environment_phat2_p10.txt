@@ -1,0 +1,19 @@
+platform=Windows-11-10.0.26200-SP0
+processor=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+python=3.13.6
+numpy=2.3.2
+scipy=1.17.1
+systems=H3,H5
+deltas=0.10,0.30,0.60
+tols=1.0e-08,1.0e-10,1.0e-12
+warmup=2
+repeats=31
+maxit=20
+Phat2=Phat_{2,4}, delayed start D
+P10=P_10, delayed start D
+linear_algebra=scipy.linalg.lu_factor + lu_solve (partial pivoting via LAPACK GETRF)
+seed_rule=s_n=20260923+n, one PCG64 stream, RA/RB/RC sequential
+blas_libraries=NumPy OpenBLAS 0.3.30; SciPy OpenBLAS 0.3.30
+blas_threads_reported=16 for each library
+path_sanitization=Absolute workstation paths removed from the original report
+scope=This metadata was recorded for this benchmark only; other historical blocks lack complete environment reports

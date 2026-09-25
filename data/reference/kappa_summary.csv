@@ -1,0 +1,9 @@
+item,result,qualitative_change
+P/S optima H1,"P3 / S3 for every kappa in [1,4.5]",No
+P/S optima H5,"P9 / S10 for every kappa in [1,4.5]",No
+P5 vs M6,"M6 in H1-H2; near-tie in H3; P5 in H3-H5, no sign change in [1,4.5]",No
+P7 vs M8,"M8 in H1; P7 in H2-H5 for every kappa in [1,4.5]",No
+q*,"Same q* pattern in H1-H5, N=2,...,6 for every kappa in [1,4.5]",No
+q=N+1 vs N+2,"q=N+1 retains the larger index in all 25 cases H1-H5, N=2,...,6 for every kappa in [1,4.5]",No
+Fusion threshold,The integer n_min decreases slightly as kappa increases; e.g. Phat2: 55 (k=1) -> 51 (k=4.45444),Quantitative only
+Fusion experiment n=40/55/100/200,"Stable algebraic sign: n=40 unfavorable, n=55/100/200 favorable for every kappa in [1,4.5]",No

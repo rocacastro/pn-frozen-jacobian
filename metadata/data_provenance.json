@@ -1,0 +1,462 @@
+[
+  {
+    "source_name": "auditoria_objecion13_precision.csv",
+    "path": "data/reference/precision_regimes.csv",
+    "rows": 6,
+    "source_sha256": "890aa98888a7314a46b4565a74932ba655a8fb1a11cfbda613e5ddbaf42e58c6",
+    "sha256": "6df12fef9373c83fb4315cac889a0035c843c5cb46203e6d9b4ff3a9ecc4e7d5",
+    "numeric_cells": 12,
+    "numeric_digest": "fdacf61321ba43be10bf9483401c346fa6fbbfaddea82af2c822853a2ba0e258",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "auditoria_objecion7_tiempos.csv",
+    "path": "data/reference/timing_protocols.csv",
+    "rows": 6,
+    "source_sha256": "fb7af3d20aff99ca0f62a0c34b6211a1690fd7bf36c52350e657efd8a65834e2",
+    "sha256": "3e35158c95056d5ed6366c53ea23e5d418f1df33cdde183c8c9d71d1a852bfc6",
+    "numeric_cells": 12,
+    "numeric_digest": "7fdc1a0778551c2f9a4341edbaa4db46ffbe0e63b3dcee2d08428138cdcfee89",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "hammerstein_modelo_estacionario.csv",
+    "path": "data/reference/hammerstein_stationary_model.csv",
+    "rows": 6,
+    "source_sha256": "fe61c1f28bb4210bfe35bfd9b2cc9ac5d0de15f35f94dbfe9f943f4787d27dc3",
+    "sha256": "6abcca8d15bec0df1004718c521cb4ac59d3c03590e03094df6f5961c75c6558",
+    "numeric_cells": 78,
+    "numeric_digest": "476b956d4354301875dfaa87c0dfa037f5c26465ef5f57a713a6ec42ea802e3f",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "hammerstein_resultados_completos.csv",
+    "path": "data/reference/hammerstein_results.csv",
+    "rows": 12,
+    "source_sha256": "e480fdc9804011c5670fa4b1ed560de13bad7e93e51bfbc61a7506b359405d43",
+    "sha256": "f554255961784dc067de46f352d8dfd222493dbe6b304e2c1d11c3098a04fccc",
+    "numeric_cells": 204,
+    "numeric_digest": "4dc04e02bedcc3b0600a5506f8c22f4c3f7ea18cf3804e48a1005cbdac0367d4",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "hammerstein_resumen_pares.csv",
+    "path": "data/reference/hammerstein_pairs.csv",
+    "rows": 6,
+    "source_sha256": "8880d1341585c40fbae8358224d600a7ba264e657ef09ad4ba8dfb43560941bb",
+    "sha256": "87274768dd3c76983e597056c52fcb878a5cd17de7fef261a4b6bef4a46e9c3f",
+    "numeric_cells": 96,
+    "numeric_digest": "058e3ed652a5b20fbf1ae786fcb7c4fda018c87e6a79db49f887238208889003",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion10_indices_P5_M6.csv",
+    "path": "data/reference/p5_m6_indices.csv",
+    "rows": 20,
+    "source_sha256": "b4c834af8b66d94ad63becfbde65ec02f8c4ed36b5d69661f84303c9f9804aa9",
+    "sha256": "b4c834af8b66d94ad63becfbde65ec02f8c4ed36b5d69661f84303c9f9804aa9",
+    "numeric_cells": 180,
+    "numeric_digest": "6e291a7b90d1ed344700799fa3037337fe6dcaac13379eea4daa70eda71a50b4",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion10_resultados_P5_M6.csv",
+    "path": "data/reference/p5_m6_results.csv",
+    "rows": 90,
+    "source_sha256": "8005071945fb44939d459bcda8e9237e1ce86a0aeae0e6a12befa6e45f12d562",
+    "sha256": "8005071945fb44939d459bcda8e9237e1ce86a0aeae0e6a12befa6e45f12d562",
+    "numeric_cells": 1800,
+    "numeric_digest": "09459448620962fde60b51abfc9ff7e0a3962f98baf5d678a758eeb92dba9423",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion10_resumen_P5_M6.csv",
+    "path": "data/reference/p5_m6_pairs.csv",
+    "rows": 45,
+    "source_sha256": "990da2b69d2ede12e01c7081c5f0b323c3c1f2ff1621a26369f2f90733e57fc0",
+    "sha256": "990da2b69d2ede12e01c7081c5f0b323c3c1f2ff1621a26369f2f90733e57fc0",
+    "numeric_cells": 675,
+    "numeric_digest": "d5579e7af3a186ede7c32d4fb6ead2ac1744ceb346ff91c8d07d0e3a1f9871b8",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion11_PN_Shamanskii.csv",
+    "path": "data/reference/kappa_pn_shamanskii.csv",
+    "rows": 12,
+    "source_sha256": "5098c614abf2247c1ed23b5c1b43ca194848922f86897801d68d5c7d7e352d7f",
+    "sha256": "5098c614abf2247c1ed23b5c1b43ca194848922f86897801d68d5c7d7e352d7f",
+    "numeric_cells": 60,
+    "numeric_digest": "d4b5605ba966f2499897795750c18b5b8e0dc8198fc466f5f8beb2d1ba841982",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion11_auditoria_continua.csv",
+    "path": "data/reference/kappa_interval_audit.csv",
+    "rows": 37,
+    "source_sha256": "a51134c97c5df146f5e352a39d885384da347214d95c7fc9ea10b290b0bb068a",
+    "sha256": "d82fffcfb3c4697126d97a12700bf2c1b59b626c35f62ea91b63028f30a12d69",
+    "numeric_cells": 0,
+    "numeric_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion11_comparadores.csv",
+    "path": "data/reference/kappa_comparators.csv",
+    "rows": 30,
+    "source_sha256": "ff55c3d7837b585096f6613ff590d5eea53f0d215295b59e43cdcd7508a60bf0",
+    "sha256": "ff55c3d7837b585096f6613ff590d5eea53f0d215295b59e43cdcd7508a60bf0",
+    "numeric_cells": 120,
+    "numeric_digest": "582de64221f7dcddbc8c4ce613924d5282a0c4e31cca336f80f15c20860d1bfe",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion11_q_sensibilidad.csv",
+    "path": "data/reference/kappa_q_sensitivity.csv",
+    "rows": 150,
+    "source_sha256": "07135e7ba244dd2edb3376f2987faab7959085f610bc74ae6f5a93d870348f6f",
+    "sha256": "07135e7ba244dd2edb3376f2987faab7959085f610bc74ae6f5a93d870348f6f",
+    "numeric_cells": 750,
+    "numeric_digest": "3dced3365f7dff6b149349c54fca804eaa63480e137cd3dddb6ec1b64872e4a9",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion11_resumen.csv",
+    "path": "data/reference/kappa_summary.csv",
+    "rows": 8,
+    "source_sha256": "f48a40ec47f9797c2a66a619e203cf9ec830f239515d90234468188f7b6602df",
+    "sha256": "281cbe5d6a92a87e3a2b112e7c818473b840893e3ecd7bc07d72537aa28aaac7",
+    "numeric_cells": 0,
+    "numeric_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion11_umbrales_fusion.csv",
+    "path": "data/reference/kappa_fusion_thresholds.csv",
+    "rows": 60,
+    "source_sha256": "792fcba8603751db5043dc4909d7efb6b61b64ac3b4531b92f965e8c2600a746",
+    "sha256": "792fcba8603751db5043dc4909d7efb6b61b64ac3b4531b92f965e8c2600a746",
+    "numeric_cells": 180,
+    "numeric_digest": "607937b62d3024946fac9e9af215d6593a4ecfe4c22b75a97c468242b6aee4e5",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion12_bandas_casi_optimas.csv",
+    "path": "data/reference/near_optimal_bands.csv",
+    "rows": 72,
+    "source_sha256": "bb76e0b889433b534ea2801c33242e558a5e069d9a37725a5986c1927129e9e0",
+    "sha256": "bb76e0b889433b534ea2801c33242e558a5e069d9a37725a5986c1927129e9e0",
+    "numeric_cells": 340,
+    "numeric_digest": "e2a81a5484138a2b8ded949ca97289c30d8dde4335f694590b3bb98e55c1a29d",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion12_curvatura_continua.csv",
+    "path": "data/reference/continuous_curvature.csv",
+    "rows": 12,
+    "source_sha256": "d556176dee6847f73fbb0782635838133b9797ce6e85fcd316c65535e10f6dee",
+    "sha256": "d556176dee6847f73fbb0782635838133b9797ce6e85fcd316c65535e10f6dee",
+    "numeric_cells": 120,
+    "numeric_digest": "2ef34bc4bac584f137923995f73e423ad7725685f491d9c3c9367ec59c204360",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion12_perdidas_relativas_PN.csv",
+    "path": "data/reference/pn_relative_losses.csv",
+    "rows": 348,
+    "source_sha256": "32c3d595ede217f9d0050f96303fea094b908e6a9464e36e1c81e5a8836c1f52",
+    "sha256": "32c3d595ede217f9d0050f96303fea094b908e6a9464e36e1c81e5a8836c1f52",
+    "numeric_cells": 1044,
+    "numeric_digest": "6bf2325f79cad9aa66ee891a3bd8cfa7b1736399d9a286da94dc65b9258b937c",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion12_vecindad_optimo_kappa1.csv",
+    "path": "data/reference/pn_optimum_neighborhood.csv",
+    "rows": 24,
+    "source_sha256": "7bdcfaed7722dce628cea1b712877316a7d812b538acd93e93bba4e53dc5827a",
+    "sha256": "7bdcfaed7722dce628cea1b712877316a7d812b538acd93e93bba4e53dc5827a",
+    "numeric_cells": 96,
+    "numeric_digest": "cec68ab345ef6a8586bb9e5e859fa00c7d664c44b84f2499499b267bca6c028b",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion1_auditoria_estructural.csv",
+    "path": "data/reference/structural_audit.csv",
+    "rows": 15,
+    "source_sha256": "dcda3e609e3a5f01be3535ec81eacddcfea45e56eed8d89c824d2d5bd394c3bb",
+    "sha256": "dcda3e609e3a5f01be3535ec81eacddcfea45e56eed8d89c824d2d5bd394c3bb",
+    "numeric_cells": 180,
+    "numeric_digest": "68acee3761e434aa2ab2ffe4657cc36e4bed6fe928d19512431bcf2bf7f4bd71",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion1_costos_mu.csv",
+    "path": "data/reference/field_costs.csv",
+    "rows": 20,
+    "source_sha256": "45730827f0e8be2be8a586a5c6260e48a8c825f365646f7af76ea41d15105838",
+    "sha256": "45730827f0e8be2be8a586a5c6260e48a8c825f365646f7af76ea41d15105838",
+    "numeric_cells": 80,
+    "numeric_digest": "53ca6a6d9d3d47606201ecb3588972aa1b4e31d780010757ae71cb58a64f9aef",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion1_fingerprints.csv",
+    "path": "data/reference/matrix_fingerprints.csv",
+    "rows": 5,
+    "source_sha256": "e833f8895c0df09509e6029c3231afd97e22ef43c92851f919303ea7b5e95db3",
+    "sha256": "e833f8895c0df09509e6029c3231afd97e22ef43c92851f919303ea7b5e95db3",
+    "numeric_cells": 25,
+    "numeric_digest": "ba53ec0c8fd7c518bfbead8d4c759a125b94b2412f901301c0ed25a753df2a84",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion1_resumen.csv",
+    "path": "data/reference/structural_summary.csv",
+    "rows": 5,
+    "source_sha256": "7327114134824a3cdc41b0fafa00eda5104dd34cfa9943be281ca09792422674",
+    "sha256": "7327114134824a3cdc41b0fafa00eda5104dd34cfa9943be281ca09792422674",
+    "numeric_cells": 50,
+    "numeric_digest": "e6de8012e3c4d23e68556d01db0b2a162899e00ae9ddab31cfef6e0978d9d784",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion23_region_P5_M6_datos.csv",
+    "path": "data/reference/p5_m6_efficiency_region.csv",
+    "rows": 5,
+    "source_sha256": "9521e1efae6cdd2f99b09aff0384673250e629419068d26d8ed8d9c6eab1be6e",
+    "sha256": "975230b084e96e5ca6188e72ba310da6fc402492cc7202dc7219f830254bdc77",
+    "numeric_cells": 55,
+    "numeric_digest": "bb51c23f0df8f3dbe4e07d054a3118398e7f63ff527e7c89973d23cee4cd6f0e",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion26_recursos_fusion.csv",
+    "path": "data/reference/fusion_resources.csv",
+    "rows": 6,
+    "source_sha256": "30a222917b883d947df901a46f938b0ea208fca992fd0ea3d60e454660561b2c",
+    "sha256": "aa32845f3023aecffed1e8baa089cb45ea47a849fee4d89ebcfdf9513475252b",
+    "numeric_cells": 36,
+    "numeric_digest": "58b90568fa90d1f5572eff07d7d823b51c1be8d3974566d766288a10c55724fe",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion2_optimos_teoricos.csv",
+    "path": "data/reference/pn_shamanskii_optima.csv",
+    "rows": 8,
+    "source_sha256": "2d1382371fcd33f8cc48dbc78518183ad31744c7ff4120ea3111699766ac6fab",
+    "sha256": "2d1382371fcd33f8cc48dbc78518183ad31744c7ff4120ea3111699766ac6fab",
+    "numeric_cells": 56,
+    "numeric_digest": "d2f80d60bd210b269891702612288bfb7c9d287b37898a1a99b2abf1836df99d",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion2_resultados_completos.csv",
+    "path": "data/reference/pn_shamanskii_results.csv",
+    "rows": 234,
+    "source_sha256": "8c84c4da03fca93a7299efd4bf5773aa72ac1d79cc1aa38799788265597788a0",
+    "sha256": "8c84c4da03fca93a7299efd4bf5773aa72ac1d79cc1aa38799788265597788a0",
+    "numeric_cells": 4212,
+    "numeric_digest": "62408f98d7963eb7ba904ad9ada74a4b0fdea4b0ae019b5c0be04b7c9064aa75",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion2_resumen.csv",
+    "path": "data/reference/pn_shamanskii_summary.csv",
+    "rows": 6,
+    "source_sha256": "73e80ca57fef302e1799afb340018ff7b48c8dc1683f9233b077913ea6c4f208",
+    "sha256": "73e80ca57fef302e1799afb340018ff7b48c8dc1683f9233b077913ea6c4f208",
+    "numeric_cells": 78,
+    "numeric_digest": "ede7fda720c6aa476192a02da4a0cf0e79b81c2c9c55a62ace0ea8677804c204",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion3_indices.csv",
+    "path": "data/reference/p7_m8_indices.csv",
+    "rows": 20,
+    "source_sha256": "78c0bd4777fbef3223f2057e8204d1d7d81e308b62c3025e8fc6516a9a53b89d",
+    "sha256": "78c0bd4777fbef3223f2057e8204d1d7d81e308b62c3025e8fc6516a9a53b89d",
+    "numeric_cells": 180,
+    "numeric_digest": "7eac93c4c356ef1a9c9c33fe5329344c408b9c64f62e93a3affa042876e79433",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion3_resultados_completos.csv",
+    "path": "data/reference/p7_m8_results.csv",
+    "rows": 90,
+    "source_sha256": "87fa6fdbaf65c5ab39f22499595e5199c672b6ed81dc6b0a69d1d69d3d5f42ff",
+    "sha256": "87fa6fdbaf65c5ab39f22499595e5199c672b6ed81dc6b0a69d1d69d3d5f42ff",
+    "numeric_cells": 1800,
+    "numeric_digest": "17b35d4f23578f74eb61d43485d357b2b204ba48259728f0ee6180e24ebfcb0d",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion3_resumen.csv",
+    "path": "data/reference/p7_m8_pairs.csv",
+    "rows": 45,
+    "source_sha256": "1b00940e916055314083203eb6a0601bd63c04a0763dcf8c6cfaba4971e660f6",
+    "sha256": "1b00940e916055314083203eb6a0601bd63c04a0763dcf8c6cfaba4971e660f6",
+    "numeric_cells": 675,
+    "numeric_digest": "1c86671145714c1a698ce32d4d5c411b4ff2766271d49173299aa71d33875a6a",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion4_estacionario_completo.csv",
+    "path": "data/reference/fusion_stationary_results.csv",
+    "rows": 16,
+    "source_sha256": "af2fcf43039813e26de0167204a79dda5c29c6957211fff1335a057c95ddac5e",
+    "sha256": "9085f7f754f8953aa783b5fd93458110d093ab10e291d8cef560713b6bb953b5",
+    "numeric_cells": 208,
+    "numeric_digest": "9e13f666a16590ea06d3c21b147b83d3689ca2aabfe65747833fec421ba5cbce",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion4_estacionario_resumen.csv",
+    "path": "data/reference/fusion_stationary_pairs.csv",
+    "rows": 8,
+    "source_sha256": "e92b255a8eb876b909418f2e0d5692e87d46487499341d0d4ab2231b13d06a21",
+    "sha256": "d4d4a74d34480931e251b6a61a8349f9a331286b5ea1da57b9865031909363c0",
+    "numeric_cells": 104,
+    "numeric_digest": "39b8830295636f952fca219ccaaefa525667ef405ae3d0799894fdeabdb21daa",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion4_practico_completo.csv",
+    "path": "data/reference/fusion_end_to_end_results.csv",
+    "rows": 144,
+    "source_sha256": "b272e06025bdeef60de7712cf16e90bec87b42822df32b08262852529d23627c",
+    "sha256": "e451d6bb22672805972c8768dccf4a31e8233fc0bb7a6ac645a6734783afaeda",
+    "numeric_cells": 2736,
+    "numeric_digest": "c9d27d23d63a90d3092d00de9b4520020c05baeb0ae7cfed084171f6ffdaf99c",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion4_practico_resumen.csv",
+    "path": "data/reference/fusion_end_to_end_pairs.csv",
+    "rows": 72,
+    "source_sha256": "164e13c1cda1592b6c91cbf3d4815c207c47edaf9543103342133a465451235b",
+    "sha256": "9da1d1b4489e8a39161271fdb7a17a07cc62a7e090ec942774a75713b1c485d6",
+    "numeric_cells": 1152,
+    "numeric_digest": "c0e91381bf0a15f58c54ef3c08338895c611c36ac9f74397f80b1d9d05e6f2b2",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion4_umbral_teorico.csv",
+    "path": "data/reference/fusion_thresholds.csv",
+    "rows": 16,
+    "source_sha256": "ffa101700fab983daf6706151da1fb7696ed21d8121244edf198d2bcc1b0b1cc",
+    "sha256": "3fa48488547127b71307ca322aa90f2a7afe54d727bcacbf95ff3b9baa4263c9",
+    "numeric_cells": 80,
+    "numeric_digest": "1ca92cd8f97dabcfdadcda249efe7534fc84e17dd3794370df9a9d7d305d841f",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion6_orden_resultados_alta_precision.csv",
+    "path": "data/reference/high_precision_orders.csv",
+    "rows": 10,
+    "source_sha256": "37918453859f8f4d9e15d9603e063b149e3c922714a01047d3dbba1ccf0ff4c3",
+    "sha256": "1e529191586746782c0b01cc96ca390db2b649c923cdf880890e0a7298146f77",
+    "numeric_cells": 70,
+    "numeric_digest": "056901449270b002bf58489889babe34babdafd9ae28ebbbfc22c3c418014788",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion9_COC_qN1_qN2.csv",
+    "path": "data/reference/q_order_verification.csv",
+    "rows": 6,
+    "source_sha256": "22d87f78514cbc871385970dfdf5ed205fe0150809b24af9124623d6b2ba8651",
+    "sha256": "22d87f78514cbc871385970dfdf5ed205fe0150809b24af9124623d6b2ba8651",
+    "numeric_cells": 24,
+    "numeric_digest": "ff5cc36b002d118cf03eba4aff047133ea8b72ee58673c6e1d1f639e0c04f99c",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion9_barrido_q.csv",
+    "path": "data/reference/q_sweep.csv",
+    "rows": 500,
+    "source_sha256": "7ddff04fca7c935cdb27bb098cf9b6370fbe6c7f7ae41cb669d2f9073b47d149",
+    "sha256": "7ddff04fca7c935cdb27bb098cf9b6370fbe6c7f7ae41cb669d2f9073b47d149",
+    "numeric_cells": 3500,
+    "numeric_digest": "7b80366a4b6a67227cfa3f6838afadc7d42dde8f8c64f538356b08c766809094",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion9_q_optimo.csv",
+    "path": "data/reference/q_optima.csv",
+    "rows": 100,
+    "source_sha256": "90bbd9150762a3387a133aa5347ab44d4c899cab08e294618a7733f520d51f0d",
+    "sha256": "90bbd9150762a3387a133aa5347ab44d4c899cab08e294618a7733f520d51f0d",
+    "numeric_cells": 1000,
+    "numeric_digest": "47c3b0b1aca3ff7464984a7a2af965697d146011d4f68c0384a8b89c7feec2cf",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "objecion9_umbral_qN1_qN2.csv",
+    "path": "data/reference/q_transition_thresholds.csv",
+    "rows": 7,
+    "source_sha256": "830c8a3233a2b28f8e844a35b462dee84df426c64f0cb66493ca9131c47a67fd",
+    "sha256": "830c8a3233a2b28f8e844a35b462dee84df426c64f0cb66493ca9131c47a67fd",
+    "numeric_cells": 35,
+    "numeric_digest": "dc42d2e53ea7da70bf714fea33f1e543c3a0419bdaf0d743f016cecb705bc3cf",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "phat2_p10_modelo_estacionario.csv",
+    "path": "data/reference/phat2_p10_stationary_model.csv",
+    "rows": 12,
+    "source_sha256": "d48b334f21bda03676d7966ea790d9a8aee9012da740aac53a2f2c66c010d608",
+    "sha256": "5555c7a51a506a9437e6d7a546598ebaf72e8e8d6c845e5738394225ea2f91cf",
+    "numeric_cells": 132,
+    "numeric_digest": "b2e578832da9a8a0683838f27fe8bcee2a529e7407536d5ce02ad4699255fee3",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "phat2_p10_resultados_completos.csv",
+    "path": "data/reference/phat2_p10_results.csv",
+    "rows": 36,
+    "source_sha256": "c65e00b4ed57e0fd5283ac32697092c0deda7b689a21b99842dd83a2a5a38b6d",
+    "sha256": "b9846bfe9d66b43e6f916615ba84abfbf038421b2a10cc6c2d95826e25e04d0c",
+    "numeric_cells": 612,
+    "numeric_digest": "9f5158f15593856cb98e5e946d24f6e28e4c8e9efe34f1023537a67633a37e2d",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "phat2_p10_resumen_campos.csv",
+    "path": "data/reference/phat2_p10_field_summary.csv",
+    "rows": 2,
+    "source_sha256": "bdcdfcb599c8993b36a303ba14b10444a3c9198653bc792a4169ba617783e7fa",
+    "sha256": "527593bdf9ca8668dc49e26ae4e986bcfc605375485a67fa2696a36e383f9cf8",
+    "numeric_cells": 26,
+    "numeric_digest": "f4f72328dd400406417a98e4da1cde8b1e39bad062bd3b7b3424f0145eafc84c",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "phat2_p10_resumen_pares.csv",
+    "path": "data/reference/phat2_p10_pairs.csv",
+    "rows": 18,
+    "source_sha256": "32fae8f1baf5ddcb7a6fc474cd5f01b2cd3dd8287b74069a7d5910c74837cbee",
+    "sha256": "56919fbd096ee59eb0ad76f9187fc9b7f7e1bef101be31a4ce8066d981f0ac8f",
+    "numeric_cells": 324,
+    "numeric_digest": "6a8ba4b980fb002ce54b830e57ead67185e7d2c382999c62a1a08abf9f2a193a",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "resumen_auditoria_vectorial.csv",
+    "path": "data/reference/historical_vector_audit.csv",
+    "rows": 22,
+    "source_sha256": "f9a6910766a666846abf8a312389d8fe7ccccb1c2507a6fa8a5bb9af0615413e",
+    "sha256": "396ccf2638d7e6a2c6f63154572b5f07314ad2027c7b4ffacb21db26b8901789",
+    "numeric_cells": 35,
+    "numeric_digest": "ad8f1ca0c8b3639bba622b5659b2893fb3558c115895f524cbd2d916d5d83d8d",
+    "status": "Archived values; only names and text translated"
+  },
+  {
+    "source_name": "v041_comparadores_resumen.csv",
+    "path": "data/reference/external_comparator_summary.csv",
+    "rows": 10,
+    "source_sha256": "ae8dcc29e7274887f5c6a42ee8aa0ba1e8c77a9757c384a82a141bc7a3cf9722",
+    "sha256": "ae8dcc29e7274887f5c6a42ee8aa0ba1e8c77a9757c384a82a141bc7a3cf9722",
+    "numeric_cells": 70,
+    "numeric_digest": "9a04ddc0fd33edc45d244d752b6efd971357722c552ff82012595697e986b812",
+    "status": "Archived values; only names and text translated"
+  }
+]

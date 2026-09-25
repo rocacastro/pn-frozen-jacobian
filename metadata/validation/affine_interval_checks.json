@@ -1,0 +1,256 @@
+[
+  {
+    "claim": "H1: P5/M6",
+    "endpoint_values": [
+      288.99054094114945,
+      292.858260011265
+    ],
+    "constant_sign": true
+  },
+  {
+    "claim": "H1: P7/M8",
+    "endpoint_values": [
+      936.9767556293564,
+      726.8397000283485
+    ],
+    "constant_sign": true
+  },
+  {
+    "claim": "H1: optimal q for N=2",
+    "q_star": 2,
+    "max_normalized_cost_difference": -332.17919516640814,
+    "passed": true
+  },
+  {
+    "claim": "H1: optimal q for N=3",
+    "q_star": 2,
+    "max_normalized_cost_difference": -378.5411176835514,
+    "passed": true
+  },
+  {
+    "claim": "H1: optimal q for N=4",
+    "q_star": 2,
+    "max_normalized_cost_difference": -536.6241942446013,
+    "passed": true
+  },
+  {
+    "claim": "H1: optimal q for N=5",
+    "q_star": 2,
+    "max_normalized_cost_difference": -679.605938679857,
+    "passed": true
+  },
+  {
+    "claim": "H1: optimal q for N=6",
+    "q_star": 2,
+    "max_normalized_cost_difference": -813.9946088194465,
+    "passed": true
+  },
+  {
+    "claim": "H1: global P optimum by neighbor comparison and unimodality",
+    "index": 3,
+    "max_normalized_cost_difference": -32.4813636037743,
+    "passed": true
+  },
+  {
+    "claim": "H1: global S optimum by neighbor comparison and unimodality",
+    "index": 3,
+    "max_normalized_cost_difference": -93.89800026377361,
+    "passed": true
+  },
+  {
+    "claim": "H2: P5/M6",
+    "endpoint_values": [
+      1458.53694416488,
+      1383.0448915454763
+    ],
+    "constant_sign": true
+  },
+  {
+    "claim": "H2: P7/M8",
+    "endpoint_values": [
+      -5007.944601918876,
+      -6849.197956028358
+    ],
+    "constant_sign": true
+  },
+  {
+    "claim": "H2: optimal q for N=2",
+    "q_star": 2,
+    "max_normalized_cost_difference": -447.6710436027497,
+    "passed": true
+  },
+  {
+    "claim": "H2: optimal q for N=3",
+    "q_star": 2,
+    "max_normalized_cost_difference": -815.7715454753779,
+    "passed": true
+  },
+  {
+    "claim": "H2: optimal q for N=4",
+    "q_star": 2,
+    "max_normalized_cost_difference": -1984.5401828821923,
+    "passed": true
+  },
+  {
+    "claim": "H2: optimal q for N=5",
+    "q_star": 2,
+    "max_normalized_cost_difference": -2967.620821014192,
+    "passed": true
+  },
+  {
+    "claim": "H2: optimal q for N=6",
+    "q_star": 2,
+    "max_normalized_cost_difference": -3861.819729244744,
+    "passed": true
+  },
+  {
+    "claim": "H3: P5/M6",
+    "endpoint_values": [
+      -330.21491472190246,
+      -971.7637536085094
+    ],
+    "constant_sign": true
+  },
+  {
+    "claim": "H3: P7/M8",
+    "endpoint_values": [
+      -108512.01925683109,
+      -116756.34977742092
+    ],
+    "constant_sign": true
+  },
+  {
+    "claim": "H3: optimal q for N=2",
+    "q_star": 3,
+    "max_normalized_cost_difference": -4524.948832341994,
+    "passed": true
+  },
+  {
+    "claim": "H3: optimal q for N=3",
+    "q_star": 3,
+    "max_normalized_cost_difference": -2198.187380905496,
+    "passed": true
+  },
+  {
+    "claim": "H3: optimal q for N=4",
+    "q_star": 2,
+    "max_normalized_cost_difference": -3364.1746931366506,
+    "passed": true
+  },
+  {
+    "claim": "H3: optimal q for N=5",
+    "q_star": 2,
+    "max_normalized_cost_difference": -8261.523826329329,
+    "passed": true
+  },
+  {
+    "claim": "H3: optimal q for N=6",
+    "q_star": 2,
+    "max_normalized_cost_difference": -12550.426343720173,
+    "passed": true
+  },
+  {
+    "claim": "H4: P5/M6",
+    "endpoint_values": [
+      -12904.30334674695,
+      -14292.43335655029
+    ],
+    "constant_sign": true
+  },
+  {
+    "claim": "H4: P7/M8",
+    "endpoint_values": [
+      -430981.7000977964,
+      -449927.749454216
+    ],
+    "constant_sign": true
+  },
+  {
+    "claim": "H4: optimal q for N=2",
+    "q_star": 3,
+    "max_normalized_cost_difference": -28522.38656444638,
+    "passed": true
+  },
+  {
+    "claim": "H4: optimal q for N=3",
+    "q_star": 3,
+    "max_normalized_cost_difference": -5128.056148364907,
+    "passed": true
+  },
+  {
+    "claim": "H4: optimal q for N=4",
+    "q_star": 3,
+    "max_normalized_cost_difference": -5915.813412406482,
+    "passed": true
+  },
+  {
+    "claim": "H4: optimal q for N=5",
+    "q_star": 2,
+    "max_normalized_cost_difference": -5854.3206372924615,
+    "passed": true
+  },
+  {
+    "claim": "H4: optimal q for N=6",
+    "q_star": 2,
+    "max_normalized_cost_difference": -16632.921924742754,
+    "passed": true
+  },
+  {
+    "claim": "H5: P5/M6",
+    "endpoint_values": [
+      -45819.08381258394,
+      -48237.66616095323
+    ],
+    "constant_sign": true
+  },
+  {
+    "claim": "H5: P7/M8",
+    "endpoint_values": [
+      -1103143.3524729412,
+      -1137177.489715547
+    ],
+    "constant_sign": true
+  },
+  {
+    "claim": "H5: optimal q for N=2",
+    "q_star": 3,
+    "max_normalized_cost_difference": -51159.09659307846,
+    "passed": true
+  },
+  {
+    "claim": "H5: optimal q for N=3",
+    "q_star": 4,
+    "max_normalized_cost_difference": -6487.212471975014,
+    "passed": true
+  },
+  {
+    "claim": "H5: optimal q for N=4",
+    "q_star": 3,
+    "max_normalized_cost_difference": -4859.237819218775,
+    "passed": true
+  },
+  {
+    "claim": "H5: optimal q for N=5",
+    "q_star": 3,
+    "max_normalized_cost_difference": -9129.932517955313,
+    "passed": true
+  },
+  {
+    "claim": "H5: optimal q for N=6",
+    "q_star": 2,
+    "max_normalized_cost_difference": -10783.015282745007,
+    "passed": true
+  },
+  {
+    "claim": "H5: global P optimum by neighbor comparison and unimodality",
+    "index": 9,
+    "max_normalized_cost_difference": -959.553806054173,
+    "passed": true
+  },
+  {
+    "claim": "H5: global S optimum by neighbor comparison and unimodality",
+    "index": 10,
+    "max_normalized_cost_difference": -1605.5584051157348,
+    "passed": true
+  }
+]

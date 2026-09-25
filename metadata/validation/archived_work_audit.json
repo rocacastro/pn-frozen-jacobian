@@ -1,0 +1,11 @@
+{
+  "scalar_work_checks": 2344,
+  "discrepant_values": 320,
+  "affected_datasets": [
+    "fusion_end_to_end_results.csv",
+    "fusion_stationary_results.csv"
+  ],
+  "max_absolute_relative_discrepancy_pct": 0.18408537514098886,
+  "archived_data_modified": false,
+  "status": "Known discrepancy documented"
+}
