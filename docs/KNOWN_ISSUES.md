@@ -2,7 +2,7 @@
 
 ## K1. Archived G5 Jacobian evaluation cost
 
-**Status: disclosed; author review required. No archived number has been replaced.**
+**Status: disclosed; archived numerical values are preserved unchanged.**
 
 The article and the canonical implementation specify
 
@@ -43,10 +43,9 @@ identity of the relative work tables across all conventions.
   relative percentages and tests their signs and two-decimal rounding.
 - Figures/tables labeled as archived reproduction continue to use archived work.
 
-Before a final release, the author should decide whether to add a documented
-erratum/corrected derived table to the manuscript. An approved correction should
-be a separate file with a clear provenance link, never a silent edit of the
-original dataset. The manuscript was not changed while building this repository.
+Any corrected derived table should be distributed as a separate, clearly
+identified artifact with an explicit provenance link; the archived source data
+remain unchanged.
 
 ## K2. Historical code and repetition samples
 
@@ -56,8 +55,9 @@ implementation has been checked, but its timer overhead and historical instructi
 identity are not established. The original stationary inherited matrices are also
 absent. See REPRODUCIBILITY.md for exactly what can and cannot be regenerated.
 
-## K3. Public release metadata
+## K3. Archival scope
 
-The license, actual GitHub URL and archival DOI await the author's decision and
-actual publication. The release preparation contains no fictitious identifiers and does not
-represent reproducibility Objection 14 as closed.
+The initial public software release is archived under DOI
+`10.5281/zenodo.22950468`. Data added after that release are not part of that
+version-specific archive and are identified separately until a subsequent
+versioned release is created.

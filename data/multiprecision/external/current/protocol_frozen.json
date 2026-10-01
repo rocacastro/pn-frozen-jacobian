@@ -1,0 +1,208 @@
+{
+  "schema": 2,
+  "status": "FROZEN_BEFORE_TIMINGS",
+  "working_dps": 1300,
+  "verification_dps": 2600,
+  "max_cycles": 20,
+  "warmups": 2,
+  "initial_repetitions": 15,
+  "extension_target_repetitions": 31,
+  "bootstrap_resamples": 10000,
+  "seed": 20260927,
+  "initialization": "D",
+  "reference_kappa": 1,
+  "cost_scope": "Canonical reference work only; NOT calibrated multiprecision time weights",
+  "input_rule": "Frozen float64 A/B/C lifted as exact dyadics; analytic constants/alpha in MP; one working-precision x0 exactly lifted for validation",
+  "gate_relative_limit": "1e-10",
+  "gate_guard_digits": 40,
+  "adaptive_rule": {
+    "description": "Stop at 15 only if BOTH diagnostics are clear and point in the same direction; otherwise extend mechanically to 31 paired repetitions.",
+    "extend_if_bootstrap_interval_contains_one": true,
+    "extend_if_two_iqr_filter_not_met": true,
+    "require_direction_consistency_for_early_stop": true,
+    "decision_is_mechanical_after_initial_stage": true
+  },
+  "groups": [
+    {
+      "suite": "external6",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 50,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 200,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 800,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 1024,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 50,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 200,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 800,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 1024,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 50,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 200,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 800,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 1024,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 50,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 200,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 800,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 1024,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    }
+  ],
+  "design_scope": "H1 and H5; P5/M6 and P7/M8; delta=0.30; tolerances 1e-50, 1e-200, 1e-800, 1e-1024; 15 paired repetitions with a predeclared mechanical extension to 31.",
+  "freeze_utc": "2026-09-27T18:33:05.678377+00:00",
+  "input_sha256": "82d602e7c2b38ee4143759a2157cd890c9d2c24131d0eb602c843fd2cdb41907",
+  "historical_code_sha256": "b3a66afd47a79f6326cf2d44eea55083f4738ee223ae8d9fead49fd5e2cb2a12",
+  "protocol_sha256": "56c04c64c977af86e2dcd2dcaa0eebfc82e46cc501431695417598fa70385e97"
+}

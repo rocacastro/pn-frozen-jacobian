@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Comparación multiprecisión $P_5/M6$ a $1300$ dígitos, $\delta=0.30$ y arranque D. $d$ indica $\mathrm{TOL}=10^{-d}$; ``rep.'' es el número de pares. Medianas e IQR entre paréntesis, en segundos. $\Delta t$ y $\Delta W$ se definen como en la \cref{tab:external-cpu}; negativos favorecen a $P_5$. El equipo se identifica en cada fila. La última columna aplica el filtro descriptivo \eqref{eq:cpu-clearance-filter}.}
+\label{tab:mp-external6}
+\begin{tabular}{cccccrrrrc}
+\toprule
+Campo & equipo & $d$ & rep. & ciclos & $P_5$: mediana (IQR) & $M6$: mediana (IQR) & $\Delta t$ [\%] & $\Delta W$ [\%] & filtro\\
+\midrule
+$H_{1}$ & AMD & 50 & 31 & $2/2$ & $0.312290\,(0.007706)$ & $0.302739\,(0.005472)$ & $+3.155$ & $+8.885$ & no\\
+$H_{1}$ & AMD & 200 & 31 & $3/3$ & $0.462004\,(0.008549)$ & $0.447156\,(0.008603)$ & $+3.321$ & $+9.639$ & no\\
+$H_{1}$ & AMD & 800 & 31 & $4/4$ & $0.553661\,(0.008682)$ & $0.572815\,(0.008094)$ & $-3.344$ & $+10.027$ & no\\
+$H_{1}$ & AMD & 1024 & 31 & $4/4$ & $0.556572\,(0.010900)$ & $0.571583\,(0.012388)$ & $-2.626$ & $+10.027$ & no\\
+\midrule
+$H_{5}$ & AMD & 50 & 15 & $2/2$ & $114.474034\,(0.426745)$ & $112.138516\,(0.160686)$ & $+2.083$ & $+3.048$ & sí\\
+$H_{5}$ & AMD & 200 & 31 & $3/3$ & $173.749752\,(2.623016)$ & $168.895049\,(2.464180)$ & $+2.874$ & $+3.255$ & no\\
+$H_{5}$ & AMD & 800 & 31 & $4/4$ & $228.295552\,(9.249476)$ & $227.487334\,(8.264110)$ & $+0.355$ & $+3.359$ & no\\
+$H_{5}$ & AMD & 1024 & 31 & $4/4$ & $222.429909\,(2.535950)$ & $221.004646\,(2.961342)$ & $+0.645$ & $+3.359$ & no\\
+\bottomrule
+\end{tabular}
+\end{table}

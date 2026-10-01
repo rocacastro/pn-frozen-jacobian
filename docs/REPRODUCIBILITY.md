@@ -2,9 +2,9 @@
 
 ## Canonical source
 
-The repository targets the accompanying 34-page article, with 22 main tables, four main figures, and a three-page computational supplement. `metadata/source_identity.json` records
-the hashes of the supplied manuscript and archive. Earlier drafts are not used as
-alternative mathematical specifications.
+The repository supports the accompanying article and its computational
+supplement. `metadata/source_identity.json` records cryptographic identifiers for
+the source material used to construct the archived computational package.
 
 ## 1. Reproduction from archived results
 
@@ -94,4 +94,6 @@ validation environment records the additional dependency versions used here.
 - The article is maintained separately and is not modified by repository reproduction commands.
 
 These limits are part of the reproducibility record, not failures hidden by
-replacing old data with fresh runs. The Zenodo DOI and final license metadata are added only after the archived release is created.
+replacing old data with fresh runs. The initial public release is archived under
+DOI `10.5281/zenodo.22950468`; later datasets remain outside that version-specific
+archive until a subsequent release is created.

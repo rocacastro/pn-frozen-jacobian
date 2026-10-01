@@ -148,17 +148,28 @@ labels, and documentation are in English. Mathematical identifiers such as
 
 ## Supplementary material
 
-The reader-facing supplementary document is available as
+The supplement archived with the initial public release remains available as
 [`supplement/supplementary_computational_material.pdf`](supplement/supplementary_computational_material.pdf).
-It contains detailed timing tables, the full sensitivity table for the optimal
-family members, and secondary graphical comparisons omitted from the main
-article for concision. The underlying full-precision data remain available in
-`data/reference/`.
+The expanded current computational supplement is available at
+[`supplement/current/Supplementary_Computational_Material.pdf`](supplement/current/Supplementary_Computational_Material.pdf).
+Underlying archived and multiprecision data are retained in their documented
+data directories.
 
 ## Citation
 
 Software citation metadata are provided in [`CITATION.cff`](CITATION.cff).
-After archival of the public release in Zenodo, the DOI will be added to the
-repository metadata.
+The initial public release is archived in Zenodo under DOI 10.5281/zenodo.22950468.
 
 For licensing information, see [`LICENSE_POLICY.md`](LICENSE_POLICY.md).
+
+## Multiprecision datasets
+
+The repository includes complete high-precision timing datasets for the independently selected predictor-memory/Shamanskii family members on `H1` and `H5`, and for the external pairs `P5/M6` and `P7/M8` on the same fields. The archived data include individual paired timings, higher-precision controls, fixed protocols, session/platform metadata, and descriptive audit summaries.
+
+Start with [`docs/MULTIPRECISION_DATA.md`](docs/MULTIPRECISION_DATA.md) and [`docs/REPRODUCIBILITY_MULTIPRECISION.md`](docs/REPRODUCIBILITY_MULTIPRECISION.md). Validate the added files with:
+
+```console
+python tools/validate_multiprecision_data.py
+```
+
+The Zenodo DOI `10.5281/zenodo.22950468` identifies the archived `v1.0.0` software release. The multiprecision datasets added later are not part of that archived version.

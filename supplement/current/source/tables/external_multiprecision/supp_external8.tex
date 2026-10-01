@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{External $P_7/M8$ timings. Seconds; IQR in parentheses. Platforms are identified per row. Negative changes favor $P_7$. The adaptive aggregate combines only the same reported platform, but extended groups span two sessions.}\label{tab:ext-external8}
+\begin{tabular}{cccccrrrc}\toprule
+Field & platform & $d$ & pairs & cycles & $P_7$ median (IQR) & $M8$ median (IQR) & change [\%] & filter\\\midrule
+$H_1$ & AMD & 50 & 31 & $2/2$ & $0.385014\,(0.009912)$ & $0.361616\,(0.008927)$ & +6.470 & no\\
+$H_1$ & AMD & 200 & 15 & $3/3$ & $0.585748\,(0.007271)$ & $0.537445\,(0.009296)$ & +8.988 & yes\\
+$H_1$ & AMD & 800 & 15 & $3/3$ & $0.579601\,(0.005976)$ & $0.536758\,(0.007237)$ & +7.982 & yes\\
+$H_1$ & AMD & 1024 & 15 & $3/4$ & $0.580049\,(0.003926)$ & $0.680062\,(0.003980)$ & -14.706 & yes\\
+$H_5$ & Intel & 50 & 15 & $2/2$ & $100.705191\,(0.402399)$ & $161.158137\,(0.502481)$ & -37.512 & yes\\
+$H_5$ & Intel & 200 & 15 & $3/3$ & $148.041299\,(0.340894)$ & $241.791999\,(0.263207)$ & -38.773 & yes\\
+$H_5$ & Intel & 800 & 15 & $3/3$ & $147.898461\,(0.562725)$ & $241.762238\,(0.628141)$ & -38.825 & yes\\
+$H_5$ & Intel & 1024 & 15 & $3/3$ & $148.493841\,(0.610147)$ & $241.748945\,(0.690050)$ & -38.575 & yes\\
+\bottomrule\end{tabular}
+\end{table}
+\FloatBarrier

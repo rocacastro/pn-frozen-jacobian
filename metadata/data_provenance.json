@@ -1,6 +1,5 @@
 [
   {
-    "source_name": "auditoria_objecion13_precision.csv",
     "path": "data/reference/precision_regimes.csv",
     "rows": 6,
     "source_sha256": "890aa98888a7314a46b4565a74932ba655a8fb1a11cfbda613e5ddbaf42e58c6",
@@ -10,7 +9,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "auditoria_objecion7_tiempos.csv",
     "path": "data/reference/timing_protocols.csv",
     "rows": 6,
     "source_sha256": "fb7af3d20aff99ca0f62a0c34b6211a1690fd7bf36c52350e657efd8a65834e2",
@@ -20,7 +18,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "hammerstein_modelo_estacionario.csv",
     "path": "data/reference/hammerstein_stationary_model.csv",
     "rows": 6,
     "source_sha256": "fe61c1f28bb4210bfe35bfd9b2cc9ac5d0de15f35f94dbfe9f943f4787d27dc3",
@@ -30,7 +27,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "hammerstein_resultados_completos.csv",
     "path": "data/reference/hammerstein_results.csv",
     "rows": 12,
     "source_sha256": "e480fdc9804011c5670fa4b1ed560de13bad7e93e51bfbc61a7506b359405d43",
@@ -40,7 +36,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "hammerstein_resumen_pares.csv",
     "path": "data/reference/hammerstein_pairs.csv",
     "rows": 6,
     "source_sha256": "8880d1341585c40fbae8358224d600a7ba264e657ef09ad4ba8dfb43560941bb",
@@ -50,7 +45,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion10_indices_P5_M6.csv",
     "path": "data/reference/p5_m6_indices.csv",
     "rows": 20,
     "source_sha256": "b4c834af8b66d94ad63becfbde65ec02f8c4ed36b5d69661f84303c9f9804aa9",
@@ -60,7 +54,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion10_resultados_P5_M6.csv",
     "path": "data/reference/p5_m6_results.csv",
     "rows": 90,
     "source_sha256": "8005071945fb44939d459bcda8e9237e1ce86a0aeae0e6a12befa6e45f12d562",
@@ -70,7 +63,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion10_resumen_P5_M6.csv",
     "path": "data/reference/p5_m6_pairs.csv",
     "rows": 45,
     "source_sha256": "990da2b69d2ede12e01c7081c5f0b323c3c1f2ff1621a26369f2f90733e57fc0",
@@ -80,7 +72,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion11_PN_Shamanskii.csv",
     "path": "data/reference/kappa_pn_shamanskii.csv",
     "rows": 12,
     "source_sha256": "5098c614abf2247c1ed23b5c1b43ca194848922f86897801d68d5c7d7e352d7f",
@@ -90,7 +81,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion11_auditoria_continua.csv",
     "path": "data/reference/kappa_interval_audit.csv",
     "rows": 37,
     "source_sha256": "a51134c97c5df146f5e352a39d885384da347214d95c7fc9ea10b290b0bb068a",
@@ -100,7 +90,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion11_comparadores.csv",
     "path": "data/reference/kappa_comparators.csv",
     "rows": 30,
     "source_sha256": "ff55c3d7837b585096f6613ff590d5eea53f0d215295b59e43cdcd7508a60bf0",
@@ -110,7 +99,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion11_q_sensibilidad.csv",
     "path": "data/reference/kappa_q_sensitivity.csv",
     "rows": 150,
     "source_sha256": "07135e7ba244dd2edb3376f2987faab7959085f610bc74ae6f5a93d870348f6f",
@@ -120,7 +108,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion11_resumen.csv",
     "path": "data/reference/kappa_summary.csv",
     "rows": 8,
     "source_sha256": "f48a40ec47f9797c2a66a619e203cf9ec830f239515d90234468188f7b6602df",
@@ -130,7 +117,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion11_umbrales_fusion.csv",
     "path": "data/reference/kappa_fusion_thresholds.csv",
     "rows": 60,
     "source_sha256": "792fcba8603751db5043dc4909d7efb6b61b64ac3b4531b92f965e8c2600a746",
@@ -140,7 +126,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion12_bandas_casi_optimas.csv",
     "path": "data/reference/near_optimal_bands.csv",
     "rows": 72,
     "source_sha256": "bb76e0b889433b534ea2801c33242e558a5e069d9a37725a5986c1927129e9e0",
@@ -150,7 +135,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion12_curvatura_continua.csv",
     "path": "data/reference/continuous_curvature.csv",
     "rows": 12,
     "source_sha256": "d556176dee6847f73fbb0782635838133b9797ce6e85fcd316c65535e10f6dee",
@@ -160,7 +144,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion12_perdidas_relativas_PN.csv",
     "path": "data/reference/pn_relative_losses.csv",
     "rows": 348,
     "source_sha256": "32c3d595ede217f9d0050f96303fea094b908e6a9464e36e1c81e5a8836c1f52",
@@ -170,7 +153,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion12_vecindad_optimo_kappa1.csv",
     "path": "data/reference/pn_optimum_neighborhood.csv",
     "rows": 24,
     "source_sha256": "7bdcfaed7722dce628cea1b712877316a7d812b538acd93e93bba4e53dc5827a",
@@ -180,7 +162,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion1_auditoria_estructural.csv",
     "path": "data/reference/structural_audit.csv",
     "rows": 15,
     "source_sha256": "dcda3e609e3a5f01be3535ec81eacddcfea45e56eed8d89c824d2d5bd394c3bb",
@@ -190,7 +171,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion1_costos_mu.csv",
     "path": "data/reference/field_costs.csv",
     "rows": 20,
     "source_sha256": "45730827f0e8be2be8a586a5c6260e48a8c825f365646f7af76ea41d15105838",
@@ -200,7 +180,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion1_fingerprints.csv",
     "path": "data/reference/matrix_fingerprints.csv",
     "rows": 5,
     "source_sha256": "e833f8895c0df09509e6029c3231afd97e22ef43c92851f919303ea7b5e95db3",
@@ -210,7 +189,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion1_resumen.csv",
     "path": "data/reference/structural_summary.csv",
     "rows": 5,
     "source_sha256": "7327114134824a3cdc41b0fafa00eda5104dd34cfa9943be281ca09792422674",
@@ -220,7 +198,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion23_region_P5_M6_datos.csv",
     "path": "data/reference/p5_m6_efficiency_region.csv",
     "rows": 5,
     "source_sha256": "9521e1efae6cdd2f99b09aff0384673250e629419068d26d8ed8d9c6eab1be6e",
@@ -230,7 +207,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion26_recursos_fusion.csv",
     "path": "data/reference/fusion_resources.csv",
     "rows": 6,
     "source_sha256": "30a222917b883d947df901a46f938b0ea208fca992fd0ea3d60e454660561b2c",
@@ -240,7 +216,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion2_optimos_teoricos.csv",
     "path": "data/reference/pn_shamanskii_optima.csv",
     "rows": 8,
     "source_sha256": "2d1382371fcd33f8cc48dbc78518183ad31744c7ff4120ea3111699766ac6fab",
@@ -250,7 +225,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion2_resultados_completos.csv",
     "path": "data/reference/pn_shamanskii_results.csv",
     "rows": 234,
     "source_sha256": "8c84c4da03fca93a7299efd4bf5773aa72ac1d79cc1aa38799788265597788a0",
@@ -260,7 +234,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion2_resumen.csv",
     "path": "data/reference/pn_shamanskii_summary.csv",
     "rows": 6,
     "source_sha256": "73e80ca57fef302e1799afb340018ff7b48c8dc1683f9233b077913ea6c4f208",
@@ -270,7 +243,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion3_indices.csv",
     "path": "data/reference/p7_m8_indices.csv",
     "rows": 20,
     "source_sha256": "78c0bd4777fbef3223f2057e8204d1d7d81e308b62c3025e8fc6516a9a53b89d",
@@ -280,7 +252,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion3_resultados_completos.csv",
     "path": "data/reference/p7_m8_results.csv",
     "rows": 90,
     "source_sha256": "87fa6fdbaf65c5ab39f22499595e5199c672b6ed81dc6b0a69d1d69d3d5f42ff",
@@ -290,7 +261,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion3_resumen.csv",
     "path": "data/reference/p7_m8_pairs.csv",
     "rows": 45,
     "source_sha256": "1b00940e916055314083203eb6a0601bd63c04a0763dcf8c6cfaba4971e660f6",
@@ -300,7 +270,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion4_estacionario_completo.csv",
     "path": "data/reference/fusion_stationary_results.csv",
     "rows": 16,
     "source_sha256": "af2fcf43039813e26de0167204a79dda5c29c6957211fff1335a057c95ddac5e",
@@ -310,7 +279,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion4_estacionario_resumen.csv",
     "path": "data/reference/fusion_stationary_pairs.csv",
     "rows": 8,
     "source_sha256": "e92b255a8eb876b909418f2e0d5692e87d46487499341d0d4ab2231b13d06a21",
@@ -320,7 +288,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion4_practico_completo.csv",
     "path": "data/reference/fusion_end_to_end_results.csv",
     "rows": 144,
     "source_sha256": "b272e06025bdeef60de7712cf16e90bec87b42822df32b08262852529d23627c",
@@ -330,7 +297,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion4_practico_resumen.csv",
     "path": "data/reference/fusion_end_to_end_pairs.csv",
     "rows": 72,
     "source_sha256": "164e13c1cda1592b6c91cbf3d4815c207c47edaf9543103342133a465451235b",
@@ -340,7 +306,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion4_umbral_teorico.csv",
     "path": "data/reference/fusion_thresholds.csv",
     "rows": 16,
     "source_sha256": "ffa101700fab983daf6706151da1fb7696ed21d8121244edf198d2bcc1b0b1cc",
@@ -350,7 +315,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion6_orden_resultados_alta_precision.csv",
     "path": "data/reference/high_precision_orders.csv",
     "rows": 10,
     "source_sha256": "37918453859f8f4d9e15d9603e063b149e3c922714a01047d3dbba1ccf0ff4c3",
@@ -360,7 +324,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion9_COC_qN1_qN2.csv",
     "path": "data/reference/q_order_verification.csv",
     "rows": 6,
     "source_sha256": "22d87f78514cbc871385970dfdf5ed205fe0150809b24af9124623d6b2ba8651",
@@ -370,7 +333,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion9_barrido_q.csv",
     "path": "data/reference/q_sweep.csv",
     "rows": 500,
     "source_sha256": "7ddff04fca7c935cdb27bb098cf9b6370fbe6c7f7ae41cb669d2f9073b47d149",
@@ -380,7 +342,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion9_q_optimo.csv",
     "path": "data/reference/q_optima.csv",
     "rows": 100,
     "source_sha256": "90bbd9150762a3387a133aa5347ab44d4c899cab08e294618a7733f520d51f0d",
@@ -390,7 +351,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "objecion9_umbral_qN1_qN2.csv",
     "path": "data/reference/q_transition_thresholds.csv",
     "rows": 7,
     "source_sha256": "830c8a3233a2b28f8e844a35b462dee84df426c64f0cb66493ca9131c47a67fd",
@@ -400,7 +360,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "phat2_p10_modelo_estacionario.csv",
     "path": "data/reference/phat2_p10_stationary_model.csv",
     "rows": 12,
     "source_sha256": "d48b334f21bda03676d7966ea790d9a8aee9012da740aac53a2f2c66c010d608",
@@ -410,7 +369,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "phat2_p10_resultados_completos.csv",
     "path": "data/reference/phat2_p10_results.csv",
     "rows": 36,
     "source_sha256": "c65e00b4ed57e0fd5283ac32697092c0deda7b689a21b99842dd83a2a5a38b6d",
@@ -420,7 +378,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "phat2_p10_resumen_campos.csv",
     "path": "data/reference/phat2_p10_field_summary.csv",
     "rows": 2,
     "source_sha256": "bdcdfcb599c8993b36a303ba14b10444a3c9198653bc792a4169ba617783e7fa",
@@ -430,7 +387,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "phat2_p10_resumen_pares.csv",
     "path": "data/reference/phat2_p10_pairs.csv",
     "rows": 18,
     "source_sha256": "32fae8f1baf5ddcb7a6fc474cd5f01b2cd3dd8287b74069a7d5910c74837cbee",
@@ -440,7 +396,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "resumen_auditoria_vectorial.csv",
     "path": "data/reference/historical_vector_audit.csv",
     "rows": 22,
     "source_sha256": "f9a6910766a666846abf8a312389d8fe7ccccb1c2507a6fa8a5bb9af0615413e",
@@ -450,7 +405,6 @@
     "status": "Archived values; only names and text translated"
   },
   {
-    "source_name": "v041_comparadores_resumen.csv",
     "path": "data/reference/external_comparator_summary.csv",
     "rows": 10,
     "source_sha256": "ae8dcc29e7274887f5c6a42ee8aa0ba1e8c77a9757c384a82a141bc7a3cf9722",

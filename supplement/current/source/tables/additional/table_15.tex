@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Practical minimizers obtained by the complete sweep. The ``1 cycle'' column gives the first index of each family that meets the tolerance in the initial cycle; in that cycle $P_j$ and $S_j$ execute exactly the same block. Times are medians with IQR in parentheses, in milliseconds. Work corresponds to $\kappa=1$ and is used only as an algebraic reference.}
+\label{tab:practical-minima-P-S}
+\begin{tabular}{cccccccc}
+\toprule
+Field & $\delta$ & 1 cycle & best $P_N$ & wall time $P$ & best $S_m$ & wall time $S$ & work $P/S$\\
+\midrule
+$H_1$ & 0.10 & 5 & $P_5$ (1) & $0.1188\,(0.0047)$ & $S_5$ (1) & $0.1201\,(0.0041)$ & $12920/12920$\\
+$H_1$ & 0.30 & 7 & $P_2$ (2) & $0.1429\,(0.0040)$ & $S_2$ (2) & $0.1360\,(0.0084)$ & $15160/14760$\\
+$H_1$ & 0.60 & 9 & $P_2$ (2) & $0.1381\,(0.0119)$ & $S_2$ (2) & $0.1293\,(0.0040)$ & $15160/14760$\\
+$H_5$ & 0.10 & 4 & $P_4$ (1) & $1.0738\,(0.1373)$ & $S_4$ (1) & $1.0549\,(0.1281)$ & $3541200/3541200$\\
+$H_5$ & 0.30 & 5 & $P_5$ (1) & $0.9886\,(0.0410)$ & $S_5$ (1) & $0.9992\,(0.0678)$ & $3707400/3707400$\\
+$H_5$ & 0.60 & 6 & $P_6$ (1) & $1.0562\,(0.1191)$ & $S_6$ (1) & $1.0743\,(0.1335)$ & $3873600/3873600$\\
+\bottomrule
+\end{tabular}
+\end{table}

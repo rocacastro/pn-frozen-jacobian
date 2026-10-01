@@ -1,0 +1,13 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Environment preserved in the Hammerstein and $\widehat P_2/P_{10}$ records. The $16$ threads are the reported size of each pool, not the number of threads actually active in each call.}\label{tab:recorded-environment}
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+Item & Recorded value\\\midrule
+Processor & AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD\\
+System & Windows-11-10.0.26200-SP0\\
+Software & Python 3.13.6; NumPy 2.3.2; SciPy 1.17.1\\
+Linear algebra & OpenBLAS 0.3.30, \texttt{pthreads} layer; two libraries, associated with NumPy and SciPy, with pools of 16 threads\\
+Cycle limit & \texttt{MAXIT=20}, recorded for both batteries\\
+\bottomrule\end{tabularx}
+\end{table}

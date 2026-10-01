@@ -1,0 +1,11 @@
+{
+  "family_groups": 8,
+  "family_timed_observations": 496,
+  "family_precision_controls": 16,
+  "external_groups": 16,
+  "external_timed_observations": 736,
+  "external_precision_controls": 48,
+  "fused_q_2_3_4_multiprecision_timing_included": false,
+  "archived_release_doi": "10.5281/zenodo.22950468",
+  "archived_release": "v1.0.0"
+}

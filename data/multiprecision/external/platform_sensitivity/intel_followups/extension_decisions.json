@@ -1,0 +1,257 @@
+{
+  "schema": 1,
+  "created_utc": "2026-09-29T11:23:36.478660+00:00",
+  "protocol_sha256": "4ecdf4e3f3353c8310cc0539abc68a5039596201de37e5fd81f622679a5c5255",
+  "rule": {
+    "description": "Stop at 15 only if BOTH diagnostics are clear and point in the same direction; otherwise extend mechanically to 31 paired repetitions.",
+    "extend_if_bootstrap_interval_contains_one": true,
+    "extend_if_two_iqr_filter_not_met": true,
+    "require_direction_consistency_for_early_stop": true,
+    "decision_is_mechanical_after_initial_stage": true
+  },
+  "initial_repetitions": 15,
+  "extension_target_repetitions": 31,
+  "decisions": [
+    {
+      "group": "external6_H1_n20_d0p30_e50",
+      "primary_method": "P5",
+      "baseline": "M6",
+      "median_ratio_after_15": 1.0260275939922447,
+      "bootstrap_low_after_15": 1.022910528738327,
+      "bootstrap_high_after_15": 1.042704550288364,
+      "two_iqr_filter_after_15": false,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": true,
+      "decision_reasons": [
+        "two_iqr_filter_not_met"
+      ]
+    },
+    {
+      "group": "external6_H1_n20_d0p30_e200",
+      "primary_method": "P5",
+      "baseline": "M6",
+      "median_ratio_after_15": 1.0331973938864596,
+      "bootstrap_low_after_15": 1.0203114006168714,
+      "bootstrap_high_after_15": 1.0393855288058471,
+      "two_iqr_filter_after_15": false,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": true,
+      "decision_reasons": [
+        "two_iqr_filter_not_met"
+      ]
+    },
+    {
+      "group": "external6_H1_n20_d0p30_e800",
+      "primary_method": "P5",
+      "baseline": "M6",
+      "median_ratio_after_15": 0.964340111173983,
+      "bootstrap_low_after_15": 0.9564044970425327,
+      "bootstrap_high_after_15": 0.9738123740833684,
+      "two_iqr_filter_after_15": false,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": true,
+      "decision_reasons": [
+        "two_iqr_filter_not_met"
+      ]
+    },
+    {
+      "group": "external6_H1_n20_d0p30_e1024",
+      "primary_method": "P5",
+      "baseline": "M6",
+      "median_ratio_after_15": 0.9708870307829448,
+      "bootstrap_low_after_15": 0.9638291070311897,
+      "bootstrap_high_after_15": 0.9766469654202117,
+      "two_iqr_filter_after_15": false,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": true,
+      "decision_reasons": [
+        "two_iqr_filter_not_met"
+      ]
+    },
+    {
+      "group": "external8_H1_n20_d0p30_e50",
+      "primary_method": "P7",
+      "baseline": "M8",
+      "median_ratio_after_15": 1.0617221702134612,
+      "bootstrap_low_after_15": 1.0530630576001414,
+      "bootstrap_high_after_15": 1.074850440658812,
+      "two_iqr_filter_after_15": false,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": true,
+      "decision_reasons": [
+        "two_iqr_filter_not_met"
+      ]
+    },
+    {
+      "group": "external8_H1_n20_d0p30_e200",
+      "primary_method": "P7",
+      "baseline": "M8",
+      "median_ratio_after_15": 1.0898758681359901,
+      "bootstrap_low_after_15": 1.0783875990228475,
+      "bootstrap_high_after_15": 1.10052750229729,
+      "two_iqr_filter_after_15": true,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": false,
+      "decision_reasons": [
+        "both_diagnostics_clear_same_direction_after_15"
+      ]
+    },
+    {
+      "group": "external8_H1_n20_d0p30_e800",
+      "primary_method": "P7",
+      "baseline": "M8",
+      "median_ratio_after_15": 1.0798179216365515,
+      "bootstrap_low_after_15": 1.0745403420590875,
+      "bootstrap_high_after_15": 1.0896577160904295,
+      "two_iqr_filter_after_15": true,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": false,
+      "decision_reasons": [
+        "both_diagnostics_clear_same_direction_after_15"
+      ]
+    },
+    {
+      "group": "external8_H1_n20_d0p30_e1024",
+      "primary_method": "P7",
+      "baseline": "M8",
+      "median_ratio_after_15": 0.8529360558302037,
+      "bootstrap_low_after_15": 0.8487379989773408,
+      "bootstrap_high_after_15": 0.8579825732374402,
+      "two_iqr_filter_after_15": true,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": false,
+      "decision_reasons": [
+        "both_diagnostics_clear_same_direction_after_15"
+      ]
+    },
+    {
+      "group": "external6_H5_n200_d0p30_e50",
+      "primary_method": "P5",
+      "baseline": "M6",
+      "median_ratio_after_15": 1.0208270814670923,
+      "bootstrap_low_after_15": 1.0196437101758817,
+      "bootstrap_high_after_15": 1.0229266012411071,
+      "two_iqr_filter_after_15": true,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": false,
+      "decision_reasons": [
+        "both_diagnostics_clear_same_direction_after_15"
+      ]
+    },
+    {
+      "group": "external6_H5_n200_d0p30_e200",
+      "primary_method": "P5",
+      "baseline": "M6",
+      "median_ratio_after_15": 1.0297115288496224,
+      "bootstrap_low_after_15": 1.0279514400917928,
+      "bootstrap_high_after_15": 1.040488133959206,
+      "two_iqr_filter_after_15": false,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": true,
+      "decision_reasons": [
+        "two_iqr_filter_not_met"
+      ]
+    },
+    {
+      "group": "external6_H5_n200_d0p30_e800",
+      "primary_method": "P5",
+      "baseline": "M6",
+      "median_ratio_after_15": 1.0002150852113387,
+      "bootstrap_low_after_15": 0.9907812349635854,
+      "bootstrap_high_after_15": 1.0117559063904142,
+      "two_iqr_filter_after_15": false,
+      "bootstrap_clear_after_15": false,
+      "direction_consistent_after_15": false,
+      "extend_to_31": true,
+      "decision_reasons": [
+        "two_iqr_filter_not_met",
+        "bootstrap_interval_contains_one"
+      ]
+    },
+    {
+      "group": "external6_H5_n200_d0p30_e1024",
+      "primary_method": "P5",
+      "baseline": "M6",
+      "median_ratio_after_15": 1.004143591750238,
+      "bootstrap_low_after_15": 1.0009313225612282,
+      "bootstrap_high_after_15": 1.0068685449786492,
+      "two_iqr_filter_after_15": false,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": true,
+      "decision_reasons": [
+        "two_iqr_filter_not_met"
+      ]
+    },
+    {
+      "group": "external8_H5_n200_d0p30_e50",
+      "primary_method": "P7",
+      "baseline": "M8",
+      "median_ratio_after_15": 0.6248843100609541,
+      "bootstrap_low_after_15": 0.6232426478955733,
+      "bootstrap_high_after_15": 0.6266306734598616,
+      "two_iqr_filter_after_15": true,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": false,
+      "decision_reasons": [
+        "both_diagnostics_clear_same_direction_after_15"
+      ]
+    },
+    {
+      "group": "external8_H5_n200_d0p30_e200",
+      "primary_method": "P7",
+      "baseline": "M8",
+      "median_ratio_after_15": 0.6122671551312445,
+      "bootstrap_low_after_15": 0.611003838903631,
+      "bootstrap_high_after_15": 0.6126713288500529,
+      "two_iqr_filter_after_15": true,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": false,
+      "decision_reasons": [
+        "both_diagnostics_clear_same_direction_after_15"
+      ]
+    },
+    {
+      "group": "external8_H5_n200_d0p30_e800",
+      "primary_method": "P7",
+      "baseline": "M8",
+      "median_ratio_after_15": 0.6117517039150872,
+      "bootstrap_low_after_15": 0.6106198580470893,
+      "bootstrap_high_after_15": 0.613952127786825,
+      "two_iqr_filter_after_15": true,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": false,
+      "decision_reasons": [
+        "both_diagnostics_clear_same_direction_after_15"
+      ]
+    },
+    {
+      "group": "external8_H5_n200_d0p30_e1024",
+      "primary_method": "P7",
+      "baseline": "M8",
+      "median_ratio_after_15": 0.6142481434141324,
+      "bootstrap_low_after_15": 0.6127817929084668,
+      "bootstrap_high_after_15": 0.6158914406521047,
+      "two_iqr_filter_after_15": true,
+      "bootstrap_clear_after_15": true,
+      "direction_consistent_after_15": true,
+      "extend_to_31": false,
+      "decision_reasons": [
+        "both_diagnostics_clear_same_direction_after_15"
+      ]
+    }
+  ]
+}

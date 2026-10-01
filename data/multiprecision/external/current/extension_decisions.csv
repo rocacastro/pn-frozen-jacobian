@@ -1,0 +1,17 @@
+group,primary_method,baseline,median_ratio_after_15,bootstrap_low_after_15,bootstrap_high_after_15,two_iqr_filter_after_15,bootstrap_clear_after_15,direction_consistent_after_15,extend_to_31,decision_reasons
+external6_H1_n20_d0p30_e50,P5,M6,1.0260275939922447,1.022910528738327,1.042704550288364,False,True,True,True,['two_iqr_filter_not_met']
+external6_H1_n20_d0p30_e200,P5,M6,1.0331973938864596,1.0203114006168714,1.0393855288058471,False,True,True,True,['two_iqr_filter_not_met']
+external6_H1_n20_d0p30_e800,P5,M6,0.964340111173983,0.9564044970425327,0.9738123740833684,False,True,True,True,['two_iqr_filter_not_met']
+external6_H1_n20_d0p30_e1024,P5,M6,0.9708870307829448,0.9638291070311897,0.9766469654202117,False,True,True,True,['two_iqr_filter_not_met']
+external8_H1_n20_d0p30_e50,P7,M8,1.0617221702134612,1.0530630576001414,1.074850440658812,False,True,True,True,['two_iqr_filter_not_met']
+external8_H1_n20_d0p30_e200,P7,M8,1.0898758681359901,1.0783875990228475,1.10052750229729,True,True,True,False,['both_diagnostics_clear_same_direction_after_15']
+external8_H1_n20_d0p30_e800,P7,M8,1.0798179216365515,1.0745403420590875,1.0896577160904295,True,True,True,False,['both_diagnostics_clear_same_direction_after_15']
+external8_H1_n20_d0p30_e1024,P7,M8,0.8529360558302037,0.8487379989773408,0.8579825732374402,True,True,True,False,['both_diagnostics_clear_same_direction_after_15']
+external6_H5_n200_d0p30_e50,P5,M6,1.0208270814670923,1.0196437101758817,1.0229266012411071,True,True,True,False,['both_diagnostics_clear_same_direction_after_15']
+external6_H5_n200_d0p30_e200,P5,M6,1.0297115288496224,1.0279514400917928,1.040488133959206,False,True,True,True,['two_iqr_filter_not_met']
+external6_H5_n200_d0p30_e800,P5,M6,1.0002150852113387,0.9907812349635854,1.0117559063904142,False,False,False,True,"['two_iqr_filter_not_met', 'bootstrap_interval_contains_one']"
+external6_H5_n200_d0p30_e1024,P5,M6,1.004143591750238,1.0009313225612282,1.0068685449786492,False,True,True,True,['two_iqr_filter_not_met']
+external8_H5_n200_d0p30_e50,P7,M8,0.6248843100609541,0.6232426478955733,0.6266306734598616,True,True,True,False,['both_diagnostics_clear_same_direction_after_15']
+external8_H5_n200_d0p30_e200,P7,M8,0.6122671551312445,0.611003838903631,0.6126713288500529,True,True,True,False,['both_diagnostics_clear_same_direction_after_15']
+external8_H5_n200_d0p30_e800,P7,M8,0.6117517039150872,0.6106198580470893,0.613952127786825,True,True,True,False,['both_diagnostics_clear_same_direction_after_15']
+external8_H5_n200_d0p30_e1024,P7,M8,0.6142481434141324,0.6127817929084668,0.6158914406521047,True,True,True,False,['both_diagnostics_clear_same_direction_after_15']

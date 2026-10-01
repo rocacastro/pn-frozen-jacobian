@@ -1,0 +1,3 @@
+group,suite,field,n,delta,tolerance_digits,method,baseline,repetitions,median_s,iqr_s,median_ratio,paired_bootstrap_ratio_low,paired_bootstrap_ratio_high,two_iqr_filter,cycles,active_outer_cycles,reference_eta,reference_work,F,J,LU,solves,matvecs,scales
+families_H5_n200_d0p30_e1024,families,H5,200,0.30,1024,P9,S10,31,188.60581280000002,0.33531989999997336,0.9865524780583944,0.9848169585044964,0.9874668100831839,False,3,2,5.555158190875064e-07,12944200.0,28,3,3,29,0,0
+families_H5_n200_d0p30_e1024,families,H5,200,0.30,1024,S10,S10,31,191.1766652,1.0624689500000102,1.0,1.0,1.0,False,3,0,5.43469306196086e-07,13362800.0,31,3,3,30,0,0

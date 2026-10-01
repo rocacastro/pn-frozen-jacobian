@@ -1,0 +1,15 @@
+{
+  "planned_groups": 16,
+  "initial_complete_groups": 16,
+  "extension_decisions_frozen": true,
+  "groups_flagged_for_extension": 8,
+  "extensions_complete": 8,
+  "final_complete": true,
+  "rule": {
+    "description": "Stop at 15 only if BOTH diagnostics are clear and point in the same direction; otherwise extend mechanically to 31 paired repetitions.",
+    "extend_if_bootstrap_interval_contains_one": true,
+    "extend_if_two_iqr_filter_not_met": true,
+    "require_direction_consistency_for_early_stop": true,
+    "decision_is_mechanical_after_initial_stage": true
+  }
+}

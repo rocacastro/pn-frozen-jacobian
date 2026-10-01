@@ -1,9 +1,10 @@
-# Article table and figure map
+# Archived release table and figure map
 
-Table numbers and LaTeX labels below refer to the accompanying 34-page article. `run.py reproduce` regenerates every export. All
-measurements come from the archived data; the program does not fabricate new
-timings to fill a manuscript table. CSV exports preserve more digits and may use
-one method per row instead of a typeset A/B cell.
+The table and figure numbers below describe the article-export layout archived
+with the initial public software release. This map is retained for provenance;
+the current multiprecision datasets are indexed separately in
+`DATA_INDEX_MULTIPRECISION.md`. `run.py reproduce` regenerates the archived
+exports from archived data without fabricating new timing measurements.
 
 | Table | Article label | English content | Export | Sources |
 |---|---|---|---|---|
@@ -18,7 +19,7 @@ one method per row instead of a typeset A/B cell.
 | 9 | `tab:hammerstein-stationary` | Hammerstein stationary model | [`table_09.csv`](../tables/table_09.csv) | `hammerstein_stationary_model.csv` |
 | 10 | `tab:hammerstein-practical` | Hammerstein end-to-end comparison | [`table_10.csv`](../tables/table_10.csv) | `hammerstein_pairs.csv` |
 | 11 | `tab:optimal-P-S-kappa` | Independently optimized families | [`table_11.csv`](../tables/table_11.csv) | `kappa_pn_shamanskii.csv`, `models.CostModel.optimal` |
-| 12 | `tab:obj12-flatness` | Flatness of the stationary optimum | [`table_12.csv`](../tables/table_12.csv) | `continuous_curvature.csv` |
+| 12 | — | Flatness of the stationary optimum | [`table_12.csv`](../tables/table_12.csv) | `continuous_curvature.csv` |
 | 13 | `tab:asymptotic-members-finite` | Stationarily optimal members at finite tolerance | [`table_13.csv`](../tables/table_13.csv) | `pn_shamanskii_results.csv` |
 | 14 | `tab:practical-minima-P-S` | Observed practical minima of the family sweep | [`table_14.csv`](../tables/table_14.csv) | `pn_shamanskii_results.csv` |
 | 15 | `tab:external-indices` | Stationary indices of the external comparators | [`table_15.csv`](../tables/table_15.csv) | `p5_m6_indices.csv`, `p7_m8_indices.csv` |
@@ -51,14 +52,11 @@ in English. Exact file-level source mappings are in `figures/figure_manifest.jso
 S1 and S2 retain all fifteen rows of the P5/M6 and P7/M8 TOL=1e-12 breakdowns.
 S3 retains all twelve field/kappa rows of stationary family optima. They are
 rebuilt from `p5_m6_pairs.csv`, `p7_m8_pairs.csv`, their full method outputs, and
-`kappa_pn_shamanskii.csv`. The three-page English PDF does not replace any proof.
+`kappa_pn_shamanskii.csv`. The English supplementary PDF does not replace any proof.
 The archived G5 work convention is explicitly disclosed in its provenance note.
 
-## Material intentionally not copied into the public repository
+## Public-package boundary
 
-The Spanish manuscript, superseded drafts, private referee responses, editorial
-reduction reports, and images containing Spanish text are excluded. Their
-absence does not remove scientific numerical datasets: the data provenance
-manifest records the 46 retained CSVs and the separate initialization transcription.
-The original source ZIP is identified by hash but is not duplicated in this
-all-English public package.
+The repository contains the scientific software, numerical data, validation
+records, figures, tables, and computational documentation needed for its stated
+reproducibility scope. The article source is maintained separately.

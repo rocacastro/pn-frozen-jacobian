@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE",
+  "session": "20260926T043122_606282Z",
+  "directory": "sessions\\20260926T043122_606282Z\\families_H1_n20_d0p30_e800",
+  "protocol_sha256": "2ea4ec29bbafc40a2ad9bfa3862c9fb3cc0d8930e8507bcf7ac2ffbe8f5dc717",
+  "group": {
+    "suite": "families",
+    "field": "H1",
+    "n": 20,
+    "delta": "0.30",
+    "digits": 800,
+    "methods": [
+      "P3",
+      "S3"
+    ]
+  }
+}

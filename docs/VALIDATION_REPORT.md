@@ -42,4 +42,4 @@ bitwise agreement of all iterates, recovery of missing raw repetition timings,
 or a universal performance ranking. The historical third-party vector-audit
 ledger is not fully regenerated. GitHub Actions provides the remote Linux/Windows validation defined in `.github/workflows/tests.yml`.
 
-Licensing and Zenodo archival metadata must be finalized before the archival release.
+The initial public release is archived under DOI `10.5281/zenodo.22950468`; later additions are validated and versioned separately.

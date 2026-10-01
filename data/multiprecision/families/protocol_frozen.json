@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "status": "FROZEN_BEFORE_TIMINGS",
+  "working_dps": 1300,
+  "verification_dps": 2600,
+  "max_cycles": 20,
+  "warmups": 2,
+  "repetitions": 31,
+  "bootstrap_resamples": 10000,
+  "seed": 20260925,
+  "initialization": "D",
+  "reference_kappa": 1,
+  "cost_scope": "Canonical reference indices, NOT calibrated MP time optima",
+  "input_rule": "Frozen float64 A/B/C lifted as exact dyadics; analytic constants/alpha in MP; one working-precision x0 exactly lifted for validation",
+  "gate_relative_limit": "1e-10",
+  "gate_guard_digits": 40,
+  "groups": [
+    {
+      "suite": "families",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 50,
+      "methods": [
+        "P3",
+        "S3"
+      ]
+    },
+    {
+      "suite": "families",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 200,
+      "methods": [
+        "P3",
+        "S3"
+      ]
+    },
+    {
+      "suite": "families",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 800,
+      "methods": [
+        "P3",
+        "S3"
+      ]
+    },
+    {
+      "suite": "families",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 1024,
+      "methods": [
+        "P3",
+        "S3"
+      ]
+    },
+    {
+      "suite": "families",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 50,
+      "methods": [
+        "P9",
+        "S10"
+      ]
+    },
+    {
+      "suite": "families",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 200,
+      "methods": [
+        "P9",
+        "S10"
+      ]
+    },
+    {
+      "suite": "families",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 800,
+      "methods": [
+        "P9",
+        "S10"
+      ]
+    },
+    {
+      "suite": "families",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 1024,
+      "methods": [
+        "P9",
+        "S10"
+      ]
+    }
+  ],
+  "design_scope": "H1 and H5; independently selected P/Shamanskii reference-index optima; delta=0.30; tolerances 1e-50, 1e-200, 1e-800, 1e-1024; 31 paired repetitions per group.",
+  "freeze_utc": "2026-09-26T04:30:37.765122+00:00",
+  "input_sha256": "82d602e7c2b38ee4143759a2157cd890c9d2c24131d0eb602c843fd2cdb41907",
+  "historical_code_sha256": "f62dd86b1c521d14e1f6e5bdaf9132482767b5be157758c29b9e2ae77f3dc66d",
+  "protocol_sha256": "2ea4ec29bbafc40a2ad9bfa3862c9fb3cc0d8930e8507bcf7ac2ffbe8f5dc717"
+}

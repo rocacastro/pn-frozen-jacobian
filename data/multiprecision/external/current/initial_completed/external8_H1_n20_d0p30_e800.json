@@ -1,0 +1,17 @@
+{
+  "status": "INITIAL_COMPLETE",
+  "session": "20260927T184753_050969Z",
+  "directory": "sessions_initial\\20260927T184753_050969Z\\external8_H1_n20_d0p30_e800",
+  "protocol_sha256": "56c04c64c977af86e2dcd2dcaa0eebfc82e46cc501431695417598fa70385e97",
+  "group": {
+    "suite": "external8",
+    "field": "H1",
+    "n": 20,
+    "delta": "0.30",
+    "digits": 800,
+    "methods": [
+      "P7",
+      "M8"
+    ]
+  }
+}
