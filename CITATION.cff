@@ -1,8 +1,9 @@
 cff-version: 1.2.0
-message: "Please cite the versioned software release corresponding to your use. The initial public release is archived in Zenodo."
+message: "Please cite this software release using the metadata below."
 title: "Computational repository for frozen-Jacobian methods with predictor and memory"
 type: software
-
+version: "1.1.0"
+date-released: "2026-10-01"
 doi: "10.5281/zenodo.22950467"
 license: "MIT"
 authors:
