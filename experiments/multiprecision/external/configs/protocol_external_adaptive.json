@@ -1,0 +1,204 @@
+{
+  "schema": 2,
+  "status": "PROSPECTIVE",
+  "working_dps": 1300,
+  "verification_dps": 2600,
+  "max_cycles": 20,
+  "warmups": 2,
+  "initial_repetitions": 15,
+  "extension_target_repetitions": 31,
+  "bootstrap_resamples": 10000,
+  "seed": 20260927,
+  "initialization": "D",
+  "reference_kappa": 1,
+  "cost_scope": "Canonical reference work only; NOT calibrated multiprecision time weights",
+  "input_rule": "Frozen float64 A/B/C lifted as exact dyadics; analytic constants/alpha in MP; one working-precision x0 exactly lifted for validation",
+  "gate_relative_limit": "1e-10",
+  "gate_guard_digits": 40,
+  "adaptive_rule": {
+    "description": "Stop at 15 only if BOTH diagnostics are clear and point in the same direction; otherwise extend mechanically to 31 paired repetitions.",
+    "extend_if_bootstrap_interval_contains_one": true,
+    "extend_if_two_iqr_filter_not_met": true,
+    "require_direction_consistency_for_early_stop": true,
+    "decision_is_mechanical_after_initial_stage": true
+  },
+  "groups": [
+    {
+      "suite": "external6",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 50,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 200,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 800,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 1024,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 50,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 200,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 800,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H1",
+      "n": 20,
+      "delta": "0.30",
+      "digits": 1024,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 50,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 200,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 800,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external6",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 1024,
+      "methods": [
+        "P5",
+        "M6"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 50,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 200,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 800,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    },
+    {
+      "suite": "external8",
+      "field": "H5",
+      "n": 200,
+      "delta": "0.30",
+      "digits": 1024,
+      "methods": [
+        "P7",
+        "M8"
+      ]
+    }
+  ],
+  "design_scope": "H1 and H5 only; P5/M6 and P7/M8; delta=0.30; all four pre-proposed tolerances. No group is added or removed based on the observed winner."
+}

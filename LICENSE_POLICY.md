@@ -30,7 +30,7 @@ The applicable notice and attribution guidance are in
 ## Third-party material
 
 Third-party dependencies remain under their own licenses. No third-party
-article PDFs, font files, credentials, or private referee correspondence are
+article PDFs, font files, credentials, or private correspondence are
 included in this repository. Nothing in this repository relicenses material
 for which the author does not hold the relevant rights.
 

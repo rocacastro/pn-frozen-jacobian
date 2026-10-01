@@ -1,0 +1,6 @@
+{
+  "planned_groups": 8,
+  "complete_groups": 8,
+  "all_groups_complete": true,
+  "incomplete_policy": "Only complete within-session paired groups are aggregated; partial/failed groups remain under sessions"
+}

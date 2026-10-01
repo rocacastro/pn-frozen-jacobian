@@ -1,0 +1,24 @@
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{lrrlrrrrc}
+\caption{$P_7$ versus $M8$. Medians and IQRs in parentheses are in milliseconds. The final column applies the descriptive separation rule to unrounded values.}\label{tab:hammerstein_p7_m8}\\
+\toprule
+Field & $n$ & $\delta$ & TOL & Cycles & $P_7$ time (IQR) & $M8$ time (IQR) & $\Delta t$ [\%] & Clear\\
+\midrule
+\endfirsthead
+\multicolumn{9}{l}{\textit{Table \thetable\ (continued)}}\\
+\toprule
+Field & $n$ & $\delta$ & TOL & Cycles & $P_7$ time (IQR) & $M8$ time (IQR) & $\Delta t$ [\%] & Clear\\
+\midrule
+\endhead
+\midrule
+\multicolumn{9}{r}{\textit{Continued on the next page}}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Hammerstein & 8 & --- & $10^{-8}$ & 1/2 & 0.115100 (0.003300) & 0.167200 (0.011300) & -31.16 & yes\\
+Hammerstein & 8 & --- & $10^{-10}$ & 2/2 & 0.229600 (0.011350) & 0.167100 (0.009250) & +37.40 & yes\\
+Hammerstein & 8 & --- & $10^{-12}$ & 2/2 & 0.228500 (0.008600) & 0.166400 (0.008800) & +37.32 & yes\\
+\end{longtable}
+\endgroup

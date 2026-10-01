@@ -1,0 +1,17 @@
+{
+  "status": "INITIAL_COMPLETE",
+  "session": "20260927T184626_101456Z",
+  "directory": "sessions_initial\\20260927T184626_101456Z\\external6_H1_n20_d0p30_e800",
+  "protocol_sha256": "4ecdf4e3f3353c8310cc0539abc68a5039596201de37e5fd81f622679a5c5255",
+  "group": {
+    "suite": "external6",
+    "field": "H1",
+    "n": 20,
+    "delta": "0.30",
+    "digits": 800,
+    "methods": [
+      "P5",
+      "M6"
+    ]
+  }
+}

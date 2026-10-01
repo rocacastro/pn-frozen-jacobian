@@ -1,0 +1,9 @@
+group,field,n,digits,status
+families_H1_n20_d0p30_e50,H1,20,50,complete
+families_H1_n20_d0p30_e200,H1,20,200,complete
+families_H1_n20_d0p30_e800,H1,20,800,complete
+families_H1_n20_d0p30_e1024,H1,20,1024,complete
+families_H5_n200_d0p30_e50,H5,200,50,complete
+families_H5_n200_d0p30_e200,H5,200,200,complete
+families_H5_n200_d0p30_e800,H5,200,800,complete
+families_H5_n200_d0p30_e1024,H5,200,1024,complete

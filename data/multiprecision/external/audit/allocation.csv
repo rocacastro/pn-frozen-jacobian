@@ -1,0 +1,17 @@
+group,extend,platform,initial_pairs,additional_pairs
+external6_H1_n20_d0p30_e50,True,AMD,15,16
+external6_H1_n20_d0p30_e200,True,AMD,15,16
+external6_H1_n20_d0p30_e800,True,AMD,15,16
+external6_H1_n20_d0p30_e1024,True,AMD,15,16
+external8_H1_n20_d0p30_e50,True,AMD,15,16
+external8_H1_n20_d0p30_e200,False,AMD,15,0
+external8_H1_n20_d0p30_e800,False,AMD,15,0
+external8_H1_n20_d0p30_e1024,False,AMD,15,0
+external6_H5_n200_d0p30_e50,False,AMD,15,0
+external6_H5_n200_d0p30_e200,True,AMD,15,16
+external6_H5_n200_d0p30_e800,True,AMD,15,16
+external6_H5_n200_d0p30_e1024,True,AMD,15,16
+external8_H5_n200_d0p30_e50,False,Intel,15,0
+external8_H5_n200_d0p30_e200,False,Intel,15,0
+external8_H5_n200_d0p30_e800,False,Intel,15,0
+external8_H5_n200_d0p30_e1024,False,Intel,15,0

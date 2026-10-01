@@ -1,0 +1,24 @@
+{
+  "nominal_pairs": 8,
+  "paired_exact_paths": 5,
+  "groups": [
+    [
+      "families_H1_n20_d0p30_e50"
+    ],
+    [
+      "families_H1_n20_d0p30_e200"
+    ],
+    [
+      "families_H1_n20_d0p30_e800",
+      "families_H1_n20_d0p30_e1024"
+    ],
+    [
+      "families_H5_n200_d0p30_e50",
+      "families_H5_n200_d0p30_e200"
+    ],
+    [
+      "families_H5_n200_d0p30_e800",
+      "families_H5_n200_d0p30_e1024"
+    ]
+  ]
+}

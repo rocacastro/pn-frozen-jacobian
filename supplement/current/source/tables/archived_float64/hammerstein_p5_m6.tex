@@ -1,0 +1,24 @@
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{lrrlrrrrc}
+\caption{$P_5$ versus $M6$. Medians and IQRs in parentheses are in milliseconds. The final column applies the descriptive separation rule to unrounded values.}\label{tab:hammerstein_p5_m6}\\
+\toprule
+Field & $n$ & $\delta$ & TOL & Cycles & $P_5$ time (IQR) & $M6$ time (IQR) & $\Delta t$ [\%] & Clear\\
+\midrule
+\endfirsthead
+\multicolumn{9}{l}{\textit{Table \thetable\ (continued)}}\\
+\toprule
+Field & $n$ & $\delta$ & TOL & Cycles & $P_5$ time (IQR) & $M6$ time (IQR) & $\Delta t$ [\%] & Clear\\
+\midrule
+\endhead
+\midrule
+\multicolumn{9}{r}{\textit{Continued on the next page}}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Hammerstein & 8 & --- & $10^{-8}$ & 2/2 & 0.180300 (0.008250) & 0.169200 (0.008400) & +6.56 & no\\
+Hammerstein & 8 & --- & $10^{-10}$ & 2/2 & 0.179500 (0.004250) & 0.168700 (0.002900) & +6.40 & no\\
+Hammerstein & 8 & --- & $10^{-12}$ & 2/2 & 0.179900 (0.004750) & 0.169700 (0.012450) & +6.01 & no\\
+\end{longtable}
+\endgroup

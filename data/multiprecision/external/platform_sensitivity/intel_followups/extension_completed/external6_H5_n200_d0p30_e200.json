@@ -1,0 +1,18 @@
+{
+  "status": "EXTENSION_COMPLETE",
+  "session": "20260929T113651_637051Z",
+  "directory": "sessions_extension\\20260929T113651_637051Z\\external6_H5_n200_d0p30_e200",
+  "protocol_sha256": "4ecdf4e3f3353c8310cc0539abc68a5039596201de37e5fd81f622679a5c5255",
+  "group": {
+    "suite": "external6",
+    "field": "H5",
+    "n": 200,
+    "delta": "0.30",
+    "digits": 200,
+    "methods": [
+      "P5",
+      "M6"
+    ]
+  },
+  "added_repetitions": 16
+}

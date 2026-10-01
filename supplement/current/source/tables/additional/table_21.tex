@@ -1,0 +1,31 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Exact resource counts for the fused comparison. Values
+in parentheses correspond to $N=2$. The ``end-to-end'' row
+includes the common terminal evaluation of $F$ used by the stopping criterion.}
+\label{tab:fusion-resource-accounting}
+\begin{tabularx}{\textwidth}{Xlccccc}
+\toprule
+Regime & Method & $F$ & $J$ & LU & Solves & Matrix--vector products\\
+\midrule
+Stationary
+& $\widehat P_N$
+& $2N\;(4)$ & $2$ & $1$ & $(N+1)(N+3)\;(15)$ & $(N+1)^2\;(9)$\\
+& $P_N\circ P_N$
+& $2N\;(4)$ & $2$ & $2$ & $2(N+1)\;(6)$ & $0$\\
+\addlinespace
+First D macrocycle, before the residual
+& $\widehat P_N$
+& $2N\;(4)$ & $2$ & $1$ & $N^2+3N+1\;(11)$ & $N(N+1)\;(6)$\\
+& $P_N\circ P_N$
+& $2N\;(4)$ & $2$ & $2$ & $2N+1\;(5)$ & $0$\\
+\addlinespace
+End-to-end, one macrocycle, with terminal residual
+& $\widehat P_N$
+& $2N+1\;(5)$ & $2$ & $1$ & $N^2+3N+1\;(11)$ & $N(N+1)\;(6)$\\
+& $P_N\circ P_N$
+& $2N+1\;(5)$ & $2$ & $2$ & $2N+1\;(5)$ & $0$\\
+\bottomrule
+\end{tabularx}
+\end{table}

@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE",
+  "session": "20260927T121707_678648Z",
+  "directory": "sessions\\20260927T121707_678648Z\\families_H5_n200_d0p30_e1024",
+  "protocol_sha256": "2ea4ec29bbafc40a2ad9bfa3862c9fb3cc0d8930e8507bcf7ac2ffbe8f5dc717",
+  "group": {
+    "suite": "families",
+    "field": "H5",
+    "n": 200,
+    "delta": "0.30",
+    "digits": 1024,
+    "methods": [
+      "P9",
+      "S10"
+    ]
+  }
+}

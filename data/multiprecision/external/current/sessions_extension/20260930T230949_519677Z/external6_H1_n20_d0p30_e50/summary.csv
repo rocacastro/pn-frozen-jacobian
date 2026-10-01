@@ -1,0 +1,3 @@
+group,stage,suite,field,n,delta,tolerance_digits,method,baseline,repetitions,median_s,iqr_s,median_ratio,paired_bootstrap_ratio_low,paired_bootstrap_ratio_high,two_iqr_filter,cycles,active_outer_cycles,reference_eta,reference_work,F,J,LU,solves,matvecs,scales
+external6_H1_n20_d0p30_e50,extension,external6,H1,20,0.30,50,P5,M6,16,0.3134549,0.004388399999999959,1.0283287090157378,1.02005001354259,1.0325764792449383,False,2,1,0.00015747853073414184,25000.0,11,2,2,11,0,0
+external6_H1_n20_d0p30_e50,extension,external6,H1,20,0.30,50,M6,M6,16,0.30481975000000006,0.0016792250000000064,1.0,1.0,1.0,False,2,0,0.00016498705978158884,22960.0,7,4,2,10,4,80

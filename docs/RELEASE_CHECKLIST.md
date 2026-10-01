@@ -1,13 +1,14 @@
 # Maintainer release checklist
 
-- [ ] Run `release-check`, `verify`, the automated tests, and `reproduce`.
-- [ ] Confirm GitHub Actions pass on Linux and Windows.
-- [ ] Review the documented G5 work-convention discrepancy.
-- [ ] Preserve original measurements and distinguish any approved corrections.
-- [ ] Confirm the stated limitations for unavailable historical drivers and raw timing samples.
-- [ ] Select and include software and data/documentation licenses.
-- [ ] Inspect the supplementary PDF and figure labels.
-- [ ] Review `CITATION.cff` and Zenodo metadata; add only verified identifiers.
-- [ ] Create tag and release `v1.0.0`.
-- [ ] Confirm the Zenodo archive and record its DOI.
-- [ ] Add the real DOI to the repository metadata and article citation.
+For a future versioned release:
+
+- [ ] Run `release-check`, `verify`, the automated tests, and the relevant data validators.
+- [ ] Confirm GitHub Actions pass on all configured platforms.
+- [ ] Review documented known issues and preserve archived measurements unchanged.
+- [ ] Confirm reproducibility limits for unavailable historical drivers or raw samples.
+- [ ] Inspect the computational supplement and figure labels.
+- [ ] Review `CITATION.cff`, licensing metadata, and release notes.
+- [ ] Create a new semantic-version tag; never move or overwrite an existing tag.
+- [ ] Confirm that Zenodo archives the new release as a new version.
+- [ ] Record the new version-specific DOI only after Zenodo has minted it.
+- [ ] Keep the initial `v1.0.0` release and DOI `10.5281/zenodo.22950468` unchanged.
