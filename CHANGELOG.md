@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## 1.1.0 — 2026-10-01
 
 ### Added
 - Multiprecision predictor-memory/Shamanskii family data on `H1` and `H5`: 8 groups, 496 timed observations, and 16 higher-precision controls.
