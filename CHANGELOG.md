@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.1 — 2026-10-01
+## 1.1.1 — 2026-10-02
 
 ### Changed
 - Synchronized the current computational supplement with the submission-ready article.
