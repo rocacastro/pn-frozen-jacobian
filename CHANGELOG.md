@@ -1,15 +1,14 @@
 # Changelog
 
-## 1.1.1 — 2026-10-02
+## 1.1.2 — 2026-10-02
 
 ### Changed
-- Synchronized the current computational supplement with the submission-ready article.
-- Updated the supplement source tables and figures to their final English reader-facing versions.
-- Corrected public archival documentation to reflect the Zenodo `v1.1.0` multiprecision release.
+- Synchronized all machine-readable release version metadata with version `1.1.2`.
+- Release validation now enforces agreement among `pyproject.toml`, `pn_fusion.__version__`, the Zenodo metadata template, `CITATION.cff`, and `CHANGELOG.md`.
 
 ### Preserved
-- No numerical dataset, solver, experimental protocol, multiprecision integrity manifest, or scientific result is changed by this patch.
-- The `v1.0.0` and `v1.1.0` tags and their version-specific Zenodo DOIs remain immutable historical records.
+- No numerical dataset, solver, experimental protocol, supplementary material, or scientific result is changed by this patch.
+- The `v1.0.0`, `v1.1.0`, and `v1.1.1` tags and their archived records remain immutable historical releases.
 
 ## 1.1.0 — 2026-10-01
 

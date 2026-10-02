@@ -8,7 +8,7 @@
     }
   ],
   "description": "English implementations, archived numerical data, figures, validation records, and supplementary computational material supporting the study of predictor-memory frozen-Jacobian methods for nonlinear systems.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "keywords": [
     "nonlinear systems",
     "frozen Jacobian",
