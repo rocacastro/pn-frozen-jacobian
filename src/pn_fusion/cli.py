@@ -30,7 +30,7 @@ def main():
     structure.add_argument('--outdir',type=Path,default=Path('build/structure'))
     orders=sub.add_parser('orders',help='Run the original high-precision COC protocols in English (not timed)')
     orders.add_argument('--outdir',type=Path,default=Path('build/high_precision'))
-    sub.add_parser('release-check',help='Verify every packaged file against SHA256SUMS')
+    sub.add_parser('release-check',help='Verify release-version metadata and every packaged file against SHA256SUMS')
     sub.add_parser('write-manifest',help='Maintainer command: record a new manifest only after reviewing intentional changes')
     args=parser.parse_args()
     if args.command=='verify':
