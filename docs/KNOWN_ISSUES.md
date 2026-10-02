@@ -57,7 +57,8 @@ absent. See REPRODUCIBILITY.md for exactly what can and cannot be regenerated.
 
 ## K3. Archival scope
 
-The initial public software release is archived under DOI
-`10.5281/zenodo.22950468`. Data added after that release are not part of that
-version-specific archive and are identified separately until a subsequent
-versioned release is created.
+The initial public software release `v1.0.0` is archived under DOI
+`10.5281/zenodo.22950468`. The multiprecision datasets were first archived in
+`v1.1.0` under DOI `10.5281/zenodo.23090740`. Release `v1.1.1` updates the
+current computational supplement and public documentation only; the archived
+numerical datasets and protocols are unchanged.

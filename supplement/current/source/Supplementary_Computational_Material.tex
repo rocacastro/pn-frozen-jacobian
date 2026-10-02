@@ -1,3 +1,4 @@
+% Supplementary computational material.
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -6,9 +7,11 @@
 \usepackage[a4paper,margin=2.6cm]{geometry}
 \usepackage{amsmath,amssymb,booktabs,longtable,tabularx,array,graphicx}
 \usepackage{xurl}
+\usepackage{xr-hyper}
 \usepackage[hidelinks]{hyperref}
 \usepackage[nameinlink,noabbrev]{cleveref}
 \DeclareMathOperator{\rank}{rank}
+\externaldocument[main-]{Manuscript}[Manuscript.pdf]
 \usepackage{fancyhdr,placeins}
 \pagestyle{fancy}\fancyhf{}\fancyhead[L]{R. Castro Marín}\fancyhead[R]{Supplementary computational material}\fancyfoot[C]{\thepage}\setlength{\headheight}{14pt}
 \hypersetup{pdftitle={Supplementary Computational Material},pdfauthor={Rodrigo Castro Marín}}
@@ -19,9 +22,9 @@
 \author{Rodrigo Castro Marín\\\small Instituto de Matemáticas, Universidad de Valparaíso, Chile\\\small ORCID: \href{https://orcid.org/0000-0003-0010-7775}{0000-0003-0010-7775}}
 \date{}
 \begin{document}\maketitle
-This supplement provides absolute timing summaries, computational-resource counts, source provenance and additional graphical representations for the numerical study. The earlier sections retain the archived float64 measurements; the final section reports the complete eight-group multiprecision family campaign, including all 496 individual timed solves. No synthetic repetition or pilot sample is introduced.
+This supplement provides absolute timing summaries, computational-resource counts, source provenance and additional graphical representations for the numerical study. The earlier sections retain the archived float64 measurements; the later sections report the complete eight-group multiprecision family campaign and the sixteen-group external campaign, including 496 and 736 individual timed solves, respectively. No synthetic repetition or pilot sample is included.
 
-The code and archived measurement base are available in the \href{https://github.com/rocacastro/pn-frozen-jacobian}{public GitHub repository} and in the software archive, version 1.0.0, DOI \href{https://doi.org/10.5281/zenodo.22950468}{10.5281/zenodo.22950468}. This expanded supplement accompanies the article. Its added analyses and the new multiprecision code and measurements must not be assumed to be present in that software archive. Mathematical arguments required by the article remain independent of this computational supplement.
+The code, archived measurement base, and new multiprecision code and measurements are available in the \href{https://github.com/rocacastro/pn-frozen-jacobian}{public GitHub repository} and in the software archive, version 1.1.0, DOI \href{https://doi.org/10.5281/zenodo.23090740}{10.5281/zenodo.23090740}. This expanded supplement accompanies the article. Mathematical arguments required by the article remain independent of this computational supplement.
 
 \section{Interpretation of timing summaries}
 For an ordered pair $A/B$, let $\widetilde t_A,\widetilde t_B$ denote median elapsed wall times. Parentheses contain the interquartile range (IQR), in the same units. We use
@@ -37,7 +40,10 @@ This is a descriptive separation rule, not a significance test. It is applied be
 
 The historical float64 CSV summaries do not include each individual timing repetition. Accordingly, this document does not reconstruct bootstrap samples or assume independent observations from medians and IQRs. Repetition-level capture in the newer software runner applies to new executions, not retrospectively to these measurements.
 
-\section{Documented environment and timing boundaries}
+\input{tables/suite_protocols.tex}
+\FloatBarrier
+
+\section{Documented environment and timing boundaries}\label{sec:timing-boundaries}
 The preserved environment files for Hammerstein and $\widehat P_2/P_{10}$ report Windows-11-10.0.26200-SP0; AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD; Python 3.13.6; NumPy 2.3.2; and SciPy 1.17.1. Both report OpenBLAS 0.3.30 with the pthreads threading layer. Two loaded BLAS libraries, associated with NumPy and SciPy, each report a 16-thread pool. This is a pool configuration captured after the runs, not a trace of simultaneous CPU usage. The reported OpenBLAS architecture string \texttt{Haswell} names its selected computational kernel and must not be interpreted as the processor model.
 
 The two original drivers use \texttt{time.perf\_counter\_ns} around the complete method call. The interval includes initial copies, counters, numerical operations, residual/error norms and construction of the returned result. Problem generation, warmups, statistical aggregation and file output lie outside the interval. Their environment records confirm \texttt{maxit=20}, two warmups and 31 repetitions. Neither source forces a BLAS thread limit.
@@ -61,11 +67,11 @@ Principal fusion & Not preserved & Not recovered & 20 in newer runner; stationar
 The missing historical details are not filled with settings from the current machine or from continuous-integration jobs. No fixed fraction of interpreter overhead is inferred from an assumed floating-point throughput. A new kernel-level timing study is required to separate such contributions quantitatively.
 
 \subsection{Provenance of the division-weight controls}
-The value $\kappa=1$ is the algebraic reference convention. The controls $1.2$, $1.298$ and $1.7$ retain historical sensitivity choices; they are not universal hardware constants. The recovered internal record mentions published precedents for the latter two without identifying an exact primary source; no historical attribution is made here on that basis.
+The value $\kappa=1$ is the algebraic reference convention. The controls $1.2$, $1.298$ and $1.7$ retain historical sensitivity choices; they are not universal hardware constants. The available calibration record mentions published precedents for the latter two without identifying an exact primary source; no attribution is made here on that basis.
 
 The scalar calibration record reports $3.23511$ for throughput (eight independent chains) and $4.45444$ for latency (one dependent chain), in \texttt{float64}, with Python 3.13.6, NumPy 2.3.2 and Numba 0.67.0 on the AMD/Windows platform stated above. The retained summary also reports $0.314174$ ns per multiplication, $1.016274$ ns per division and an IQR of $0.022895$ for the throughput ratio. A ratio of summarized times need not equal the summarized paired ratios. Batch-level calibration files were not recovered in this documentary review, so those summary values are not independently re-estimated here. They are used only as sensitivity controls. They neither calibrate LU execution time nor provide weights for arbitrary-precision arithmetic.
 
-\section{Nominal configurations and fixed-block paths}
+\section{Nominal configurations and fixed-block paths}\label{sec:nominal-paths}
 A nominal configuration includes field, dimension, initial point, method and tolerance. Changing the tolerance can leave a fixed-block trajectory unchanged. For a fixed ordered method pair, we group configurations by field, dimension, initial distance and the two observed cycle counts. Since the tolerance only controls the residual stop at block boundaries, equal signatures correspond to the same algorithmic path under the stated deterministic protocol. This grouping is inferred from the protocol and archived counters; it does not assert statistical independence or recover unrecorded trajectories.
 
 \begin{table}[htbp]\centering\small
@@ -91,11 +97,34 @@ Tables~\ref{tab:p5_m6} and~\ref{tab:p7_m8} contain all three tolerances, rather 
 \section{Fusion and nearby-order comparison}
 Table~\ref{tab:fusion_stationary} times one prepared stationary macrocycle; it is not an end-to-end tolerance test. Tables~\ref{tab:fusion_end_to_end} and~\ref{tab:phat2_p10} include delayed initialization and the terminal residual evaluation. Throughout these measurements $\widehat P_2=\widehat P_{2,4}$; no new measurements for $q=2$ or $q=3$ are supplied here.
 \input{tables/archived_float64/fusion_stationary.tex}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.96\textwidth]{figures/fusion_stationary_transition.png}
+\caption{Stationary comparison of $\widehat P_2$ and $P_2\circ P_2$. Left: relative work difference in the equivalent-product model for $\kappa=1$. Right: relative difference in the measured time of one complete macrocycle. The vertical line marks $n=55$; negative values favor fusion.}
+\label{fig:fusion-stationary-transition}
+\end{figure}
+\FloatBarrier
 \input{tables/archived_float64/fusion_end_to_end.tex}
 \input{tables/archived_float64/phat2_p10.tex}
 
 \paragraph{Work-column provenance for $G_5$.}
 The historical principal-fusion CSV work columns retain $\mu_1=2+18.2/n$ at $\kappa=1$, whereas the canonical formula is $2+(17+\kappa)/n$. This difference concerns calculated work, not measured times or counters. The archived values are not silently overwritten. The separately recomputed canonical-work comparison is retained with the source evidence; the elapsed times and all separation decisions above are unaffected. Relative-work values reproduced in the article retain their displayed rounding.
+
+\subsection{\texorpdfstring{Secondary comparison with $P_{10}$}{Secondary comparison with P10}}\label{subsec:phat2-p10-details}
+
+We compare $\widehat P_2=\widehat P_{2,4}$ with $P_{10}$, since $\rho_2^2\simeq11.656854$ and $\rho_{10}\simeq11.830952$. We fix $H_3$ ($n=100$), $H_5$ ($n=200$), the three previous distances and tolerances, and D for both methods. All $18$ cases finish in one cycle/macrocycle, with total resources
+\[
+\begin{array}{c|rrrrr}
+ &F&J&\mathrm{LU}&\text{solves}&\text{matrix--vector products}\\\hline
+\widehat P_2&5&2&1&11&6\\
+P_{10}&11&1&1&10&0
+\end{array}
+\]
+including the terminal evaluation. At $\kappa=1$, the index of $\widehat P_2$ is higher by $4.614\%$ ($H_3$) and $2.952\%$ ($H_5$); both signs persist over $1\le\kappa\le4.5$. \Cref{tab:Phat2-P10} also shows the smaller transient work, but no resolved timing difference.
+
+
+In $H_3$, the medians favor $P_{10}$ in seven cases and $\widehat P_2$ in two; in $H_5$, they favor $\widehat P_2$ in six and $P_{10}$ in three. All recorded final errors and residuals are zero: the root vector representable in \texttt{float64} is reached. This is not additional evidence of asymptotic order. $P_{10}$ executes only the initial $S_{10}$ block; in $\widehat P_2$, internal fusion acts, but not the predictor from a previous macrocycle. The times describe these starts, not stationary memory.
+
 
 \section{External Hammerstein benchmark}
 Tables~\ref{tab:hammerstein_p5_m6} and~\ref{tab:hammerstein_p7_m8} use the eight-node discretization and the common initial vector specified in the article. The dash in the distance column means that this benchmark uses its specified initial point rather than the dense-field distance parameter.
@@ -126,9 +155,9 @@ Figures~\ref{fig:external-time} and~\ref{fig:fusion-time} are additional views o
 
 \clearpage
 \section{Multiprecision comparison of independently selected family optima}\label{sec:mp-data}
-All eight groups in the frozen family plan are complete. Table~\ref{tab:mp-coverage} states the coverage. The dataset contains 496 individual timed full solves, or 248 paired repetitions, across 16 method configurations. The four H1 groups share one recorded session; each H5 tolerance has a separate session, for five sessions in total. Within each group, both methods were interleaved in the same session. No pilot sample, partial group or across-session splice is included.
+All eight groups in the frozen family plan are complete. Table~\ref{tab:mp-coverage} states the coverage. The dataset contains 496 individual timed full solves, or 248 paired repetitions, across 16 method configurations. The four H1 groups share one recorded session; each H5 tolerance has a separate session, for five sessions in total. Within each group, both methods were interleaved in the same session. No pilot samples or incomplete groups are included, and observations from different groups are not combined.
 
-The comparison remains $P_3/S_3$ in $H_1$ ($n=20$) and $P_9/S_{10}$ in $H_5$ ($n=200$), the independent optima of the canonical reference-index model at $\kappa=1$. These are not calibrated multiprecision time optima. The central distance $\delta=0.30$ and all four initially proposed tolerances were retained in this resource-limited tranche. The plan was frozen after feasibility pilots and before repeated timing runs. Pilot outcomes were visible at the design decision; blinded selection is not claimed.
+The comparison remains $P_3/S_3$ in $H_1$ ($n=20$) and $P_9/S_{10}$ in $H_5$ ($n=200$), the independent optima of the canonical reference-index model at $\kappa=1$. These are not calibrated multiprecision time optima. The intermediate distance $\delta=0.30$ and all four initially proposed tolerances were retained in this resource-limited part of the study. The plan was frozen after feasibility pilots and before repeated timing runs. Pilot outcomes were known when the plan was fixed; blinded selection is not claimed.
 
 \begin{table}[htbp]\centering\small
 \caption{Complete frozen family plan. Every group contains 31 repetitions of each method.}\label{tab:mp-coverage}
@@ -144,16 +173,16 @@ $H_{5}$ & $P_{9}/S_{10}$ & $10^{-800}$ & Complete\\
 $H_{5}$ & $P_{9}/S_{10}$ & $10^{-1024}$ & Complete\\
 \bottomrule\end{tabular}\end{table}
 \FloatBarrier
-\subsection{Execution identity, arithmetic and measured boundaries}
-The source and protocol hashes identify the actual frozen files, not a subsequent public release. The source hash is \texttt{f62dd86b}\allowbreak\texttt{1c521d14}\allowbreak\texttt{e1f6e5bd}\allowbreak\texttt{af913248}\allowbreak\texttt{2767b5be}\allowbreak\texttt{157758c2}\allowbreak\texttt{9b9e2ae7}\allowbreak\texttt{7f3dc66d} and the protocol hash is \texttt{7eddefb2}\allowbreak\texttt{878492a4}\allowbreak\texttt{ed2d4d37}\allowbreak\texttt{db8f6b3d}\allowbreak\texttt{74de79f3}\allowbreak\texttt{42298462}\allowbreak\texttt{b8e5e895}\allowbreak\texttt{0e489def}. The original driver hashes file bytes indexed by platform-native relative paths; the audit reconstructs Windows separators when checking this identity on another platform. Program bytes are unchanged.
+\subsection{Execution identity, arithmetic and measured boundaries}\label{subsec:mp-arithmetic}
+The source and protocol hashes below identify the frozen experimental files, rather than the renamed files of the public distribution. The source hash is \texttt{f62dd86b}\allowbreak\texttt{1c521d14}\allowbreak\texttt{e1f6e5bd}\allowbreak\texttt{af913248}\allowbreak\texttt{2767b5be}\allowbreak\texttt{157758c2}\allowbreak\texttt{9b9e2ae7}\allowbreak\texttt{7f3dc66d} and the protocol hash is \texttt{7eddefb2}\allowbreak\texttt{878492a4}\allowbreak\texttt{ed2d4d37}\allowbreak\texttt{db8f6b3d}\allowbreak\texttt{74de79f3}\allowbreak\texttt{42298462}\allowbreak\texttt{b8e5e895}\allowbreak\texttt{0e489def}. The original driver hashes file bytes indexed by platform-native relative paths; the audit reconstructs Windows separators when checking this identity on another platform. The public distribution has its own file-integrity manifests.
 
 All five session records agree on Windows-11-10.0.26200-SP0; AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD; Python 3.13.6; NumPy 2.3.2; mpmath 1.3.0, Python backend; and no gmpy2. The solver is serial, uses mpmath numbers in object arrays and does not call BLAS. A generic partial-pivoting LU is computed in multiprecision and reused by triangular solves; no inverse or special low-rank representation is formed. Six coefficient matrices (A/B/C at dimensions 20 and 200) agree bytewise with the prescribed PCG64 realization.
 
 The float64 coefficient matrices are lifted as exact dyadic data. Decimal analytic constants and $\alpha_j=j/10$ are evaluated at the current precision. One initial vector constructed at 1300 digits is frozen and lifted exactly for the 2600-digit check. This preserves the coefficient realization but does not reproduce float64 evaluation roundoff. Original $x$ coordinates are iterated. Problem generation and constant matrix prescaling are outside the timer.
 
-The settings are 1300 working digits, 2600 verification digits, delayed D initialization, 20 maximum cycles, two warmups and 31 repetitions. Warmups are specified in the frozen plan and driver but not saved as separate timed observations. The timer is \texttt{time.perf\_counter\_ns}, using the recorded monotonic QueryPerformanceCounter clock. It measures the complete solve, including copies, counters, numerical operations and residual tests. Error norms, trace serialization, I/O, precision gates and statistical aggregation are outside that interval. Integer nanosecond readings do not imply nanosecond experimental accuracy.
+The settings are 1300 working digits, 2600 verification digits, delayed D initialization, a maximum of 20 cycles, two warmups and 31 repetitions. Warmups are specified in the frozen plan and driver but not saved as separate timed observations. The timer is \texttt{time.perf\_counter\_ns}, using the recorded monotonic QueryPerformanceCounter clock. It measures the complete solve, including copies, counters, numerical operations and residual tests. Error norms, trace serialization, I/O, precision gates and statistical aggregation are outside that interval. Integer nanosecond readings do not imply nanosecond experimental accuracy.
 
-Every repetition has one measurement of each method in deterministic pseudo-random order. Exact order, durations, status, resources and final error/residual strings are retained under \texttt{data/multiprecision/families/sessions}. Each completed-group marker identifies its session. For H5 the session starts are September 26, 2026, at 04:35, 16:20 and 19:13 UTC for $d=50,200,800$, and September 27 at 12:17 UTC for $d=1024$. The H1 session starts on September 26 at 04:31 UTC. These identify recorded invocations, not independent replications of the hardware experiment.
+Every repetition has one measurement of each method in deterministic pseudo-random order. Exact order, durations, status, resources and final error/residual strings are retained under \path{data/multiprecision/families/sessions}. Each completed-group marker identifies its session. For H5 the session starts are September 26, 2026, at 04:35, 16:20 and 19:13 UTC for $d=50,200,800$, and September 27 at 12:17 UTC for $d=1024$. The H1 session starts on September 26 at 04:31 UTC. These identify recorded invocations, not independent replications of the hardware experiment.
 
 \subsection{Complete timing and work summaries}
 All eight groups, favorable or otherwise, appear below. Times are seconds, unlike the earlier millisecond tables. Reference work uses the unchanged model, not physical scalar-operation weights calibrated for multiprecision.
@@ -203,9 +232,9 @@ $H_{5}$ & 800 & 0.989922 & 0.987533 & 0.994525 & no\\
 $H_{5}$ & 1024 & 0.986552 & 0.984817 & 0.987467 & no\\
 \bottomrule\end{tabular}\end{table}
 \FloatBarrier
-The criteria are not interchangeable. The H1 intervals at $10^{-800}$ and $10^{-1024}$ lie above one, although the two-IQR rule is not met; at $10^{-50}$ and $10^{-200}$ they include one. All four H5 intervals lie below one, but only its $10^{-50}$ group passes the two-IQR filter. Failure to pass the latter is not evidence of equal times. These summaries are conditional on the recorded sessions and sampling design; they do not establish universal superiority or a quantitative overhead model. No historical IQR-only table is bootstrapped.
+The criteria are not interchangeable. The H1 intervals at $10^{-800}$ and $10^{-1024}$ lie above one, although the two-IQR rule is not met; at $10^{-50}$ and $10^{-200}$ they include one. All four H5 intervals lie below one, but only its $10^{-50}$ group passes the two-IQR filter. Failure to pass the latter is not evidence of equal times. These summaries are conditional on the recorded sessions and sampling design; they do not establish universal superiority or a quantitative overhead model. No bootstrap intervals are constructed from historical tables containing only medians and IQRs.
 
-\subsection{Precision checks, termination and saved trajectories}
+\subsection{Precision checks, termination and saved trajectories}\label{subsec:mp-checks}
 Each method was checked before its repeated timings at 1300 and 2600 digits, using the same frozen start. The final low-precision iterate was also reevaluated at 2600 digits. All sixteen checks pass and cycle counts agree. The audit recalculates error norms and COC from the saved exact dyadics and independently evaluates the final residuals by row-wise sums of the stated field formula. These are numerical checks, not interval certification.
 
 The comparison uses the floor and criterion
@@ -213,7 +242,7 @@ The comparison uses the floor and criterion
  f=10^{-1300+40}(1+\|\alpha\|_2),\qquad
  \frac{\|x_k^{(1300)}-x_k^{(2600)}\|_2}{\max\{\|x_k^{(2600)}-\alpha\|_2,f\}}<10^{-10}.
 \]
-A high-precision error below $f$ triggers a floor-censored flag; passing the test then is not a relative-accuracy certificate. Separately, the reevaluated low-precision final iterate must meet the requested residual tolerance.
+A high-precision error below $f$ triggers a flag for a precision comparison limited by the floor; passing the test then is not a relative-accuracy certificate. Separately, the reevaluated low-precision final iterate must meet the requested residual tolerance.
 \begin{table}[htbp]\centering\scriptsize
 \caption{Final 1300-digit iterate reevaluated at 2600 digits. The floor column denotes a censored precision comparison, not failure to meet the tolerance.}\label{tab:mp-precision}
 \begin{tabular}{cccrrc}\toprule
@@ -237,16 +266,18 @@ $H_{5}$ & 1024 & $P_{9}$ & $2.536\times10^{-1299}$ & $6.371\times10^{-1300}$ & y
 $H_{5}$ & 1024 & $S_{10}$ & $2.536\times10^{-1299}$ & $6.371\times10^{-1300}$ & yes\\
 \bottomrule\end{tabular}\end{table}
 \FloatBarrier
-For H1 at $10^{-800}$ and $10^{-1024}$, the final computed error and residual are zero, but the saved iterate has a reevaluated residual of $6.7330\times10^{-1301}$. For H5 at both stringent tolerances, the reevaluated residual is $2.5362\times10^{-1299}$, again below the requested tolerance despite computed zero finals. No COC is formed with these zeros. In H5, the only nonzero-error COC uses the initial transient; its third-cycle final is zero at both working precisions. Thus this H5 campaign supplies no wholly post-startup COC. The established order-verification study remains separate.
+In $H_5$, at $10^{-50}$ and $10^{-200}$, the verified residuals are $2.6370\times10^{-286}$ for $P_9$ and $7.5976\times10^{-321}$ for $S_{10}$.
+
+For H1 at $10^{-800}$ and $10^{-1024}$, the final computed error and residual are zero, but the saved iterate has a reevaluated residual of $6.7330\times10^{-1301}$. For H5 at both stringent tolerances, the reevaluated residual is $2.5362\times10^{-1299}$, again below the requested tolerance despite zero computed final values. No COC is formed with these zeros. In H5, the only nonzero-error COC uses the initial transient; its third-cycle final is zero at both working precisions. Thus this H5 campaign supplies no wholly post-startup COC. The established order-verification study remains separate.
 
 Eight nominal paired configurations correspond to five paired exact paths in two fields. Equality was checked directly on every stored dyadic iterate, at both precisions, within each repeated-path pair: H1 at $d=800/1024$, H5 at $d=50/200$, and H5 at $d=800/1024$. These duplicated paths are not additional nonlinear problems. In particular, the H5 differences in median and IQR between $d=50$ and $d=200$, or between $d=800$ and $d=1024$, are not attributed to an algorithmic path change; they were timed in different sessions. All measured outcomes are retained.
 
-Table~\ref{tab:mp-traces} displays the longest saved path in each field at both precisions. Every per-group trace remains in \texttt{data/multiprecision/families/audit/stored\_trace\_summary.csv}, and the exact vectors are in the compressed gate files. A dash denotes an unavailable COC, not zero. The shorter-tolerance paths are prefixes, checked against these saved vectors.
+Table~\ref{tab:mp-traces} displays the longest saved path in each field at both precisions. Every per-group trace remains in \path{data/multiprecision/families/audit/stored_trace_summary.csv}, and the exact vectors are in the compressed gate files. A dash denotes an unavailable COC, not zero. The shorter-tolerance paths are prefixes, checked against these saved vectors.
 \input{tables/family_multiprecision/supp_mp_traces.tex}
 \subsection{Completed scope and provenance}
-All eight planned family groups have completion markers, with 496 raw timing observations and sixteen precision gates. No value is borrowed from a pilot or inferred from cycle counts. The multiprecision timing evidence concerns only the stated optimum-family comparisons at $\delta=0.30$. This section concerns only the family comparison. External multiprecision measurements are reported separately below; the preceding fused-$q$ timing tables still concern float64 measurements.
+All eight planned family groups have completion markers, with 496 raw timing observations and sixteen precision gates. No value is borrowed from a pilot or inferred from cycle counts. The multiprecision timing evidence concerns only the stated optimum-family comparisons at $\delta=0.30$. External multiprecision measurements are reported separately below; the preceding fused-$q$ timing tables still concern float64 measurements.
 
-Original files are preserved bytewise under \texttt{data/multiprecision/families}; reconstructed summaries and the numerical audit are under \texttt{data/multiprecision/families/audit}; the exact solver snapshot is under \texttt{experiments/multiprecision/families}. The code, frozen protocol and previously supplied five groups remain unchanged. The multiprecision data and expanded supplement are distributed with the repository and are not claimed to belong to Zenodo v1.0.0.
+The family records are archived under \path{data/multiprecision/families}; reconstructed summaries and the numerical audit are under its \path{audit} subdirectory; the public solver is under \path{experiments/multiprecision/families}. The frozen plan and all eight groups are retained. These data and their public code are included in Zenodo version 1.1.0; the initial version 1.0.0 remains a separate historical archive.
 
 
 \clearpage
@@ -272,14 +303,14 @@ Current groups & 12 & 4\\\bottomrule
 \end{tabularx}\end{table}
 \FloatBarrier
 
-The solver is serial and does not use BLAS. The monotonic \texttt{perf\_counter\_ns} timer wraps the full solve, including copies, counters, scalar/matrix operations and terminal residual tests; it excludes problem setup, error-norm reporting, trace serialization, I/O, gates, warmups and aggregation. Every pair contains one run of each method in a reproducible randomized order. The trial cap is 20 cycles. Full session identifiers and recorded settings are in \texttt{data/multiprecision/external/audit/platform\_sessions.csv}.
+The solver is serial and does not use BLAS. The monotonic \texttt{perf\_counter\_ns} timer wraps the full solve, including copies, counters, scalar/matrix operations and terminal residual tests; it excludes problem setup, error-norm reporting, trace serialization, I/O, gates, warmups and aggregation. Every pair contains one run of each method in a reproducible randomized order. The trial cap is 20 cycles. Full session identifiers and recorded settings are in \path{data/multiprecision/external/audit/platform_sessions.csv}.
 
 The repeated protocol was frozen on September 27, 2026, before initial timings; allocation decisions were recorded on September 29 after those 16 groups. Eight earlier follow-ups used Intel. They are preserved separately; replacement AMD follow-ups ran on September 30--October 1 using the same eight decisions and no newly selected tolerances. Earlier follow-up outcomes were already visible, so blinded replacement is not claimed. The four unextended $P_7/M8$ groups in $H_5$ remain Intel; they must not be relabeled as AMD or interpreted as an AMD dimension sweep.
 
 \subsection{Final descriptive timing summaries}
 \input{tables/external_multiprecision/supp_external6.tex}
 \input{tables/external_multiprecision/supp_external8.tex}
-For $P_5/M6$, both methods require 2, 3, 4 and 4 cycles as $d$ increases, in both fields. In $H_1$, $P_5$ has higher medians at $d=50,200$ and lower medians at $800,1024$, with no two-IQR separation. In $H_5$ its medians are always higher; only $d=50$ passes the filter, favoring $M6$. Reference work is higher for $P_5$ in all eight groups. Neither this model mismatch nor an unpassed filter is used to assert equal execution times.
+For $P_5/M6$, both methods require 2, 3, 4 and 4 cycles as $d$ increases, in both fields. In $H_1$, $P_5$ has higher medians at $d=50,200$ and lower medians at $800,1024$, with no two-IQR separation. In $H_5$ its medians are always higher; only $d=50$ passes the filter, favoring $M6$. Reference work is higher for $P_5$ in all eight groups. Neither this model mismatch nor failure to pass the filter is used to assert equal execution times.
 
 For $P_7/M8$ in $H_1$, the first three medians favor $M8$; the $d=200,800$ differences pass the filter. At $d=1024$, $P_7$ takes three cycles against four, lowers the median by 14.706\% and lowers reference work by 10.252\%. In $H_5$ (Intel), both methods take 2, 3, 3 and 3 cycles; $P_7$ lowers the four medians by 37.512--38.825\%, and all four differences pass the filter. Its reference-work reduction is about 34.94\%. The comparison is within the recorded Intel platform; comparing these reductions to $H_1$ does not isolate dimension from hardware.
 
@@ -292,14 +323,14 @@ The current AMD follow-ups retain the direction of the initial ratio in all eigh
 \input{tables/external_multiprecision/supp_bootstrap.tex}
 The archived runner generates 10000 paired bootstrap resamples and reports the ratio of resampled medians, rather than the median of pairwise ratios. Its exact seeded percentiles are reproduced. The follow-up decision is data-dependent, so predeclaring the decision rule does not by itself establish 95\% coverage for the final percentile intervals. The initial 15-pair sample is displayed for all groups, not only for early-stopped winners. Final intervals are descriptive and are not adjusted for selection, serial dependence or multiple comparisons.
 
-An additional sensitivity diagnostic resamples within the initial and follow-up phases, keeping their respective sizes 15 and 16. Its interval position relative to one agrees with the archived pooled diagnostic in all eight extended groups. This check addresses the fixed phase composition, not adaptive stopping or all dependence. For $P_5/M6$ in $H_5$ at $d=800$ the final intervals contain one; an unpassed two-IQR filter is not generally equivalent to such inclusion. No numerical significance level is claimed for the two-IQR rule.
+An additional sensitivity diagnostic resamples within the initial and follow-up phases, keeping their respective sizes 15 and 16. Its interval position relative to one agrees with the archived pooled diagnostic in all eight extended groups. This check addresses the fixed phase composition, not adaptive stopping or all dependence. For $P_5/M6$ in $H_5$ at $d=800$ the final intervals contain one; failure to pass the two-IQR filter is not generally equivalent to such inclusion. No numerical significance level is claimed for the two-IQR rule.
 
-\clearpage\subsection{Exact resources and numerical validation}
+\clearpage\subsection{Exact resources and numerical validation}\label{subsec:external-validation}
 \input{tables/external_multiprecision/supp_resources_external6.tex}
 \input{tables/external_multiprecision/supp_resources_external8.tex}
 \input{tables/external_multiprecision/supp_precision_external6.tex}
 \input{tables/external_multiprecision/supp_precision_external8.tex}
-All 48 stored gates passed the recorded rule. Their cycles, resources, error norms and available COC quotients were independently recomputed from the saved dyadic iterates. The final 1300-digit iterates were independently reevaluated at 2600 digits using row-wise sums of the stated field formulas; every requested tolerance is met. This is a numerical check, not an interval-arithmetic certificate. The guard-floor comparison is the same as in the family campaign. A floor-censored final is not evidence of relative error accuracy and computed zero finals are excluded from COC.
+All 48 stored gates passed the recorded rule. Their cycles, resources, error norms and available COC quotients were independently recomputed from the saved dyadic iterates. The final 1300-digit iterates were independently reevaluated at 2600 digits using row-wise sums of the stated field formulas; every requested tolerance is met. This is a numerical check, not an interval-arithmetic certificate. The guard-floor comparison is the same as in the family campaign. A final value affected by the precision floor is not evidence of relative error accuracy and zero computed final errors are excluded from COC.
 
 For each extended group, initial and AMD follow-up histories are identical at both precisions. The 16 nominal paired configurations give 11 distinct exact paired paths: $P_5/M6$ repeats $d=800/1024$ in each field; $P_7/M8$ repeats $d=200/800$ in $H_1$ and $d=200/800/1024$ in $H_5$. Repeated paths are not additional nonlinear problems. Full errors, residuals, COC flags and dyadic vectors are retained; no asymptotic-order estimate is inferred from a short or precision-floor-terminated path.
 
@@ -308,15 +339,16 @@ For each extended group, initial and AMD follow-up histories are identical at bo
 These 256 earlier Intel timings concern the eight groups selected from the initial phase. They are not pooled with the AMD observations and do not replace any current result. Their saved trajectories agree with the corresponding initial ones, but timing ratios need not agree across platforms: notably, $P_5/M6$ in $H_5$ at $d=200$ has an Intel follow-up ratio near 0.894 while the AMD phases are above one. Thus these follow-ups are a documented platform sensitivity, not evidence of uniform robustness or a controlled causal estimate of hardware effects.
 
 \subsection{Files, identity and remaining scope}
-The current received files are preserved under \path{data/multiprecision/external/current}. The reader-facing implementation is in \texttt{experiments/multiprecision/external}; summaries, phase statistics, allocation checks, and platform records are in \texttt{data/multiprecision/external/audit}. Separate Intel follow-ups are kept under \texttt{data/multiprecision/external/platform\_sensitivity/intel\_followups} and are excluded from the final aggregates.
+The current external records are archived under \path{data/multiprecision/external/current}; this directory contains the platform assignments stated above. The public source is in \path{experiments/multiprecision/external}. Reconstructed summaries, phase statistics, allocation checks, and platform records are in \path{data/multiprecision/external/audit}; public integrity manifests are in \path{metadata/multiprecision}. The earlier Intel follow-ups are kept under \path{data/multiprecision/external/platform_sensitivity/intel_followups} and are excluded from all current final aggregates.
 
-The numerical audit has 7654 checks with no failure, including 48 precision gates and all 736 individual timing records. It does not re-run timed solvers or certify the mathematical results. The archived protocol identifier is
+The current numerical audit has 7654 checks with no failure, including 48 precision gates and all 736 individual timing records. It does not re-run timed solvers or certify the entire mathematical manuscript. The SHA-256 identifiers of the frozen experimental source and protocol are
 \begin{quote}\footnotesize
+Source: \texttt{b3a66afd47a79f6326cf2d44eea55083f4738ee223ae8d9fead49fd5e2cb2a12}\\
 Protocol: \texttt{df85fadcce460b646664f6eba03773e05ad3c2bb5bda48d6f6ccc84a340b6075}.
 \end{quote}
-Native Windows path separators are reconstructed for code-hash verification; source bytes are unchanged.
+Native Windows path separators are reconstructed for experimental code-hash verification. The renamed public source files have separate integrity records.
 
-The external campaign is complete for these fields, distances and tolerances. It supplies neither the outstanding multiprecision fused-$q$ timing battery nor a measured decomposition of interpreter, arithmetic and memory overhead. All multiprecision data described here are included in the repository; none is represented as part of the earlier Zenodo v1.0.0 software record.
+The external campaign is complete for these fields, distances and tolerances. It supplies neither multiprecision timing tests for different values of $q$ in the fused family nor a measured decomposition of interpreter, arithmetic and memory overhead. The new data are archived in Zenodo version 1.1.0 and are not part of the earlier version 1.0.0 software record.
 
 
 \clearpage
@@ -334,6 +366,12 @@ The following tables and figures complement the article and use its notation. Eq
 \FloatBarrier
 
 \subsection{Flatness and practical minimizers}
+
+For $\kappa=1$, $P_2$ and $P_4$ lose $0.557\%$ and $3.865\%$ relative to $P_3$ in $H_1$. In $H_5$, $P_8,P_{10},P_{11}$ lose only $0.291\%$, $0.103\%$, $0.495\%$ relative to $P_9$. \Cref{tab:optimum-flatness} summarizes the bands and the normalized curvature $\chi_P=-\eta_P''(x_P^*)/\eta_P(x_P^*)$; by this measure, the maximum for $H_5$ is $20.4$ times flatter. The continuous $0.5\%$ bands are $[2.174,2.908]$ and $[7.676,10.996]$, respectively, and the discrete $0.5\%$ bands of $P_N$ do not change at the six control points of $\kappa$. \Cref{fig:optimum-flatness} shows the width of both maxima.
+
+
+
+
 \input{tables/additional/table_13.tex}
 \input{tables/additional/figure_01.tex}
 \input{tables/additional/table_15.tex}
@@ -350,5 +388,80 @@ The following tables and figures complement the article and use its notation. Eq
 \subsection{Consecutive truncation parameters}
 \input{tables/additional/table_26.tex}
 \FloatBarrier
+
+\clearpage
+\section{Truncation diagnostics and reference comparisons}\label{sec:reference-diagnostics}
+These tables provide additional numerical details for the model and the finite-tolerance comparisons in the article.
+\subsection{Truncation trade-off}
+\begin{table}[htbp]
+\centering\small
+\caption{Transition from $q=N+1$ to $q=N+2$: $\sigma_N=p_{N,N+1}$ and relative increase $100(\rho_N^2/\sigma_N-1)$. The smallest $q$ recovering $\rho_N^2$ is $N+2$.}\label{tab:q-transition}
+\begin{tabular}{crrrrr}
+\toprule
+$N$ & $\rho_N$ & $\sigma_N$ & $\rho_N^2$ & increase [\%] & $\Xi_N$\\\midrule
+2&3.41421356&10.89897949&11.65685425&6.95&35.53\\
+3&4.56155281&19.16515139&20.80776406&8.57&35.91\\
+4&5.64575131&29.31782106&31.87450787&8.72&40.40\\
+5&6.70156212&41.42057786&44.91093483&8.43&46.03\\
+6&7.74165739&55.49545417&59.93325909&8.00&52.21\\
+\bottomrule\end{tabular}
+\end{table}
+\begin{table}[ht]
+\centering
+\caption{Number of terms $q^*$ maximizing $\eta_{N,q}$ in the present dense fields for $\kappa=1$. The pattern is identical throughout the audited interval $1\leq\kappa\leq4.5$.}\label{tab:qstar-fields}
+\begin{tabular}{c|ccccc}
+\toprule
+&\multicolumn{5}{c}{$N$}\\
+Field&2&3&4&5&6\\
+\midrule
+$H_1$&2&2&2&2&2\\
+$H_2$&2&2&2&2&2\\
+$H_3$&3&3&2&2&2\\
+$H_4$&3&3&3&2&2\\
+$H_5$&3&4&3&3&2\\
+\bottomrule
+\end{tabular}
+\end{table}
+\FloatBarrier
+\subsection{Hammerstein stationary model}
+\begin{table}[htbp]
+\centering
+\small
+\caption{Stationary model for the Hammerstein benchmark with $\kappa=1$. The last column is $100(\eta_A/\eta_B-1)$.}
+\label{tab:hammerstein-stationary}
+\begin{tabular}{ccrrr}
+\toprule
+Pair $A/B$ & $C_A/C_B$ & $10^3\eta_A$ & $10^3\eta_B$ & advantage of $A$ [\%]\\
+\midrule
+$P_5/M6$ & $1064/1040$ & $1.787914$ & $1.722846$ & $+3.777$\\
+$P_7/M8$ & $1368/1096$ & $1.587401$ & $1.897301$ & $-16.334$\\
+\bottomrule
+\end{tabular}
+\end{table}
+\FloatBarrier
+\clearpage
+\subsection{Stationary optima at finite tolerance}
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Finite-tolerance behavior of the members with the highest stationary index. Times are medians of $31$ repetitions, with the IQR in parentheses, in milliseconds.}
+\label{tab:asymptotic-members-finite}
+\begin{tabular}{cccccc}
+\toprule
+Field & $\delta$ & stationary pair & cycles $P/S$ & time $P$ [ms] & time $S$ [ms]\\
+\midrule
+$H_1$ & 0.10 & $P_3/S_3$     & $2/2$ & $0.1682\,(0.0049)$ & $0.1619\,(0.0032)$\\
+$H_1$ & 0.30 & $P_3/S_3$     & $2/2$ & $0.1769\,(0.0115)$ & $0.1689\,(0.0039)$\\
+$H_1$ & 0.60 & $P_3/S_3$     & $2/2$ & $0.1686\,(0.0064)$ & $0.1629\,(0.0050)$\\
+$H_5$ & 0.10 & $P_9/S_{10}$ & $1/1$ & $1.2904\,(0.1706)$ & $1.3428\,(0.1691)$\\
+$H_5$ & 0.30 & $P_9/S_{10}$ & $1/1$ & $1.1608\,(0.0881)$ & $1.2268\,(0.0872)$\\
+$H_5$ & 0.60 & $P_9/S_{10}$ & $1/1$ & $1.2037\,(0.1276)$ & $1.2533\,(0.1117)$\\
+\bottomrule
+\end{tabular}
+\end{table}
+\FloatBarrier
+
+\subsection{Stationary indices of the external comparators}
+The stationary indices of $P_5/M6$ and $P_7/M8$ are reported in Table~\ref{main-tab:external-indices} of the article, together with their interpretation and the efficiency-region figures.
 
 \end{document}

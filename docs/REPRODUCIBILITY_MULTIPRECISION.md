@@ -18,4 +18,4 @@ All final groups include higher-precision controls. Working and verification pre
 - `data/multiprecision/*/audit/` contains observation ledgers, precision controls, path summaries, and descriptive diagnostics.
 - `metadata/multiprecision/manifest.sha256` provides file-integrity hashes for the reader-facing update.
 
-The Zenodo DOI `10.5281/zenodo.22950468` identifies the archived software release `v1.0.0`. The multiprecision datasets added later are not part of that archived version.
+The multiprecision datasets were first archived in Zenodo release `v1.1.0` under DOI `10.5281/zenodo.23090740`. They are preserved unchanged in `v1.1.1`, which synchronizes the current computational supplement and public documentation with the submission-ready article.
