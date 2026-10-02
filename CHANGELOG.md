@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.1 — 2026-10-01
+
+### Changed
+- Synchronized the current computational supplement with the submission-ready article.
+- Updated the supplement source tables and figures to their final English reader-facing versions.
+- Corrected public archival documentation to reflect the Zenodo `v1.1.0` multiprecision release.
+
+### Preserved
+- No numerical dataset, solver, experimental protocol, multiprecision integrity manifest, or scientific result is changed by this patch.
+- The `v1.0.0` and `v1.1.0` tags and their version-specific Zenodo DOIs remain immutable historical records.
+
 ## 1.1.0 — 2026-10-01
 
 ### Added

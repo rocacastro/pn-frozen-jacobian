@@ -11,4 +11,4 @@ For a future versioned release:
 - [ ] Create a new semantic-version tag; never move or overwrite an existing tag.
 - [ ] Confirm that Zenodo archives the new release as a new version.
 - [ ] Record the new version-specific DOI only after Zenodo has minted it.
-- [ ] Keep the initial `v1.0.0` release and DOI `10.5281/zenodo.22950468` unchanged.
+- [ ] Keep all existing tags and version-specific DOIs immutable, including `v1.0.0` / `10.5281/zenodo.22950468` and `v1.1.0` / `10.5281/zenodo.23090740`.

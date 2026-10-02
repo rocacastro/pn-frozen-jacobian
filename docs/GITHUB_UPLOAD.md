@@ -3,7 +3,9 @@
 The public repository is `https://github.com/rocacastro/pn-frozen-jacobian`.
 
 The initial `v1.0.0` release is archived in Zenodo under DOI
-`10.5281/zenodo.22950468`.
+`10.5281/zenodo.22950468`. The multiprecision datasets were first archived in
+`v1.1.0` under DOI `10.5281/zenodo.23090740`. Release `v1.1.1` is a
+supplement/documentation synchronization patch and does not change the numerical datasets.
 
 For a subsequent public release:
 

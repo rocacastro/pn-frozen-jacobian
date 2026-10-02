@@ -150,7 +150,7 @@ labels, and documentation are in English. Mathematical identifiers such as
 
 The supplement archived with the initial public release remains available as
 [`supplement/supplementary_computational_material.pdf`](supplement/supplementary_computational_material.pdf).
-The expanded current computational supplement is available at
+The current computational supplement, synchronized with the submission-ready article, is available at
 [`supplement/current/Supplementary_Computational_Material.pdf`](supplement/current/Supplementary_Computational_Material.pdf).
 Underlying archived and multiprecision data are retained in their documented
 data directories.
@@ -158,7 +158,7 @@ data directories.
 ## Citation
 
 Software citation metadata are provided in [`CITATION.cff`](CITATION.cff).
-The initial public release is archived in Zenodo under DOI 10.5281/zenodo.22950468.
+The initial public release is archived in Zenodo under DOI `10.5281/zenodo.22950468`. The multiprecision datasets were first archived in version `v1.1.0` under DOI `10.5281/zenodo.23090740`. The archive series is available through the Zenodo concept DOI `10.5281/zenodo.22950467`.
 
 For licensing information, see [`LICENSE_POLICY.md`](LICENSE_POLICY.md).
 
@@ -172,4 +172,4 @@ Start with [`docs/MULTIPRECISION_DATA.md`](docs/MULTIPRECISION_DATA.md) and [`do
 python tools/validate_multiprecision_data.py
 ```
 
-The Zenodo DOI `10.5281/zenodo.22950468` identifies the archived `v1.0.0` software release. The multiprecision datasets added later are not part of that archived version.
+The multiprecision datasets were first archived in `v1.1.0` under DOI `10.5281/zenodo.23090740` and are preserved unchanged in `v1.1.1`. The `v1.1.1` patch synchronizes the current computational supplement and public documentation; it does not change the multiprecision measurements or protocols.

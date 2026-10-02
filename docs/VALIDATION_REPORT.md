@@ -1,4 +1,4 @@
-# Validation report — software 1.0.0
+# Repository validation report
 
 ## Executed checks
 
@@ -15,7 +15,7 @@
 | Automated tests | 67 passed | Model identities, domains, solvers, archives, exports and raw-sample smoke test |
 | Fresh runner smoke | Eight suites executed | 55 method configurations, 165 samples; not article timing evidence |
 | English reproduction | 22 CSV table exports; 13 PDF/PNG panels | Archived values plus analytical model |
-| English supplement | Three pages, compiled and visually checked | Three tables and two logical figures |
+| Current computational supplement | 33 pages, compiled and visually checked | Float64 and multiprecision supporting material; no new numerical data |
 
 The corresponding machine-readable evidence is in `metadata/validation/`.
 The local system was Linux, Python 3.13.5, NumPy 2.3.5, SciPy 1.17.0,
@@ -42,4 +42,4 @@ bitwise agreement of all iterates, recovery of missing raw repetition timings,
 or a universal performance ranking. The historical third-party vector-audit
 ledger is not fully regenerated. GitHub Actions provides the remote Linux/Windows validation defined in `.github/workflows/tests.yml`.
 
-The initial public release is archived under DOI `10.5281/zenodo.22950468`; later additions are validated and versioned separately.
+The initial public release `v1.0.0` is archived under DOI `10.5281/zenodo.22950468`; the multiprecision datasets were first archived in `v1.1.0` under DOI `10.5281/zenodo.23090740`. Release `v1.1.1` updates the current supplement and documentation without changing those numerical datasets.

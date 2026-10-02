@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Suite protocols. Two warmups and 31 pseudorandomized repetitions are used, except for I/D and the external multiprecision suite, which uses 15 or 31. The three tolerances for the \texttt{float64} tests are $10^{-8},10^{-10},10^{-12}$.}\label{tab:precision-regimes}
+\begin{tabularx}{\textwidth}{Xll}
+\toprule
+Suite & Tolerance / stopping & Precision and repetitions\\\midrule
+Initialization I/D & $10^{-12}$ & \texttt{float64}; 3/51, alternating\\
+$P_N/S_m$ sweep & $10^{-12}$ & \texttt{float64}; 2/31\\
+$P_5/M6$, $P_7/M8$, Hammerstein & three tolerances & \texttt{float64}; 2/31\\
+Stationary fusion & one full macrocycle & \texttt{float64}; 2/31\\
+End-to-end fusion and $\widehat P_2/P_{10}$ & three tolerances & \texttt{float64}; 2/31\\
+Multiprecision $P_N/S_m$ optima & $10^{-50},10^{-200},10^{-800},10^{-1024}$ & 1300/2600 digits; 2/31$^{(*)}$\\
+Multiprecision $P_5/M6$, $P_7/M8$ & four tolerances $10^{-d}$ & 1300/2600 digits; 2/(15 or 31)\\
+Order verification & fixed number of cycles & multiple precision; no timing measurement\\
+\bottomrule\end{tabularx}
+\par\smallskip\footnotesize $^{(*)}$ Eight complete groups; 1300 digits for timings and 2600 only for verification. See \cref{main-subsec:mp-family-stage1}.
+\end{table}

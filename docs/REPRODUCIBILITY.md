@@ -94,6 +94,7 @@ validation environment records the additional dependency versions used here.
 - The article is maintained separately and is not modified by repository reproduction commands.
 
 These limits are part of the reproducibility record, not failures hidden by
-replacing old data with fresh runs. The initial public release is archived under
-DOI `10.5281/zenodo.22950468`; later datasets remain outside that version-specific
-archive until a subsequent release is created.
+replacing old data with fresh runs. The initial public release `v1.0.0` is archived
+under DOI `10.5281/zenodo.22950468`; the multiprecision datasets were first archived
+in `v1.1.0` under DOI `10.5281/zenodo.23090740`. Release `v1.1.1` changes only the
+current computational supplement and public documentation, not the numerical data.
